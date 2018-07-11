@@ -1,0 +1,343 @@
+<include file="User/header"/>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">个人资料</strong> / <small>Personal information</small></div>
+      </div>
+
+      <hr/>
+
+      <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-bd">
+              <div class="am-g">
+                <div class="am-u-md-4">
+                  <img class="am-img-circle am-img-thumbnail" id="user-img" src="<?php echo $info['u_img'];?>" alt=""/><br/>
+                  <span id="error_img" style="font-size:20px;color:red;text-align:center;"></span>
+                </div>
+                <div class="am-u-md-8">
+                  <p>上传个人头像。 </p>
+                  <form class="am-form" method="post" enctype="multipart/form-data" >
+                    <div class="am-form-group">
+                      <input type="file" name="fileImg" id="user-pic" onchange="uploadChangeImg('user-img','user-pic')" accept="image/jpeg,image/jpg,image/png,image/gif">
+                      <p class="am-form-help">请选择要上传的文件...</p>
+                      <button type="button" onclick="location.replace(location.href)" class="am-btn am-btn-primary am-btn-xs">取消</button>
+                      <button type="button" onclick="uploadimg('user-img','user-pic')" class="am-btn am-btn-primary am-btn-xs">保存</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="am-panel am-panel-default usersss">
+          <!-- ajax动态获取内容 -->
+            <!-- 
+            <div class="am-panel-bd">
+              <div class="user-info">
+                <p>等级信息</p>
+                <div class="am-progress am-progress-sm">
+                  <div class="am-progress-bar" style="width: 60%"></div>
+                </div>
+                <p class="user-info-order">
+                	用户名：<strong><?php echo $info['username'];?></strong><br/> 
+                	昵&nbsp;&nbsp;&nbsp; 称：<strong><?php echo $info['nickname'];?></strong> <br/>
+                	地&nbsp;&nbsp;&nbsp; 址：<strong><?php echo $info['address'];?></strong><br/>
+                                                            签&nbsp;&nbsp;&nbsp; 名：<strong><?php echo $info['u_sign'];?></strong><br/>
+                </p>
+              </div>
+            </div>
+             -->
+          </div>
+
+        </div>
+
+        <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+          <form class="am-form am-form-horizontal">
+            <div class="am-form-group">
+              <label for="user-name" class="am-u-sm-3 am-form-label">用户名 / Name</label>
+              <div class="am-u-sm-9">
+                <input type="text" readonly="true" id="user-name" name="name" value="<?php echo $info['username'];?>" placeholder="姓名 / Name">
+                <small>用于登录，不能修改。</small>
+              </div>
+            </div>
+            
+            <div class="am-form-group">
+              <label for="user-name" class="am-u-sm-3 am-form-label">昵称 / NiceName</label>
+              <div class="am-u-sm-9">
+                <input type="text" id="user-nickname" name="nickname" value="<?php echo $info['nickname'];?>" placeholder="昵称 / NiceName">
+                <small>输入你的昵称，用于发表文章、语录、笑话时显示作者名。</small>
+                <span class="error_nickname" style="color:red;"></span>
+              </div>
+            </div>
+            
+            <div class="am-form-group">
+              <label for="user-name" class="am-u-sm-3 am-form-label">生日 / Birthday</label>
+              <div class="am-u-sm-9">
+                <!-- <input type="text" name="datepicker3" id="datetimepicker3" placeholder="2017-5-5" value=""/> -->
+                <input type="text" id="month" onblur="month()" value="<?php echo $info['month'];?>" placeholder="月份(1-12)填写数字1-12" style="width:200px; margin-right:20px;float:left;"/>
+                <input type="text" id="days" onblur="days()" value="<?php echo $info['days'];?>" placeholder="日期(1-31)填写数字1-31" style="width:200px; marign-right:20px;float:left;"/>
+                <small style="margin-left:10px;">填写您的生日</small>
+                <span class="error_birthday" style="color:red;"></span>
+              </div>
+            </div>
+            
+            <div class="am-form-group">
+              <label for="user-name" class="am-u-sm-3 am-form-label">地址/ Address</label>
+              <div class="am-u-sm-9">
+                <div data-toggle="distpicker">
+				  <select id="prov" data-province="---- 选择省 ----" style="width:30%;float:left;margin-right:5%;"></select>
+				  <select id="city" data-city="---- 选择市 ----" style="width:30%;float:left;margin-right:5%;"></select>
+				  <select id="drstry" data-district="---- 选择区 ----" style="width:30%;float:left;"></select>
+				</div>
+				<input type="text" id="user-address" name="address" value="<?php echo $info['address'];?>" placeholder="详细地区" style="margin-top:50px;">
+                <small>你最想去的地方,或现居地...</small>
+                <span class="error_address" style="color:red;"></span>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-intro" class="am-u-sm-3 am-form-label">个性签名/ Signature</label>
+              <div class="am-u-sm-9">
+                <textarea class="" rows="5" id="user-sign" placeholder="输入个性签名"><?php echo $info['u_sign'];?></textarea>
+                <small>250字以内写出你的一生...</small>
+                <span class="error_sign" style="color:red;"></span>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <div class="am-u-sm-9 am-u-sm-push-3">
+                <button type="button" id="sub-button" class="am-btn am-btn-primary">保存修改</button>
+                <span class="error_but" style="color:red;"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+<include file="User/footer"/>
+
+<script src="/third-party/address/js/distpicker.data.js"></script>
+<script src="/third-party/address/js/distpicker.js"></script>
+<script src="/third-party/address/js/main.js"></script>
+
+<script type="text/javascript">
+$(function (){
+	
+	$("#datetimepicker3").on("click",function(e){
+		e.stopPropagation();
+		$(this).lqdatetimepicker({
+			css : 'datetime-day',
+			dateType : 'D',
+			selectback : function(){
+
+			}
+		});
+
+	});
+
+});
+</script> 
+
+<script>
+//选择图片时，图片位置的图片改变，  但不保存到数据库
+function uploadChangeImg(imgid,fileid){
+//imgid指<img />标签id,fileid表示<input type='file' />文件上传标签的id,hiddenid指隐藏域标签id
+   $("#"+imgid).attr("src","");//加载loading图片
+   $.ajaxFileUpload({            
+    	url: '<?php echo U("Home/User/uploadChangeImg");?>',
+       secureuri: false,
+       fileElementId: fileid,  
+       dataType: 'json',              
+       success: function (data, status){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+           if(typeof (data.error) != 'undefined'){
+           	var error_msg = "";
+           	switch(data.error){
+            	case "101": error_msg="文件类型错误";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "102": error_msg="文件过大";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "400": error_msg="非法上传";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "404": error_msg="文件为空";
+            		$('#error_img').html(error_msg);
+                	break;
+            	default :error_msg="服务器不稳定";
+            		$('#error_img').html(error_msg);
+           	}
+           	//alert(error_msg);
+           }else{
+        	$('#error_img').empty();
+           	$("#"+imgid).attr("src",data.path).addClass("load1");//加载返回的图片路径并附加上样式
+               //$("#"+hiddenid).val(data.path);//给对应的隐藏域赋值，以便提交时给后台
+           }              
+       }
+   });	
+}
+
+//点击保存，图片位置的图片改变，图片保存到数据库
+function uploadimg(imgid,fileid) {
+ //imgid指<img />标签id,fileid表示<input type='file' />文件上传标签的id,hiddenid指隐藏域标签id
+    $("#"+imgid).attr("src","");//加载loading图片
+    $.ajaxFileUpload({ 
+    	type:'post',
+     	url:'<?php echo U("Home/User/uploadChangeImg");?>',
+        secureuri:false,
+        fileElementId:fileid,  
+        dataType:'json',              
+        success:function (data){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+            var u_img = data.path;
+        	$.ajax({
+        		type:'post',
+        		url:'<?php echo U("Home/User/userHeadImg");?>',
+        		data:{'u_img':u_img},
+        		success:function(respon){
+        			if(respon.errno == 10001){
+        				$('#error_img').html(respon.errmsg);
+        			}else{
+        				$("#"+imgid).attr("src",data.path);
+        			}
+        		}
+        	});
+        }
+    });
+}
+
+</script>
+
+<script>
+function month(){
+	var month = $('#month').val();
+	if(isNaN(month)){
+		$('#error_birthday').html('请谨慎对待，填写您的日期');
+		return false;
+	}
+	
+	if(Math.floor(month) != month){
+		$('#error_birthday').html('请输入正确的日期！');
+		return false;
+	}
+	
+	if(month<0 || month>12){
+		$('#error_birthday').html('你个逗B，月份只有（1-12）月');
+		return false;
+	}
+}
+
+function days(){
+	var days = $('#days').val();
+	if(isNaN(days)){
+		$('#error_birthday').html('请谨慎对待，填写您的日期');
+		return false;
+	}
+	
+	if(Math.floor(days) != days){
+		$('#error_birthday').html('请输入正确的日期！');
+		return false;
+	}
+	
+	if(days<0 || days>31){
+		$('#error_birthday').html('你个逗B，每月只有（1-31）天');
+		return false;
+	}
+}
+
+$('#sub-button').click(function(){
+	var nickname = $('#user-nickname').val();
+	var u_sign = $('#user-sign').val();
+	var address = $('#user-address').val();
+	var prov = $('#prov').val();
+	var city = $('#city').val();
+	var drstry = $('#drstry').val();
+	var month = $('#month').val();
+	var days = $('#days').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/User/userInfo");?>',
+		data:{'nickname':nickname,'u_sign':u_sign,'address':address,'prov':prov,'city':city,'drstry':drstry,'month':month,'days':days},
+		success:function(respon){
+			if(respon.errno == 10002){
+				$('.error_nickname').html(respon.errmsg);
+				$('.error_but').html(respon.errmsg);
+				$('.error_sign').hide();
+				$('.error_address').hide();
+				$('.error_birthday').hide();
+			}else if(respon.errno == 10003){
+				$('.error_sign').html(respon.errmsg);
+				//$('.error_but').html(respon.errmsg);
+				$('.error_nickname').hide();
+				$('.error_address').hide();
+				$('.error_birthday').hide();
+			}else if(respon.errno == 10004){
+				$('.error_address').html(respon.errmsg);
+				$('.error_but').html(respon.errmsg);
+				$('.error_nickname').hide();
+				$('.error_sign').hide();
+				$('.error_birthday').hide();
+			}else if(respon.errno == 10001){
+				$('.error_but').html(respon.errmsg);
+				$('.error_nickname').hide();
+				$('.error_sign').hide();
+				$('.error_address').hide();
+				$('.error_birthday').hide();
+			}else if(respon.errno == 10005){
+				$('.error_birthday').html(respon.errmsg);
+				$('.error_but').html(respon.errmsg);
+				$('.error_nickname').hide();
+				$('.error_sign').hide();
+				$('.error_address').hide();
+			}else if(respon.errno == 10000){	//成功
+				$('.error_but').html(respon.errmsg);
+				$('.error_nickname').hide();
+				$('.error_sign').hide();
+				$('.error_address').hide();
+				$('.error_birthday').hide();
+				setTimeout( "close()",500);	//停留0.5秒，执行close()函数
+			}
+		}
+	});
+});
+
+$(function(){
+	close();
+});
+
+function close(){
+	$.post('<?php echo U("Home/User/userInfoSon");?>',
+		function(list){
+			var html = '';
+			var d = eval('('+list+')');	//解析json数据
+			if(d != false && d != null){
+				
+				html += '<div class="am-panel-bd">';
+				html += '<div class="user-info">';
+				html += '<p>个人信息：</p>';
+				html += '<div class="am-progress am-progress-sm">';
+				html += '<div class="am-progress-bar" style="width: 60%"></div>';
+				html += '</div>';
+				html += '<p class="user-info-order">用户名：<strong>'+d.username+'</strong><br/>昵&nbsp;&nbsp;&nbsp; 称：<strong>'+d.nickname+'</strong><br/>生&nbsp;&nbsp;&nbsp; 日：<strong>'+d.u_birthday+'</strong><br/>地&nbsp;&nbsp;&nbsp; 址：<strong>'+d.address+'</strong><br/>签&nbsp;&nbsp;&nbsp; 名：<strong>'+d.u_sign+'</strong><br/></p>';
+				html += '</div></div>';
+				
+			}else{
+				html += '<div class="am-panel-bd">';
+				html += '<div class="user-info">';
+				html += '<p>个人信息：</p>';
+				html += '<div class="am-progress am-progress-sm">';
+				html += '<div class="am-progress-bar" style="width: 60%"></div>';
+				html += '</div>';
+				html += '<p class="user-info-order">用户名：<strong></strong><br/>昵&nbsp;&nbsp;&nbsp; 称：<strong></strong><br/>地&nbsp;&nbsp;&nbsp; 址：<strong></strong><br/>签&nbsp;&nbsp;&nbsp; 名：<strong></strong><br/></p>';
+				html += '</div></div>';
+			}
+			
+			$('.usersss').html(html);
+		}	
+	);
+}
+</script>

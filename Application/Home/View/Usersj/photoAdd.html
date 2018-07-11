@@ -1,0 +1,122 @@
+<include file="Usersj/header"/>
+
+<!--aside nav-->
+<aside class="lt_aside_nav content mCustomScrollbar" id="boxboxbox">
+ <h2><a href="index.html">起始页</a></h2>
+ <ul>
+  <li>
+   <dl>
+    <dt>个人设置</dt>
+    <!--当前链接则添加class:active-->
+    <dd><a href="<?php echo U('Home/Usersj/userInfo');?>">个人资料</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/changePassWord');?>">密码修改</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/safeLog');?>">安全日志</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>列表信息</dt>
+    <dd><a href="<?php echo U('Home/Usersj/yuluList')?>">经典语录列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/jokeList')?>">幽默笑话列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/articleList');?>">优美文章列表</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>相册管理</dt>
+    <dd><a href="<?php echo U('Home/Usersj/photo');?>">相册列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoAdd');?>"  class="active">增加相册</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoCoverAdd')?>">封面图像修改</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>账号绑定</dt>
+    <dd><a href="<?php echo U('Home/Usersj/bindList')?>">账号绑定信息</a></dd>
+   </dl>
+  </li>
+ </ul>
+</aside>
+<!-- end aside nav -->
+
+<!-- 多图上传插件 -->
+<link href="/third-party/diyupload/css/webuploader.css" rel="stylesheet"><!-- 多图上传必须样式 -->
+<link href="/third-party/diyupload/css/diyUpload.css" rel="stylesheet"><!-- 多图上传必须样式 -->
+
+<script src="/third-party/diyupload/js/jquery-2.1.4.min.js"></script><!-- 必须jq -->
+<script src="/third-party/diyupload/js/webuploader.html5only.min.js"></script><!-- 多图上传必须的js -->
+<script src="/third-party/diyupload/js/diyUpload.js"></script><!-- 多图上传必须的js -->
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+    <div class="page_title">
+     <h2 class="fl">增加相册</h2>
+    </div>
+    
+	<div style="width:100%;float:left;margin-left:15%;">
+		<p style="padding-top:28px;color:#333;"><span style="color:#F37B1D;font-size:30px;">上传相册图片，可以有多张</span></p>
+		<div id="box" style="width:60%;padding-left:10px;"> 
+		<span id="photo_error_span" style="color:red;"></span>
+	        <div id="test" class="webuploader-container"></div>  <!--上传控件按钮-->
+			<!--回填区域 以下是图片回填的区域，用于编辑页的信息回填-->
+			<!--回填区域-->
+	    </div>
+    </div> 
+    
+ </div>
+ 
+  <include file="Usersj/footer"/>
+ 
+</section>
+
+</body>
+</html>
+
+<script type="text/javascript">  
+    /**  
+     * 服务器地址,成功返回,失败返回参数格式依照jquery.ajax习惯;  
+     * 其他参数同WebUploader  
+     */
+    	
+    $('#test').diyUpload({  
+        url : '<?php echo U("Home/Usersj/uploadPhoto");?>',  //这个是文件上传处理文件 用框架的请对应文件上传的控制器 
+		//formData: { _token: "{{csrf_token()}}"}, //Laravel 框架下需要 csrf_token 才能上传，可以在 formData 里面添加需要带过去的参数
+		dataType:"json",
+        success : function(data) {  
+            console.info(data); 
+			if(data.status == 1){
+				//var span =$("<input type='hidden' value='"+data.imagepath+"' name='img[]'>");//将上传后保存的路径返回 通过隐藏域放进表单里面 
+				//$("#test").append(span);
+				
+				/* 此处把得到的Img地址传入到后台，保存到数据库*/
+				var img = data.imagepath;
+				$.ajax({
+		    		type:'post',
+		    		url:'<?php echo U("Home/Usersj/photoUserAdd");?>',
+		    		data:{'img':img},
+		    		success:function(respon){
+	        			if(respon.errno == 10001 || respon.errno == 20001){
+	        				$('#photo_span_id').html(respon.errmsg);
+	        			}
+	        		}
+		    	});
+				
+			}
+			
+        },  
+        error : function(err) {  
+            console.info(err);  
+        }  
+    }); 
+    
+	/**回填区域图片删除*/
+	function del_img(obj){
+		$(obj).parent().remove();
+	}
+	
+	/**跳转到登录页面*/
+	function login(){
+		window.location.href="<?php echo U('Home/Login/ajaxLogin');?>";
+	}
+	
+</script> 

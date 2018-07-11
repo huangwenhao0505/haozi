@@ -1,0 +1,23 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+
+<div id="pic"></div>
+
+<input type="button" onclick="add()" value="添加动态元素"/>
+</body>
+</html>
+
+<script>
+function add(){
+	var input = document.createElement("input");
+	input.type = 'file';
+	input.name = 'img';
+	input.id = 'imgId';
+	$(input).change(function(){
+		updateChange(a,b);
+	});
+	
+	var pic = document.getElementById("pic");
+	pic.appendChild(input);
+}
+</script>

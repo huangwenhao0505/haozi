@@ -1,0 +1,1484 @@
+[ 2017-09-04T15:00:46+08:00 ] 127.0.0.1 /mall.php/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T15:03:00+08:00 ] 127.0.0.1 /mall.php/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goodsCategory D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T15:04:26+08:00 ] 127.0.0.1 /mall.php/home/public/header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T15:05:34+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: goodsCategory D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T15:11:04+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T15:22:06+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T15:26:20+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+ERR: Think\Model:gruop方法不存在！
+
+[ 2017-09-04T15:26:30+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods` GROUP BY categoryId  [ RunTime:0.0050s ]
+
+[ 2017-09-04T15:28:00+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods` GROUP BY categoryId  [ RunTime:0.0040s ]
+
+[ 2017-09-04T15:28:03+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods` GROUP BY categoryId  [ RunTime:0.0050s ]
+
+[ 2017-09-04T15:34:37+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 32 行.
+
+[ 2017-09-04T15:35:02+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 32 行.
+
+[ 2017-09-04T15:35:05+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 32 行.
+
+[ 2017-09-04T15:35:44+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+
+[ 2017-09-04T15:36:06+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+
+[ 2017-09-04T15:36:25+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 32 行.
+
+[ 2017-09-04T15:38:35+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+
+[ 2017-09-04T15:38:57+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+
+[ 2017-09-04T15:48:57+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+
+[ 2017-09-04T15:50:02+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-04T15:50:47+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-04T15:51:44+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-04T15:56:27+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:00:12+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T16:01:50+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:15:14+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+
+[ 2017-09-04T16:18:24+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:19:45+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=1 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:20:12+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:24:47+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:25:49+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:26:45+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:27:30+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+
+[ 2017-09-04T16:28:39+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:29:19+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T16:30:59+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+
+[ 2017-09-04T16:33:29+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected ']', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-09-04T16:33:47+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 167 行.
+NOTIC: [8] Undefined index: price D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 168 行.
+NOTIC: [8] Undefined index: unitname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 168 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 167 行.
+NOTIC: [8] Undefined index: price D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 168 行.
+NOTIC: [8] Undefined index: unitname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 168 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 167 行.
+NOTIC: [8] Undefined index: price D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 168 行.
+NOTIC: [8] Undefined index: unitname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T16:36:27+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected end of file
+
+[ 2017-09-04T16:36:37+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T16:42:18+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T16:42:25+08:00 ] 127.0.0.1 /mall.php/home/index/proinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:proinfo
+
+[ 2017-09-04T16:43:29+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:44:23+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:47:59+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:48:34+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:48:36+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:49:26+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T16:51:27+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:53:02+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T16:55:03+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'name' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 170 行.
+NOTIC: [2] Illegal string offset 'price' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+NOTIC: [2] Illegal string offset 'unitname' D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T16:55:51+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goodsList D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 164 行.
+NOTIC: [8] Undefined index: goodsList D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 164 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T16:55:57+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+
+[ 2017-09-04T16:57:21+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+
+[ 2017-09-04T16:59:13+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T16:59:25+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:00:58+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T17:01:33+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:01:44+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:02:25+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:02:52+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:02:55+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:04:09+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=5 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:04:19+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=5 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-04T17:06:20+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:08:32+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=7 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+
+[ 2017-09-04T17:08:45+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=7 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T17:09:13+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=7 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-04T17:09:48+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`categoryId`,`topCategoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

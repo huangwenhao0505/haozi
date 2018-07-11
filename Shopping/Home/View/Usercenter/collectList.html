@@ -1,0 +1,74 @@
+<include file="Usercenter/header"/>
+
+ <!--右侧样式属性-->
+ <div class="right_style">
+ <!--消费记录样式-->
+  <div class="user_address_style">
+    <div class="title_style"><em></em>收藏列表</div> 
+    <div class="Exp_record_style">
+   <!--  <div class="prompt_xinxi">暂无任何消费记录</div>-->
+      <table cellpadding="0"  cellspacing="0"  width="100%" class="record_list">
+       <thead><tr class="label_name"><td width="20%">创建时间</td><td width="20%">商品图像</td><td width="20%">商品名称</td><td width="10%">销售金额</td><td width="20%">操作</td></tr></thead>
+       <tbody>
+
+       </tbody>
+      </table>
+    <div class="Pagination_tow">
+      <div class="right">
+      跳转到<select name="" size="1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select><input type="submit" value="GO" class="btn_go"> 共：345条</div>
+      <div class="right">
+      <a href="#">首页</a><a href="#">上一页</a><a href="#" class="digital">1</a><a href="#" class="digital">2</a><a href="#" class="digital">3</a><a href="#">下一页</a><a href="#">尾页</a>
+     
+      </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ </div>
+ </div>
+ 
+ <include file="Public/footer"/>
+ 
+<script>
+$(function(){
+	do_sub();
+});
+
+function do_sub(){
+	$.post('<?php echo U("Usercenter/myCollectList");?>',function(data){
+		var d = eval("("+data+")");
+		var html = '';
+		if(d.list != false && d.list != null){
+			for(var i in d.list){
+				html += '<tr class="content">';
+				html += '<td>'+d.list[i].createdate+'</td>';
+				html += '<td><a href="/mall.php/home/Goods/goodsView?id='+d.list[i].goodsid+'">'+d.list[i].img+'</a></td>';
+				html += '<td><a href="/mall.php/home/Goods/goodsView?id='+d.list[i].goodsid+'">'+d.list[i].name+'</a></td>';
+				html += '<td><b class="xf">￥'+d.list[i].price+'</b></td>';
+				html += '<td><a href="javascript:void(0);" onclick="deleteCollect('+d.list[i].id+')">删除</a></td>';
+				html += '</tr>';
+			}
+			
+		}else{
+			html += '<div class="prompt_xinxi">暂未收藏任何商品</div>';
+		}
+		
+		$('.record_list > tbody').html(html);
+	});
+};
+
+//删除收藏商品
+function deleteCollect(id){
+	$.post('<?php echo U("Usercenter/deleteCollect");?>',{'id':id},function(respon){
+		if(respon.errno == 10001){
+			alert(respon.errmsg);
+		}else{
+			do_sub();
+		}
+	});
+}
+</script>

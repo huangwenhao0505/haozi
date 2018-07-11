@@ -1,0 +1,1682 @@
+[ 2018-04-08T09:57:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-08T09:57:14+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T09:57:15+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T09:57:36+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'dawenhao' AND `password` = '5d14438a7c70719dc20a764ac92072b3' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-08T09:57:37+08:00 ] 127.0.0.1 /index.php/Home/Login/verify?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T09:57:45+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'dawenhao' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=1 ) [ RunTime:0.0250s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0190s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('1','2018-04-08 09:57:45','127.0.0.1') [ RunTime:0.0040s ]
+
+[ 2018-04-08T09:57:45+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T09:57:45+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:38:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0110s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:38:37+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:38:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:38:38+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:38:39+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-08T17:38:47+08:00 ] 127.0.0.1 /index.php/Home/Login/verify?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:38:52+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-08T17:38:53+08:00 ] 127.0.0.1 /index.php/Home/Login/verify??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:38:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:39:00+08:00 ] 127.0.0.1 /index.php/Home/Login/verify???
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:39:01+08:00 ] 127.0.0.1 /index.php/Home/Login/verify????
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:39:03+08:00 ] 127.0.0.1 /index.php/Home/Login/verify?????
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:39:07+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'a' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:39:25+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:39:26+08:00 ] 127.0.0.1 /index.php/Home/Login/verify??????
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:39:31+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'a' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=2 ) [ RunTime:0.0440s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0130s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('2','2018-04-08 17:39:31','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:39:31+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:39:31+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:39:53+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:39:55+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:39:55+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:39:56+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:39:56+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:40:03+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'b' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=3 ) [ RunTime:0.0570s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0130s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('3','2018-04-08 17:40:03','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:40:03+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:03+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:11+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:40:12+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-08T17:40:13+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:14+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:14+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:22+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'd' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=5 ) [ RunTime:0.0460s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0120s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('5','2018-04-08 17:40:22','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2018-04-08T17:40:22+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:40:23+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:43+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:40:45+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:45+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:46+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:40:46+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:40:52+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'c' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=4 ) [ RunTime:0.0420s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0140s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('4','2018-04-08 17:40:52','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:40:52+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:40:52+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:40:58+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:41:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:41:00+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:41:01+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:41:01+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:41:12+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'd' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=5 ) [ RunTime:0.0320s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0150s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('5','2018-04-08 17:41:12','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:41:12+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:41:12+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:41:22+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:41:23+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:41:23+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:41:35+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:41:35+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:41:42+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'c' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=4 ) [ RunTime:0.0430s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0080s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('4','2018-04-08 17:41:42','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2018-04-08T17:41:42+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:41:42+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:21+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:22+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:22+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:42:23+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:42:23+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:32+08:00 ] 127.0.0.1 /index.php/Home/Login/verify?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:36+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'e' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=6 ) [ RunTime:0.0430s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0140s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('6','2018-04-08 17:42:36','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:42:36+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:36+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:40+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-08T17:42:41+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:41+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:42+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:42:42+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:42:49+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'f' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=7 ) [ RunTime:0.0470s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('7','2018-04-08 17:42:49','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:42:49+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:42:49+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:53:44+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:53:46+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:53:46+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:53:47+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:53:47+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:54:02+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:54:04+08:00 ] 127.0.0.1 /index.php/Home/Login/verify?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T17:54:07+08:00 ] 127.0.0.1 /index.php/Home/Login/verify??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:54:11+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'a' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=2 ) [ RunTime:0.0650s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0070s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('2','2018-04-08 17:54:11','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2018-04-08T17:54:11+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T17:54:11+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

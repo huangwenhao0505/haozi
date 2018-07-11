@@ -1,0 +1,128 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">商品列表</h2>
+       <a href="<?php echo U('Goods/goodsAdd');?>" class="fr top_rt_btn add_icon">新增商品</a>
+      </div>
+      <section class="mtb">
+       <select class="select" name="categoryId" id="categoryId">
+        <option value="0">商品类型选择</option>
+        <?php foreach($categoryList as $k => $v){ ?>
+        	<option value="<?php echo $v['id'];?>"><?php echo $v['name'];?></option>
+        <?php } ?>
+       </select>
+       <input type="text" name="goodsName" id="goodsName" class="textbox textbox_225" placeholder="输入产品关键词或产品货号..."/>
+       <input type="button" value="查询" class="group_btn"/>
+      </section>
+      <table class="table">
+       <thead>
+       <tr>
+        <th>缩略图</th>
+        <th>商品名称</th>
+        <th>商品类型</th>
+        <th>单价</th>
+        <th>销售数量</th>
+        <th>创建时间</th>
+        <th>修改时间</th>
+        <th>是否上架</th>
+        <th>操作</th>
+       </tr>
+       </thead>
+       <tbody>
+       <tr><td colspan="9" align="center">暂无数据!</td></tr>
+       </tbody>
+       
+      </table>
+      <aside class="paging">
+       <a>第一页</a>
+       <a>1</a>
+       <a>2</a>
+       <a>3</a>
+       <a>…</a>
+       <a>1004</a>
+       <a>最后一页</a>
+      </aside>
+ </div>
+</section>
+</body>
+</html>
+
+<script>
+$(function(){
+	init();
+	do_sub();
+});
+
+function init(){
+	$('.group_btn').unbind('click').click(function(){
+		do_sub();
+	});
+}
+
+function do_sub(){
+	var categoryId = $('#categoryId').val();
+	var goodsName = $('#goodsName').val();
+	$.post('<?php echo U("Goods/goodsList");?>',{'categoryId':categoryId,'goodsName':goodsName},function(data){
+		var html = '';
+		var d = eval("("+data+")");
+		if(d.list != false && d.list != null){
+			for(var i in d.list){
+		       html += '<tr>';
+		       html += '<td class="center"><img src="" width="50" height="50"/></td>';
+		       html += '<td class="center">'+d.list[i].name+'</td>';
+		       html += '<td class="center">'+d.list[i].categoryname+'</td>';
+		       html += '<td class="center"><strong class="rmb_icon">'+d.list[i].price+'</strong></td>';
+		       html += '<td class="center">'+d.list[i].soldnum+'</td>';
+		       html += '<td class="center">'+d.list[i].createdate+'</td>';
+		       html += '<td class="center">'+d.list[i].updatedate+'</td>';
+		       html += '<td class="center">'+d.list[i].isshow+'</td>';
+		       html += '<td class="center">';
+			   html += '<a href="__URL__/goodsEdit?id='+d.list[i].id+'" title="编辑" class="link_icon">&#101;</a>';
+			   if(d.list[i].ismarketable == 1){
+				   html += '<a href="javascript:void(0);" style="color:blue;" onclick="changeMarke('+d.list[i].id+',0)">下架</a>';
+			   }else{
+				   html += '<a href="javascript:void(0);" style="color:blue;" onclick="changeMarke('+d.list[i].id+',1)">上架</a>';
+			   }
+			   html += '<a href="javascript:void(0);" onclick="goodsDel('+d.list[i].id+')" title="删除" class="link_icon">&#100;</a>';
+			   html += '<span id="error_'+d.list[i].id+'" style="color:red;"></span>'
+			   html += '</td>';
+		       html += '</tr>';
+			}
+			
+			$('.table>tbody').html(html);
+			init();
+		}
+	});
+}
+
+//商品上架或下架操作
+function changeMarke(id,type){
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Goods/changeMarketable")?>',
+		data:{'id':id,'type':type},
+		success:function(respon){
+			location.replace(location.href);
+		}
+	});
+}
+
+//删除商品
+function goodsDel(id){
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Goods/goodsDel");?>',
+		data:{'id':id},
+		success:function(respon){
+			if(respon.errno == 10001){
+				$('#error_'+id).html(respon.errmsg);
+			}else{
+				do_sub();
+			}
+		}
+	});
+}
+
+</script>

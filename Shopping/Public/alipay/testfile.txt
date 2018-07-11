@@ -1,0 +1,27 @@
+true
+{
+"gmt_create":"2017-09-14 10:45:10",
+"charset":"UTF-8",
+"gmt_payment":"2017-09-14 10:45:17",
+"notify_time":"2017-09-14 10:45:18",
+"subject":"\u597d\u70e6\u5440",
+"sign":"bTpIxp2LmtROpAcwpeXWt+379mUCyeOhfCNPQdpUk8vAlpXoFgtSZtpQJbnw9Vge47z19q4bc7j\/\/qScGSYeAkv1U+klOc0lZMPEzlwWzPMEW4r779+XBUvtP3Yb06JwUE7oZzgQpOgJmyYOKTjhhYMBQljPq2gsUbCO5sOc4vgWIEuSjU75+kFIipQ8hHX8Uev5N+3cvwJGs4T4zETzDLGwhsL336N+ET9clcxNjVmlBcVaBNSYwn3Ck56v5kzW00Wnp+8lMmTP4\/NAy4QgzRSVaaIfzutfYUvsZvgqHbgToaV3IRfgpewNyqpQwTBkhvF4NTkUsK2R5pxQdAWa2g==",
+"buyer_id":"2088102173135845",
+"body":"\u7f8a\u6bdb-",
+"invoice_amount":"77.00",
+"version":"1.0",
+"notify_id":"b447a7c915c646bc679948fdfa09dd2mhe",
+"fund_bill_list":"[{\"amount\":\"77.00\",\"fundChannel\":\"ALIPAYACCOUNT\"}]",
+"notify_type":"trade_status_sync",
+"out_trade_no":"H17091410444211505357082",
+"total_amount":"77.00",
+"trade_status":"TRADE_SUCCESS",
+"trade_no":"2017091421001004840200497625",
+"auth_app_id":"2016082000294938",
+"receipt_amount":"77.00",
+"point_amount":"0.00",
+"app_id":"2016082000294938",
+"buyer_pay_amount":"77.00",
+"sign_type":"RSA2",
+"seller_id":"2088102172223879"
+}

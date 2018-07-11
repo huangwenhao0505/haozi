@@ -1,0 +1,20 @@
+<include file="User/header"/>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">文章详情</strong>~ ~<small></small></div>
+      </div>
+
+      <hr/>
+		<?php echo $info['content'];?>
+
+		
+    </div>
+    <div style="padding-left:70%;font-size:28px;padding-bottom:50px;">
+    	<a href="javascript:history.go(-1)">返回上一页</a>	|
+    	<a href="__URL__/articleEdit?id=<?php echo $info['id'];?>">编辑</a>
+    </div>
+    
+<include file="User/footer"/>

@@ -1,0 +1,78 @@
+[ 2017-04-25T10:46:44+08:00 ] 127.0.0.1 /Public/Home/images/pic_index_jobs.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-25T10:46:44+08:00 ] 127.0.0.1 /Public/http://haozi.com.cn/Public/Uploads/article/1492745137_688225_58f97bb167f00.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-25T10:46:44+08:00 ] 127.0.0.1 /Public/Home/css/bg_index_shadow.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-25T10:46:44+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-04-25T11:36:05+08:00 ] 127.0.0.1 /Article/detailArti?id=48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Article
+
+[ 2017-04-25T11:36:26+08:00 ] 127.0.0.1 /uploads/allimg/130304/1-1303041051160-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-04-25T11:36:26+08:00 ] 127.0.0.1 /uploads/allimg/130223/1-130223150T20-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-04-25T11:36:26+08:00 ] 127.0.0.1 /uploads/allimg/130304/1-1303041051160-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-04-25T11:36:26+08:00 ] 127.0.0.1 /uploads/allimg/130223/1-130223150T20-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-04-25T11:38:26+08:00 ] 127.0.0.1 /uploads/allimg/130304/1-1303041051160-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-04-25T11:38:26+08:00 ] 127.0.0.1 /uploads/allimg/130223/1-130223150T20-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-04-25T11:38:26+08:00 ] 127.0.0.1 /uploads/allimg/130304/1-1303041051160-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-04-25T11:38:26+08:00 ] 127.0.0.1 /uploads/allimg/130223/1-130223150T20-L.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Uploads
+

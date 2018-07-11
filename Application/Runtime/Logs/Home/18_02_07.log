@@ -1,0 +1,2701 @@
+[ 2018-02-07T09:57:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2018-02-07T09:57:55+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T09:57:55+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:00:00+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:00:00+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:04:11+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:04:11+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:04:11+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:04:18+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:04:21+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:04:57+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:04:57+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:04:57+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:24+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:24+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:24+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:05:36+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:36+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:36+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:58+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:58+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:05:58+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:06:01+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:06:05+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:07:33+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:07:33+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:07:33+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:08:39+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:08:39+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:08:39+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:09:27+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:09:27+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:09:27+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T10:10:24+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:10:24+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:10:25+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:56:37+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\19cc423b39c03fe026e25be30c43904e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:56:37+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:56:37+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T10:56:51+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2018-02-07T10:57:06+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0000s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2018-02-07T10:57:09+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0000s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2018-02-07T10:57:39+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2018-02-07T10:58:33+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2018-02-07T10:58:34+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0156s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2018-02-07T10:58:36+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0000s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2018-02-07T10:59:04+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+
+[ 2018-02-07T10:59:35+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0176s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-07T11:01:30+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:02:49+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0196s ]
+SQL: SELECT `id`,`nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 25 行.
+
+[ 2018-02-07T11:03:30+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_xcx_video` WHERE ( type!=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:16:53+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 57 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 57 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: adminId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 65 行.
+
+[ 2018-02-07T11:16:55+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 57 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 57 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: adminId D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 65 行.
+
+[ 2018-02-07T11:18:46+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 64 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 65 行.
+
+[ 2018-02-07T11:19:24+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 67 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 68 行.
+
+[ 2018-02-07T11:19:42+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:20:18+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:20:20+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:20:26+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 67 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 68 行.
+
+[ 2018-02-07T11:20:55+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:22:27+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:22:29+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:22:41+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:27:24+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:28:56+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:36:15+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T11:36:15+08:00 ] 127.0.0.1 /index.php/home/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\JokeController.class.php 第 130 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\JokeController.class.php 第 130 行.
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime` FROM `hwh_joke` WHERE `is_ok` = 1 ORDER BY maketime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T11:54:20+08:00 ] 127.0.0.1 /index.php/home/video/getListVideoAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getListVideoAjax
+
+[ 2018-02-07T11:54:27+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T11:54:27+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_xcx_video` WHERE `userId` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SELECT * FROM `hwh_xcx_video` WHERE `userId` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:54:29+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_xcx_video` WHERE `userId` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SELECT * FROM `hwh_xcx_video` WHERE `userId` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:54:59+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T11:54:59+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_xcx_video` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_xcx_video` WHERE `userId` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SELECT * FROM `hwh_xcx_video` WHERE `userId` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T11:59:52+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T11:59:52+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T12:00:36+08:00 ] 127.0.0.1 /index.php/home/video/ajaxVideoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajaxVideoList
+
+[ 2018-02-07T12:00:44+08:00 ] 127.0.0.1 /index.php/home/video/ajaxListVideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 84 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-07T13:42:34+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:42:34+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2018-02-07T13:42:37+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T13:42:37+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2018-02-07T13:43:28+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T13:43:28+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:44:13+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T13:46:03+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:46:03+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2018-02-07T13:46:08+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:46:08+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:47:41+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0050s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:47:41+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:48:06+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 1 AND `type` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:48:11+08:00 ] 127.0.0.1 /index.php/Home/Video/document?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:document
+
+[ 2018-02-07T13:48:12+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 1 AND `type` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:48:25+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T13:48:25+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 0 AND `type` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 0 AND `type` = null LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:48:27+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0070s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 1 AND `type` = 1 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0060s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:48:30+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` WHERE `userId` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0050s ]
+SQL: SELECT * FROM hwh_video v WHERE `userId` = 1 AND `type` = 2 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:50:08+08:00 ] 127.0.0.1 /index.php/home/video/ajaxListVideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:50:13+08:00 ] 127.0.0.1 /index.php/home/video/ajaxListVideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:50:16+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T13:50:17+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:50:19+08:00 ] 127.0.0.1 /index.php/Home/Video/document?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:document
+
+[ 2018-02-07T13:51:18+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:51:18+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:53:01+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0050s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:53:01+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:55:06+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0050s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:55:06+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:56:36+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0060s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T13:56:36+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:57:21+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:57:21+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:58:44+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T13:58:44+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T13:59:02+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0070s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T13:59:02+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-07T14:29:34+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:29:34+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:30:29+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:30:29+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:30:32+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-02-07T14:30:32+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:31:16+08:00 ] 127.0.0.1 /index.php/home/video/ajaxListVideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:31:18+08:00 ] 127.0.0.1 /index.php/home/video/ajaxVideoList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajaxVideoList
+
+[ 2018-02-07T14:31:24+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:31:24+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:33:49+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:33:49+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:33:53+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:33:53+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:34:29+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:34:30+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:34:56+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:34:56+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:34:56+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:34:56+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-02-07T14:35:47+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:35:47+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-07T14:35:47+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:36:14+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:36:14+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-02-07T14:36:14+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:36:14+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:39:04+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:39:04+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:39:04+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:39:04+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:44:51+08:00 ] 127.0.0.1 /index.php/home/video/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_video`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT a.id,a.nickname,v.type FROM hwh_admin a INNER JOIN hwh_video v on v.userId = a.id  WHERE ( type=1 and a.id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT u.id,u.nickname,v.type FROM hwh_user u INNER JOIN hwh_video v on v.userId = u.id  WHERE ( type=2 and u.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 81 行.
+NOTIC: [8] Undefined variable: qqurl D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 85 行.
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\9d32fe45460444fd9741061b3dcdf63a.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:44:52+08:00 ] 127.0.0.1 /index.php/home/video/ajaxlistvideo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_video` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `hwh_video` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\VideoController.class.php 第 88 行.
+SQL: SELECT * FROM hwh_video v LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-02-07T14:44:52+08:00 ] 127.0.0.1 /index.php/home/video/m.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:48:12+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:48:12+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:48:35+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'dawenhao' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=1 ) [ RunTime:0.0320s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0110s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('1','2018-02-07 14:48:35','127.0.0.1') [ RunTime:0.0110s ]
+
+[ 2018-02-07T14:48:36+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:48:36+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:48:40+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:48:42+08:00 ] 127.0.0.1 /index.php/home/photo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT hwh_user_photo.uid,hwh_user_photo.img,hwh_user.username,hwh_user.nickname,hwh_user.login_way,hwh_user_qq.qq_nickname FROM `hwh_user_photo` LEFT JOIN hwh_user ON hwh_user.id = hwh_user_photo.uid LEFT JOIN hwh_user_qq ON hwh_user.qq_openid = hwh_user_qq.qq_openid  WHERE hwh_user_photo.is_ok = 1 AND hwh_user_photo.is_photo_show = 1 ORDER BY hwh_user_photo.create_date desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\d36b9bd123e10ce840ba6dd7c096d195.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:48:45+08:00 ] 127.0.0.1 /index.php/home/photo/adduserphoto.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_user_photo` WHERE `uid` = 1 AND `is_ok` = 1 AND `is_photo_show` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\864867ee82f948247b3400baed2c3980.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-07T14:48:52+08:00 ] 127.0.0.1 /index.php/home/photo/uploadusermuchphoto.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-02-07T14:48:52+08:00 ] 127.0.0.1 /index.php/home/photo/adduserphoto.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0050s ]
+SQL: INSERT INTO `hwh_user_photo` (`uid`,`img`,`create_date`,`is_photo_show`) VALUES ('1','http://haozi.com.cn/Public/Uploads/user/photo/20180207/1517986132_485410_5a7aa154bc468.jpg','2018-02-07 14:48:52','0') [ RunTime:0.0000s ]
+
+[ 2018-02-07T15:04:08+08:00 ] 127.0.0.1 /index.php/home/video/addVideo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\ab1b6cda953c111390f69758b43f41f7.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

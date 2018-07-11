@@ -1,0 +1,474 @@
+[ 2017-11-22T09:26:13+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/css/css.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/js/js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/js/wb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/ban1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/youjian.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/gouimg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/ban2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/mychunlv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/ban3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/ban4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/subimg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/ban5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/rdPro1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/rdPro2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/rdPro3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/rdPro4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/rdPro5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/rdRight.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/hengfu1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/flListimg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:53:34+08:00 ] 127.0.0.1 /Public/Home/images/hengfu2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/css/css.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/js/js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/js/wb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/youjian.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/gouimg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/ban2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/mychunlv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/ban1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/ban3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/ban4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/subimg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/ban5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/rdPro1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/rdPro2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/rdPro3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/rdPro4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/rdPro5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/rdRight.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/hengfu1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/flListimg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T13:54:26+08:00 ] 127.0.0.1 /Public/Home/images/hengfu2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/wb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/MagicZoom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/ShopShow.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/js.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/wb.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/MagicZoom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:27:47+08:00 ] 127.0.0.1 /Shopping/Public/Home/js/ShopShow.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2017-11-22T14:59:58+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:00:44+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:01:11+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:02:44+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:03:07+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:04:39+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:04:42+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:04:55+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:04:58+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:06:31+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:06:35+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:06:35+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T15:06:35+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:33:14+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:33:29+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:39:06+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:40:55+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:42:16+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:43:03+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:43:22+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:43:59+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:44:22+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+
+[ 2017-11-22T17:50:29+08:00 ] 127.0.0.1 /Shopping2/Public/Home/js/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping2
+

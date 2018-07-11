@@ -1,0 +1,79 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Admin/Index/index');?>">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="<?php echo U('Admin/Exam/createExam');?>">答题系统</a><span class="crumb-step">&gt;</span><span>创建试卷</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th>试卷名称：</th>
+                                <td><input type="text" id="title"/></td>
+                            </tr>
+                            <tr>
+                                <th>答题时长（分）：</th>
+                                <td><input type="text" id="time"/></td>
+                            </tr>
+                            <tr>
+                                <th>开放答题时间：</th>
+                                <td><input type="text" id="startDate"/></td>
+                            </tr>
+                            <tr>
+                                <th>截止答题时间：</th>
+                                <td><input type="text" id="endDate"/></td>
+                            </tr>
+                            <tr>
+                                <th>备注：</th>
+                                <td><input type="text" id="remake"/></td>
+                            </tr>
+                            <tr><td colspan="2" class="error" style="font-size:20px;color:red;text-align:center;"><span></span></td></tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" id="but" value="提交" type="button">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>
+
+<script>
+$('#but').unbind('click').click(function(){
+	var name = $('#title').val();
+	var time = $('#time').val();
+	var startDate = $('#startDate').val();
+	var endDate = $('#endDate').val();
+	var remake = $('#remake').val();
+	
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Admin/Exam/createExam");?>',
+		data:{'name':name,'time':time,'startDate':startDate,'endDate':endDate,'remake':remake},
+		dataType: 'json',
+		success:function(respon)
+		{
+			if(respon.errno == 10001)
+			{
+				$('.error').html(respon.errmsg);
+			}
+			else
+			{
+				window.location.href="<?php echo U('Admin/Exam/examList')?>";
+			}
+		}
+	});
+});
+</script>

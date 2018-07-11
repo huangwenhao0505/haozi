@@ -1,0 +1,184 @@
+<include file="User/header"/>
+
+<style>
+	.popUp_c{text-align:center;}
+	.popUp_c input{
+		width:80px;
+		line-height:30px;
+		padding-bottom:3px;
+		margin-right:20px;
+		border:none;
+		text-align:center;
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: bold;
+		border-radius: 2px;
+	}
+</style>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>快捷操作主页面</small></div>
+      </div>
+
+      <ul class="am-avg-sm-1 am-avg-md-5 am-margin am-padding am-text-center admin-content-list ">
+        <li><a href="<?php echo U('User/yuluList');?>" class="am-text-success"><span class="am-icon-btn am-icon-file-text"></span><br/>经典语录<br/><?php echo $yuluCon;?></a></li>
+        <li><a href="<?php echo U('User/jokeList');?>" class="am-text-warning"><span class="am-icon-btn am-icon-briefcase"></span><br/>幽默笑话<br/><?php echo $jokeCon;?></a></li>
+        <li><a href="<?php echo U('User/articleList');?>" class="am-text-danger"><span class="am-icon-btn am-icon-recycle"></span><br/>优美文章<br/><?php echo $artiCon;?></a></li>
+        <li><a href="<?php echo U('User/photo');?>" class="am-text-secondary"><span class="am-icon-btn am-icon-user-md"></span><br/>个人相册<br/><?php echo $numPhoto['num'];?></a></li>
+      	<li><a href="<?php echo U('User/myMessageList');?>" class="am-text-danger" style="color:#7A378B;"><span class="am-icon-btn am-icon-file-text"></span><br/>我给别人的留言<br/><?php echo $myMessageCount;?></a></li>
+      </ul>
+
+      <div class="am-g">
+        <div class="am-u-md-6">
+			<div class="am-panel am-panel-default">
+			<div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-3'}">最近留言<span class="am-icon-chevron-down am-fr" ></span></div>
+			<div class="am-panel-bd am-collapse am-in am-cf" id="collapse-panel-3">
+			  <ul class="am-comments-list admin-content-comment">
+			    <?php foreach($messageList as $k => $v){ ?>
+			    <li class="am-comment">
+			      <a href="#"><img src="<?php echo $v['u_img'];?>" alt="" class="am-comment-avatar" width="48" height="48"></a>
+			      <div class="am-comment-main">
+			        <header class="am-comment-hd">
+			          <div class="am-comment-meta"><a href="javascript:void(0);" class="am-comment-author"><?php echo $v['username'];?></a> 留言于 <time><?php echo $v['createdate'];?></time><a href="javascript:void(0);" style="color:#DD514C" onclick="replyMessage(<?php echo $v['uid'];?>,<?php echo $v['id'];?>)">    回复</a></div>
+			        </header>
+			        <div class="am-comment-bd"><?php echo $v['content'];?></div>
+				        <!-- 留言下面已回复的内容 -->
+				    	<?php foreach($messageList[$k]['twoList'] as $key => $val){ ?>
+			        		<div class="am-comment-meta" style="margin-top:-2%;">
+				        		<img src="<?php echo $val['u_img'];?>" alt="" class="am-comment-avatar" style="width:30px;height:30px;"><a href="javascript:void(0);" class="am-comment-author"><?php echo $val['username'];?></a>  回复于 <time><?php echo $val['createdate'];?></time>
+								<?php if($val['mySelf'] == 0){ ?>	<!-- 不是自己的内容才显示可回复的按键 -->
+				        			<a href="javascript:void(0);" style="color:#3BB4F2" onclick="replyMessage(<?php echo $val['uid'];?>,<?php echo $val['id'];?>)">    回复</a>
+			        			<?php } ?>
+			        		</div>
+			        		<div class="am-comment-bd" style="margin-top:-3%;margin-left:5%;">
+			        			<?php echo $val['content'];?>
+			        		</div>
+						<?php } ?>
+			      </div>
+			    </li>
+				<?php } ?>
+			  </ul>
+			  </div>
+			</div>         
+        </div>
+
+        <div class="am-u-md-6">
+          <div class="am-panel am-panel-default">
+            <div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-3'}">最新留言（未读）<span class="am-icon-chevron-down am-fr" ></span></div>
+            <div class="am-panel-bd am-collapse am-in am-cf" id="collapse-panel-3">
+              <ul class="am-comments-list admin-content-comment">
+                <?php foreach($showMessageList as $k => $v){ ?>
+                <li class="am-comment">
+                  <a href="#"><img src="<?php echo $v['u_img'];?>" alt="" class="am-comment-avatar" width="48" height="48"></a>
+                  <div class="am-comment-main">
+                    <header class="am-comment-hd">
+                      <div class="am-comment-meta"><a href="javascript:void(0);" class="am-comment-author"><?php echo $v['username'];?></a> 回复于 <time><?php echo $v['createdate'];?></time><a href="javascript:void(0);" style="color:#DD514C" onclick="replyMessage(<?php echo $v['uid'];?>,<?php echo $v['id'];?>)">    回复</a> | <a href="javascript:void(0);" style="color:#DD514C" onclick="changeMessage(<?php echo $v['id'];?>)">    标记为已读</a></div>
+                    </header>
+                    <div class="am-comment-bd"><?php echo $v['content'];?>
+                    </div>
+                  </div>
+                </li>
+				<?php } ?>
+              </ul>
+              <!-- 
+              <ul class="am-pagination am-fr admin-content-pagination">
+                <li class="am-disabled"><a href="#">&laquo;</a></li>
+                <li class="am-active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+               -->
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+<!-- 回复留言start -->
+<!-- 回复留言弹窗   -->
+<div id="liuyan" style="position:fixed;width:50%;height:50%;left:40%;top:30%;margin:-80px 0 0 -175px;border:1px solid #000;background:#fff;display:none;z-index: 1000;">
+	<script type="text/plain" id="message_content" style="width:100%;height:300px;"></script>
+	<span id="message_error" style="text-align:center;"></span>
+	<div class= 'popUp_c'>
+		<input type="hidden" id="uid_message" value=""/>
+		<input type="hidden" id="protect_id_message" value=""/>
+		<input type="button" class="btn btn-primary" id="quxiao_message" onclick="message_quxiao()" value="取消"/>
+		<input type="button" class="btn btn-success" id="queding_message" onclick="message_queding()" value="确定"/>
+	</div>
+</div>
+
+<script type="text/javascript" src="/Public/ajaxfileupload.js"></script>
+<!-- 加载编辑器的容器 -->
+ <!-- 配置文件 -->
+ <script type="text/javascript" src="/third-party/ueditor/ueditor.config.js"></script>
+ <!-- 编辑器源码文件 -->
+ <script type="text/javascript" src="/third-party/ueditor/ueditor.all.js"></script>
+ <!-- 实例化编辑器 -->
+ <script type="text/javascript">
+     var ue = UE.getEditor('message_content');
+ </script>
+<script>
+function replyMessage(uid,protect_id){
+	$('#uid_message').val(uid);	//把被留言人的ID赋值给uid_message
+	$('#protect_id_message').val(protect_id);//把回复留言Id赋值给protect_id_message
+	$("#liuyan").show();
+}
+
+function message_queding(){
+	var uid = $('#uid_message').val();
+	var protectId = $('#protect_id_message').val();
+	var ue = UE.getEditor('message_content');
+	var content = ue.getContent();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/Message/replyMessage");?>',
+		data:{'id':uid,'protect_id':protectId,'content':content},
+		dataType:'json',
+		success:function(respon){
+			if(respon.errno == 10001){
+				$('#message_error').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+			}else{
+				$('#message_error').html('<img src="/Public/Home/login/images/tip-right.png">'+respon.errmsg);
+				$('#quxiao').hide();
+				$('#queding').hide();
+				setTimeout( "message_quxiao()",1500);	//停留一秒，执行message_quxiao()函数
+			}
+		}
+	});
+}
+
+function message_quxiao(){
+	$('#liuyan').hide();
+	var protect_id = $('#protect_id_message').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/Message/changeMessage");?>',
+		data:{'protect_id':protect_id},
+		dataType:'json',
+		success:function(respon){
+			location.replace(location.href);
+		}
+	});
+}
+
+function changeMessage(protect_id){
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/Message/changeMessage");?>',
+		data:{'protect_id':protect_id},
+		dataType:'json',
+		success:function(respon){
+			location.replace(location.href);
+		}
+	});
+}
+</script>
+<!-- 回复留言end -->
+
+<include file="User/footer"/>

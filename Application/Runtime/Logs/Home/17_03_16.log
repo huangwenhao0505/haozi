@@ -1,0 +1,230 @@
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201402/530c4d1974f6f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1e295227a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1c800dddb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1d6eb6c8e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/51ec8edf8b96f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51f759a2696ca.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51ef6793bea6a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51ddfd8b7d33e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201305/5181c4c3d4fcf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201304/51762134a8b1e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201212/50db0d415a2eb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201402/530c4d1974f6f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1c800dddb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1d6eb6c8e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1e295227a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/51ec8edf8b96f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51f759a2696ca.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51ef6793bea6a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51ddfd8b7d33e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201305/5181c4c3d4fcf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201304/51762134a8b1e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T17:58:34+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201212/50db0d415a2eb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201402/530c4d1974f6f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1c800dddb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1e295227a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1d6eb6c8e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/51ec8edf8b96f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51f759a2696ca.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51ef6793bea6a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/thumb_300_300_51ddfd8b7d33e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201305/5181c4c3d4fcf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201304/51762134a8b1e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201212/50db0d415a2eb.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201402/530c4d1974f6f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1c800dddb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1d6eb6c8e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201307/51ec8edf8b96f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-16T18:00:14+08:00 ] 127.0.0.1 /index.php/home/index/Uploads/201311/528b1e295227a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,81 @@
+<include file="Public/header2"/>
+
+<!-- 相册列表显示样式   -->
+<link rel="stylesheet" type="text/css" href="/third-party/photo2/css/style.css">
+
+<!-- 多图上传插件 -->
+<link href="/third-party/diyupload/css/webuploader.css" rel="stylesheet"><!-- 多图上传必须样式 -->
+<link href="/third-party/diyupload/css/diyUpload.css" rel="stylesheet"><!-- 多图上传必须样式 -->
+
+<script src="/third-party/diyupload/js/jquery-2.1.4.min.js"></script><!-- 必须jq -->
+<script src="/third-party/diyupload/js/webuploader.html5only.min.js"></script><!-- 多图上传必须的js -->
+<script src="/third-party/diyupload/js/diyUpload.js"></script><!-- 多图上传必须的js -->
+            
+                    <!-- navbar -->
+                    <nav class="navbar tm-main-nav">
+
+                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                            &#9776;
+                        </button>
+                        
+                        <div class="collapse navbar-toggleable-sm" id="tmNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Index/index');?>" class="nav-link">首页</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Yulu/yuluList');?>" class="nav-link">精典语录</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a href="<?php echo U('Home/Joke/listJoke');?>" class="nav-link">幽默笑话</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Article/listArti');?>" class="nav-link">优美文章</a>
+                                </li>
+                                <li class="nav-item  active">
+                                    <a href="<?php echo U('Home/Photo/index');?>" class="nav-link">相册列表</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Fun/index');?>" class="nav-link">文件列表</a>
+                                </li>
+                            </ul>                        
+                        </div>
+                        
+                    </nav>  
+
+                </div>                                  
+            </div>            
+        </div>
+        
+        <div class="tm-about-img-container"></div>
+	
+		<ul>
+			<li><input type="button" class="btn btn-info" id="user_comment" style="margin-left:70%;margin-right:6px;margin-top:20px;" onclick="add_comment()" value="点我上传你的个性照片"/></li>
+		</ul>
+		<p>
+			测试浏览器兼容：ie9+,chrome,FF,safari;
+		</p>
+		<ul class="polaroids" style="margin:auto;">
+			<?php if($photoList == array()){?>
+				<input type="button" class="btn btn-info" onclick="add_comment()" value="暂无数据，亲来上传靓照呗..."/>
+			<?php }else{ ?>
+				<?php foreach($photoList as $k => $v){ ?>
+					<li><a href="__URL__/userPhoto?id=<?php echo $v['uid'];?>" title="<?php echo $v['nickname'];?>"><img src="<?php echo $v['img'];?>" alt="Roeland!"></a></li>
+				<?php } ?>	
+			<?php } ?>
+			
+		</ul>
+		<ul class="polaroids" style="width:280px;">
+			<li><a href="javascript:void(0);" title="Hello"><img src="/third-party/photo2/images/image-04.jpg" alt="Roeland!"></a></li>
+			<li><a href="javascript:void(0);" title="My"><img src="/third-party/photo2/images/image-05.jpg" alt="Discussion"></a></li>
+			<li class="messy"><a href="javascript:void(0);" title="Friend"><img src="/third-party/photo2/images/image-06.jpg" alt="A Hearty Laugh"></a></li>
+		</ul>
+		
+	</body>
+</html>
+
+<script type="text/javascript">
+function add_comment(){
+	window.location.href="<?php echo U('Home/Photo/addUserPhoto');?>";
+}
+</script>

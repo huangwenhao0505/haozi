@@ -1,0 +1,828 @@
+[ 2017-04-10T10:02:58+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T10:02:58+08:00 ] 127.0.0.1 /index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T10:02:58+08:00 ] 127.0.0.1 /index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T10:03:13+08:00 ] 127.0.0.1 /index.php/admin/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_admin` WHERE `username` = 'haozi' AND `password` = '5d14438a7c70719dc20a764ac92072b3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin_log` [ RunTime:0.0290s ]
+SQL: INSERT INTO `hwh_admin_log` (`admin_id`,`login_ip`,`login_time`) VALUES ('1','127.0.0.1','2017:04:10 10:03:13') [ RunTime:0.0280s ]
+
+[ 2017-04-10T10:03:13+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T10:03:29+08:00 ] 127.0.0.1 /index.php/admin/joke/listjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T10:03:29+08:00 ] 127.0.0.1 /index.php/admin/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 91 行.
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime`,`is_ok` FROM `hwh_joke` ORDER BY maketime desc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T15:09:31+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T15:09:33+08:00 ] 127.0.0.1 /index.php/admin/joke/listjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T15:09:33+08:00 ] 127.0.0.1 /index.php/admin/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 91 行.
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime`,`is_ok` FROM `hwh_joke` ORDER BY maketime desc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T15:09:36+08:00 ] 127.0.0.1 /index.php/admin/joke/addjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T15:09:43+08:00 ] 127.0.0.1 /index.php/admin/joke/addjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0040s ]
+SQL: SELECT `nickname`,`img` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_joke` (`author`,`img`,`content`,`maketime`) VALUES ('大大文豪',NULL,'这这这这这这这这','1491808183') [ RunTime:0.0000s ]
+
+[ 2017-04-10T15:09:43+08:00 ] 127.0.0.1 /index.php/admin/joke/listjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T15:09:43+08:00 ] 127.0.0.1 /index.php/admin/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 91 行.
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime`,`is_ok` FROM `hwh_joke` ORDER BY maketime desc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T15:25:06+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T15:25:06+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 81 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 96 行.
+SQL: SELECT `id`,`content`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T15:25:30+08:00 ] 127.0.0.1 /index.php/admin/yulu/alldelyulu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_yulu` WHERE `id` IN ('20','21','22') [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu_like` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_yulu_like` WHERE `yulu_id` IN ('20','21','22') [ RunTime:0.0010s ]
+
+[ 2017-04-10T15:25:30+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T15:25:30+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 81 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 96 行.
+SQL: SELECT `id`,`content`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-10T15:32:10+08:00 ] 127.0.0.1 /index.php/admin/joke/listjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T15:32:11+08:00 ] 127.0.0.1 /index.php/admin/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 91 行.
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime`,`is_ok` FROM `hwh_joke` ORDER BY maketime desc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T15:32:14+08:00 ] 127.0.0.1 /index.php/admin/joke/alldeljoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_joke` WHERE `id` IN ('13','12') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke_like` [ RunTime:0.0030s ]
+SQL: DELETE FROM `hwh_joke_like` WHERE `joke_id` IN ('13','12') [ RunTime:0.0000s ]
+
+[ 2017-04-10T15:32:14+08:00 ] 127.0.0.1 /index.php/admin/joke/listjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T15:32:14+08:00 ] 127.0.0.1 /index.php/admin/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 87 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\JokeController.class.php 第 91 行.
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime`,`is_ok` FROM `hwh_joke` ORDER BY maketime desc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T16:09:53+08:00 ] 127.0.0.1 /index.php/admin/article/listarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-10T16:09:53+08:00 ] 127.0.0.1 /index.php/admin/article/ajaxlistarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 137 行.
+SQL: SELECT `id`,`uid`,`uid_type`,`author`,`title`,`jianjie`,`content`,`img_url`,`view_count`,`comment_count`,`like_count`,`is_top`,`is_recommend`,`create_date`,`is_ok` FROM `hwh_article` ORDER BY create_date desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T16:09:55+08:00 ] 127.0.0.1 /index.php/admin/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-10T16:11:00+08:00 ] 127.0.0.1 /index.php/admin/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'img_url' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+NOTIC: [2] Illegal string offset 'savepath' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+NOTIC: [2] Illegal string offset 'img_url' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+NOTIC: [2] Illegal string offset 'savename' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_article` (`img_url`,`uid`,`author`,`title`,`jianjie`,`content`,`create_date`) VALUES ('��','1','大大文豪','我们都是坏孩子','其实我们都是好孩子','<p>&nbsp;&nbsp;&nbsp;&nbsp;这是为什么呢？</p><p>&nbsp;&nbsp;&nbsp;&nbsp;真的不明白为什么，好烦哟<img src=\"http://img.baidu.com/hi/jx2/j_0008.gif\"/></p>','1491811860') [ RunTime:0.0000s ]
+
+[ 2017-04-10T16:11:00+08:00 ] 127.0.0.1 /index.php/admin/article/listarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T16:11:01+08:00 ] 127.0.0.1 /index.php/admin/article/ajaxlistarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 137 行.
+SQL: SELECT `id`,`uid`,`uid_type`,`author`,`title`,`jianjie`,`content`,`img_url`,`view_count`,`comment_count`,`like_count`,`is_top`,`is_recommend`,`create_date`,`is_ok` FROM `hwh_article` ORDER BY create_date desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:11:36+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:11:36+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 81 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 96 行.
+SQL: SELECT `id`,`content`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T16:11:39+08:00 ] 127.0.0.1 /index.php/admin/yulu/yuluadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:11:44+08:00 ] 127.0.0.1 /index.php/admin/yulu/yuluadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'u_img' D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'savepath' D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'u_img' D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 32 行.
+NOTIC: [2] Illegal string offset 'savename' D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hwh_yulu` (`img`,`author`,`content`,`maketime`) VALUES ('��','大大文豪','吧吧吧台以台台','1491811904') [ RunTime:0.0440s ]
+
+[ 2017-04-10T16:11:44+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T16:11:44+08:00 ] 127.0.0.1 /index.php/admin/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 81 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\YuluController.class.php 第 96 行.
+SQL: SELECT `id`,`content`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:33:53+08:00 ] 127.0.0.1 /index.php/admin/article/listarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:33:54+08:00 ] 127.0.0.1 /index.php/admin/article/ajaxlistarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 137 行.
+SQL: SELECT `id`,`uid`,`uid_type`,`author`,`title`,`jianjie`,`content`,`img_url`,`view_count`,`comment_count`,`like_count`,`is_top`,`is_recommend`,`create_date`,`is_ok` FROM `hwh_article` ORDER BY create_date desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:40:02+08:00 ] 127.0.0.1 /index.php/admin/article/articlecommentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-10T16:40:02+08:00 ] 127.0.0.1 /index.php/admin/article/articlecommentlistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 321 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` left JOIN hwh_article ON hwh_article.id = hwh_article_comment.article_id  LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 331 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 331 行.
+SQL: select a.author,a.title,a.img_url,a.comment_count,c.id,c.parent_id,c.content,u.username,u.nickname
+            from hwh_article_comment c 
+            LEFT JOIN hwh_article a ON c.article_id = a.id 
+            LEFT JOIN hwh_user u ON u.id = c.uid
+            where a.title like '%%' and a.author like '%%' and c.state = 1 order by c.article_id desc, c.parent_id asc, c.create_date desc limit 0,5 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:40:03+08:00 ] 127.0.0.1 /index.php/admin/article/listarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:40:03+08:00 ] 127.0.0.1 /index.php/admin/article/ajaxlistarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 137 行.
+SQL: SELECT `id`,`uid`,`uid_type`,`author`,`title`,`jianjie`,`content`,`img_url`,`view_count`,`comment_count`,`like_count`,`is_top`,`is_recommend`,`create_date`,`is_ok` FROM `hwh_article` ORDER BY create_date desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:40:08+08:00 ] 127.0.0.1 /index.php/admin/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:40:20+08:00 ] 127.0.0.1 /index.php/admin/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'img_url' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+NOTIC: [2] Illegal string offset 'savepath' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+NOTIC: [2] Illegal string offset 'img_url' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+NOTIC: [2] Illegal string offset 'savename' D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `hwh_admin` [ RunTime:0.0030s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `hwh_article` (`img_url`,`uid`,`author`,`title`,`jianjie`,`content`,`create_date`) VALUES ('��','1','大大文豪','这是谁啊中了','枯顶面枯枯枯枯枯枯要','<p><img src=\"http://img.baidu.com/hi/jx2/j_0013.gif\"/></p>','1491813620') [ RunTime:0.0000s ]
+
+[ 2017-04-10T16:40:20+08:00 ] 127.0.0.1 /index.php/admin/article/listarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-10T16:40:20+08:00 ] 127.0.0.1 /index.php/admin/article/ajaxlistarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 122 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Admin\Controller\ArticleController.class.php 第 137 行.
+SQL: SELECT `id`,`uid`,`uid_type`,`author`,`title`,`jianjie`,`content`,`img_url`,`view_count`,`comment_count`,`like_count`,`is_top`,`is_recommend`,`create_date`,`is_ok` FROM `hwh_article` ORDER BY create_date desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

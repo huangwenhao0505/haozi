@@ -1,0 +1,1710 @@
+[ 2018-01-25T14:07:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 357 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 357 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:08:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 325 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 325 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:09:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 330 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 330 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:10:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-25T14:10:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:10:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:10:22+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:10:22+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:11:21+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:11:21+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:11:22+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:11:22+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:11:25+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE ( parentId=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 90 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 238 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:11:26+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 ORDER BY create_date desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:11:27+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:11:27+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-25T14:11:40+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:13:54+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 351 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 351 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:13:55+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:13:56+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:13:58+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:13:58+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:15:42+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:42+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:45+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 351 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 351 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:47+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:47+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:50+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:50+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:15:52+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE ( parentId=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 90 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 261 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:52+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 ORDER BY create_date desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:15:53+08:00 ] 127.0.0.1 /index.php/home/photo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0290s ]
+SQL: SELECT hwh_user_photo.uid,hwh_user_photo.img,hwh_user.username,hwh_user.nickname,hwh_user.login_way,hwh_user_qq.qq_nickname FROM `hwh_user_photo` LEFT JOIN hwh_user ON hwh_user.id = hwh_user_photo.uid LEFT JOIN hwh_user_qq ON hwh_user.qq_openid = hwh_user_qq.qq_openid  WHERE hwh_user_photo.is_ok = 1 AND hwh_user_photo.is_photo_show = 1 ORDER BY hwh_user_photo.create_date desc  [ RunTime:0.0700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\d36b9bd123e10ce840ba6dd7c096d195.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:15:56+08:00 ] 127.0.0.1 /index.php/home/fun/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\51e16bf351317cd6372be40a729f5c1d.php 第 90 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\51e16bf351317cd6372be40a729f5c1d.php 第 285 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:15:56+08:00 ] 127.0.0.1 /index.php/home/fun/filelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fileCate D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `hwh_file_upload` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 63 行.
+SQL: SELECT COUNT(*) AS tp_count FROM hwh_file_upload u LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 79 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 79 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 97 行.
+SQL: SELECT u.*,a.nickname FROM hwh_file_upload u LEFT JOIN hwh_admin a on a.id = u.adminId  ORDER BY u.createDate desc LIMIT 0,12   [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `hwh_file_upload` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_file_upload` GROUP BY fileSuffix  [ RunTime:0.0000s ]
+
+[ 2018-01-25T14:16:25+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:16:25+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:16:28+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:16:28+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:16:30+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE ( parentId=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 90 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 261 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:16:30+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 ORDER BY create_date desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:17:22+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE ( parentId=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 90 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c6e245d5eac9d9e843d239bcd7a3924a.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:17:22+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 180 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 AND `is_black` = 0 ORDER BY create_date desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:17:23+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 317 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:17:28+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:17:28+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:20:25+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:20:25+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:20:27+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 315 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:20:57+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:21:01+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:21:03+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:21:04+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:21:06+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:21:07+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:19+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:22+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:23+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:25+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:25+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:26+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:27+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:28+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:28+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:29+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:30+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:30+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:30+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:31+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:31+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:32+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:32+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-25T14:22:32+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:33+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:33+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-25T14:22:33+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 127 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

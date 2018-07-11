@@ -1,0 +1,102 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">商品属性（颜色、尺码、类型、材质。。。）</h2>
+       <a class="fr top_rt_btn" href="<?php echo U('Goods/listAttr');?>">返回商品属性列表</a>
+      </div>
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">属性名称：</span>
+        <input type="text" name="attrName" id="attrName" class="textbox textbox_295" placeholder="属性名称"/>
+        <span id="errorAttrName"></span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">属性值(X XL)：</span>
+        <input type="text" name="attrValue" class="textbox textbox_100" placeholder="属性值"/>
+        <span id="attrValue"><!-- 接收追加的数据 --></span>
+        <span id="errorAttrValue"><!-- 显示错误信息 --></span>
+        <button onclick="addAttrValueBox()">添加</button>
+       </li>
+       <!-- 扩展属性 start -->
+	       <li>
+	        <span class="item_name" style="width:120px;">是否添加扩展属性</span>
+	        <input type="button" onclick="addExpandAttr()" value="添加扩展属性"/>
+	       </li>
+	       <li id="isShowExpandAttr" style="display:none;">
+	        <span class="item_name" style="width:120px;">扩展属性值：</span>
+	        <input type="text" name="expandAttrValue" class="textbox textbox_100" placeholder="属性值"/>
+	        <span id="expandAttrValue"><!-- 接收追加的数据 --></span>
+	        <button onclick="addExpandAttrValueBox()">添加</button>
+	       </li>
+       <!-- 扩展属性 end -->
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" class="link_btn"/>
+        <span id="errorSubmit"></span>
+       </li>
+      </ul>
+     </section>
+ </div>
+</section>
+
+<script>
+//属性值添加按钮
+function addAttrValueBox(){
+	html = '<input type="text" name="attrValue" class="textbox textbox_100" placeholder="属性值"/>';
+	$('#attrValue').append(html);
+}
+
+//扩展属性显示按钮
+function addExpandAttr(){
+	$('#isShowExpandAttr').show();
+}
+
+//扩展属性值添加按钮
+function addExpandAttrValueBox(){
+	html = '<input type="text" name="expandAttrValue" class="textbox textbox_100" style="margin-right:5px;" placeholder="属性值"/>';
+	$('#expandAttrValue').append(html);
+}
+
+$('.link_btn').bind('click').click(function(){
+	var attrName = $('#attrName').val();
+	var obj = document.getElementsByName("attrValue");
+    var attrValue = "";
+    for(var i=0;i<obj.length;i++){
+        attrValue += obj[i].value + ",";//属性值
+    }
+    var obj2 = document.getElementsByName("expandAttrValue");
+    var expandAttrValue = "";
+    for(var i=0;i<obj2.length;i++){
+    	expandAttrValue += obj2[i].value + ",";//扩展属性值
+    }
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Goods/addAttr")?>',
+		data:{'attrName':attrName,'attrValue':attrValue,'expandAttrValue':expandAttrValue},
+		dataType: 'json',
+		success:function(respon){
+			if(respon.errno == 10001){
+				$("#errorAttrName span").addClass('errorTips');
+				$('#errorAttrName').html(respon.errmsg);
+			}else if(respon.errno == 10002){
+				$('#errorAttrName').empty();
+				$('#errorAttrValue').html(respon.errmsg);
+			}else if(respon.errno == 10003){
+				$('#errorAttrName').empty();
+				$('#errorAttrValue').empty();
+				$('#errorSubmit').html(respon.errmsg);
+			}else{
+				$('#errorAttrName').empty();
+				$('#errorAttrValue').empty();
+				$('#errorSubmit').html(respon.errmsg);
+				window.location.href = "<?php echo U('Goods/listAttr');?>";
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>

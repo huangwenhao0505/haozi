@@ -1,0 +1,1814 @@
+[ 2017-09-13T15:22:29+08:00 ] 127.0.0.1 /mall.php/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`topCategoryId`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:22:32+08:00 ] 127.0.0.1 /mall.php/home/Goods/goodsView?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE ( goodsId=12 )  [ RunTime:0.0000s ]
+SQL: SELECT attrValue1 as attrValue FROM `hwh_goods_store` WHERE ( goodsId=12 ) GROUP BY attrValue1  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0390s ]
+SQL: SELECT `id`,`attrname` FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=7 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=6 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 颜色 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: 尺码 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-13T15:22:33+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 12 AND `attrValue1` = '羊毛' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:22:35+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 12 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:22:38+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 12 AND `attrValue1` = '纯棉' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:22:39+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 12 AND `attrValue1` = '纯棉' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:22:42+08:00 ] 127.0.0.1 /mall.php/home/Goods/goodsView?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE ( goodsId=14 )  [ RunTime:0.0000s ]
+SQL: SELECT attrValue1 as attrValue FROM `hwh_goods_store` WHERE ( goodsId=14 ) GROUP BY attrValue1  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`attrname` FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=7 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=6 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: 颜色 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: 尺码 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:22:43+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:22:45+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:22:45+08:00 ] 127.0.0.1 /mall.php/home/order/confirmOrderNow?goodsId=14&price=77.00&goodsNum=1&attr1=%E7%BE%8A%E6%AF%9B&attr2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`price`,`img` FROM `hwh_goods` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_ship_address` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `hwh_user_ship_address` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:22:45+08:00 ] 127.0.0.1 /mall.php/home/order/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:22:45+08:00 ] 127.0.0.1 /mall.php/home/order/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:22:47+08:00 ] 127.0.0.1 /mall.php/home/order/confirmordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.1260s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`shipAdressId`,`createDate`) VALUES ('1','H17091303224711505287367','77','77','1','2017-09-13 15:22:47') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 197 行.
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0110s ]
+SQL: INSERT INTO `hwh_order_item` (`orderId`,`goodsId`,`price`,`goodsNum`,`amount`,`attrValue1`,`attrValue2`,`createDate`) VALUES ('33','14','77','1','77','羊毛',NULL,'2017-09-13 15:22:47') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0090s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_goods_store` SET `goodsId`='14',`price`='77',`attrValue1`='羊毛',`attrValue2`=NULL,`createDate`='2017-09-13 15:22:47',`stock`='70' WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:22:53+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:22:54+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:22:54+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:22:54+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:22:54+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-13T15:23:00+08:00 ] 127.0.0.1 /mall.php/home/usercenter/deleteorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_order` WHERE `userId` = 1 AND `id` = 32 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `hwh_order` WHERE `userId` = 1 AND `id` = 32 [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:23:00+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:23:01+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-13T15:23:04+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0080s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('33') AND o.userId = '1'  [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:27:06+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('33') AND o.userId = '1'  [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:37:12+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('33') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:42:15+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A41%3A41&sign=obd0zQ%2BYbq%2Bd%2BXj7zM%2BPE1k7lyin1TKjlzOhw%2FS1VknGp%2FRECrxNJXWYFQMFjBsG52W0PMic7Ka5x7t9VmoWEWnOyjRTUmhOYetSTXFF58tjphuXkbVQtEqUd%2Fk8CKMxIHdYmoi4EzaYiotvIFfQCZUuFEy%2FJhpzoznHuOLoVL%2FtYZ6wrgDpeXb1Yd8Caa46L7DlBbctp%2B%2Beeu0Ww8rzPIFzNddAa3OlOKaToeQ50gBsI3W%2Fei0CJHIKNl8tLPnLtoDL09fp2BUPUbvHgL2B%2BFcxuG1ScqhuPE%2FYXF5IR1HBz6NH5J7pzVBCXEnnkXU2GYdfJQx5W42jArW8Pjx1xw%3D%3D&trade_no=2017091321001004840200497374&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303224711505287367&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:42:48+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A41%3A41&sign=obd0zQ%2BYbq%2Bd%2BXj7zM%2BPE1k7lyin1TKjlzOhw%2FS1VknGp%2FRECrxNJXWYFQMFjBsG52W0PMic7Ka5x7t9VmoWEWnOyjRTUmhOYetSTXFF58tjphuXkbVQtEqUd%2Fk8CKMxIHdYmoi4EzaYiotvIFfQCZUuFEy%2FJhpzoznHuOLoVL%2FtYZ6wrgDpeXb1Yd8Caa46L7DlBbctp%2B%2Beeu0Ww8rzPIFzNddAa3OlOKaToeQ50gBsI3W%2Fei0CJHIKNl8tLPnLtoDL09fp2BUPUbvHgL2B%2BFcxuG1ScqhuPE%2FYXF5IR1HBz6NH5J7pzVBCXEnnkXU2GYdfJQx5W42jArW8Pjx1xw%3D%3D&trade_no=2017091321001004840200497374&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303224711505287367&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for AopClient::generateSign(), called in D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php on line 160 and defined D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 63 行.
+NOTIC: [8] Undefined variable: params D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 64 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, null given D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 76 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 137 行.
+
+[ 2017-09-13T15:43:30+08:00 ] 127.0.0.1 /mall.php/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`topCategoryId`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:43:33+08:00 ] 127.0.0.1 /mall.php/home/Goods/goodsView?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE ( goodsId=14 )  [ RunTime:0.0010s ]
+SQL: SELECT attrValue1 as attrValue FROM `hwh_goods_store` WHERE ( goodsId=14 ) GROUP BY attrValue1  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`attrname` FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=7 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=6 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: 颜色 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: 尺码 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:43:35+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-13T15:43:37+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '纯棉' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:43:38+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0090s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '纯棉' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:43:39+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0090s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '纯棉' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:43:40+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0090s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:43:40+08:00 ] 127.0.0.1 /mall.php/home/order/confirmOrderNow?goodsId=14&price=77.00&goodsNum=1&attr1=%E7%BE%8A%E6%AF%9B&attr2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`price`,`img` FROM `hwh_goods` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_ship_address` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_user_ship_address` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:43:41+08:00 ] 127.0.0.1 /mall.php/home/order/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:43:42+08:00 ] 127.0.0.1 /mall.php/home/order/confirmordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`shipAdressId`,`createDate`) VALUES ('1','H17091303434211505288622','77','77','1','2017-09-13 15:43:42') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 197 行.
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0080s ]
+SQL: INSERT INTO `hwh_order_item` (`orderId`,`goodsId`,`price`,`goodsNum`,`amount`,`attrValue1`,`attrValue2`,`createDate`) VALUES ('34','14','77','1','77','羊毛',NULL,'2017-09-13 15:43:42') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `goodsId`='14',`price`='77',`attrValue1`='羊毛',`attrValue2`=NULL,`createDate`='2017-09-13 15:43:42',`stock`='69' WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:43:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:43:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:43:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:43:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:43:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-13T15:43:54+08:00 ] 127.0.0.1 /mall.php/home/usercenter/deleteorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_order` WHERE `userId` = 1 AND `id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `hwh_order` WHERE `userId` = 1 AND `id` = 33 [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:43:54+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:43:54+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-13T15:43:58+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('34') AND o.userId = '1'  [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:44:43+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('34') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:45:22+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A44%3A48&sign=gsgj3sBTfHkTQIosPfHoYtb%2BRc3frVy2kqEo%2FF64QrjIGeyqzLptT5KPlPw5e0CVpb71ZPbhcDja%2BgWvI6VzyXhUMTZeHBLcRDlBYJ%2BhZ4zByXCAyN8WRZqISO7rxPztJJUMD9jNomisGJRVIIQa36kOwkQFk41nrbD44Vd9Bc6yiVrPUJBOQeQ091G0jHiSMguiulEtnHO%2FUIo4CkZUx0queGfVA03gWn%2FrWZxUHCpaoLBCpNBaZN2zsRkFdNBjD9yzyXDThd1ik0lcHCmoPDi%2BUU3obFmUHCR88msgyAlUJIuE4lZlKaCIP17EqIg467LWXRqw22ZATdDymSqIgA%3D%3D&trade_no=2017091321001004840200497512&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303434211505288622&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:47:44+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A44%3A48&sign=gsgj3sBTfHkTQIosPfHoYtb%2BRc3frVy2kqEo%2FF64QrjIGeyqzLptT5KPlPw5e0CVpb71ZPbhcDja%2BgWvI6VzyXhUMTZeHBLcRDlBYJ%2BhZ4zByXCAyN8WRZqISO7rxPztJJUMD9jNomisGJRVIIQa36kOwkQFk41nrbD44Vd9Bc6yiVrPUJBOQeQ091G0jHiSMguiulEtnHO%2FUIo4CkZUx0queGfVA03gWn%2FrWZxUHCpaoLBCpNBaZN2zsRkFdNBjD9yzyXDThd1ik0lcHCmoPDi%2BUU3obFmUHCR88msgyAlUJIuE4lZlKaCIP17EqIg467LWXRqw22ZATdDymSqIgA%3D%3D&trade_no=2017091321001004840200497512&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303434211505288622&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for AopClient::generateSign(), called in D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php on line 163 and defined D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 63 行.
+NOTIC: [8] Undefined variable: params D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 64 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, null given D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 76 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 137 行.
+
+[ 2017-09-13T15:47:55+08:00 ] 127.0.0.1 /mall.php/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`topCategoryId`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:47:57+08:00 ] 127.0.0.1 /mall.php/home/Goods/goodsView?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE ( goodsId=14 )  [ RunTime:0.0010s ]
+SQL: SELECT attrValue1 as attrValue FROM `hwh_goods_store` WHERE ( goodsId=14 ) GROUP BY attrValue1  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`attrname` FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=7 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=6 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: 颜色 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: 尺码 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:47:59+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:47:59+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:47:59+08:00 ] 127.0.0.1 /mall.php/home/order/confirmOrderNow?goodsId=14&price=77.00&goodsNum=1&attr1=%E7%BE%8A%E6%AF%9B&attr2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`price`,`img` FROM `hwh_goods` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_ship_address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user_ship_address` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:47:59+08:00 ] 127.0.0.1 /mall.php/home/order/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:47:59+08:00 ] 127.0.0.1 /mall.php/home/order/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:48:01+08:00 ] 127.0.0.1 /mall.php/home/order/confirmordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0090s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`shipAdressId`,`createDate`) VALUES ('1','H17091303480111505288881','77','77','1','2017-09-13 15:48:01') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 197 行.
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0090s ]
+SQL: INSERT INTO `hwh_order_item` (`orderId`,`goodsId`,`price`,`goodsNum`,`amount`,`attrValue1`,`attrValue2`,`createDate`) VALUES ('35','14','77','1','77','羊毛',NULL,'2017-09-13 15:48:01') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0090s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_goods_store` SET `goodsId`='14',`price`='77',`attrValue1`='羊毛',`attrValue2`=NULL,`createDate`='2017-09-13 15:48:01',`stock`='68' WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' [ RunTime:0.0010s ]
+
+[ 2017-09-13T15:48:07+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:48:07+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:48:07+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-13T15:48:07+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:48:07+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-13T15:48:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/deleteorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_order` WHERE `userId` = 1 AND `id` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `hwh_order` WHERE `userId` = 1 AND `id` = 34 [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:48:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-13T15:48:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-13T15:48:16+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0150s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('35') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:48:59+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for AopClient::generateSign(), called in D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php on line 163 and defined D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 63 行.
+NOTIC: [8] Undefined variable: params D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 64 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, null given D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 76 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 137 行.
+
+[ 2017-09-13T15:52:25+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for AopClient::generateSign(), called in D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php on line 163 and defined D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 63 行.
+NOTIC: [8] Undefined variable: params D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 64 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, null given D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 76 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 137 行.
+
+[ 2017-09-13T16:00:09+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:00:28+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T16:17:25+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:17:27+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:17:39+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+ERR: Call to a member function verifyReturn() on null
+
+[ 2017-09-13T16:18:00+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:18:31+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:18:34+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:19:03+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:19:41+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:20:49+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:21:46+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:21:54+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:23:10+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:23:41+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: alipay_config D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 11 行.
+
+[ 2017-09-13T16:24:45+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:24:53+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:25:06+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:29:02+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:29:04+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:29:40+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:29:43+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:30:14+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:30:14+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:30:14+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:30:14+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:37:54+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:46:32+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:47:18+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 137 行.
+
+[ 2017-09-13T16:47:21+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 137 行.
+
+[ 2017-09-13T16:48:02+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:48:45+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:49:32+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 137 行.
+
+[ 2017-09-13T16:50:12+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:51:02+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:51:22+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 135 行.
+
+[ 2017-09-13T16:52:05+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:53:25+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:53:39+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_sign(): supplied key param cannot be coerced into a private key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 135 行.
+
+[ 2017-09-13T16:54:25+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:55:23+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:56:07+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T16:56:53+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 133 行.
+
+[ 2017-09-13T17:02:14+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:02:16+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:02:43+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:03:21+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:03:34+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:04:03+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] file_get_contents(haozi.com.cn/Shopping/Public/alipay/rsaPrivateKey.txt): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 133 行.
+
+[ 2017-09-13T17:05:05+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] file_get_contents(haozi.com.cn/Shopping/Public/alipay/rsaPrivateKey.txt): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 134 行.
+
+[ 2017-09-13T17:06:00+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] file_get_contents(haozi.com.cn/Shopping/Public/alipay/rsaPrivateKey.txt): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 134 行.
+
+[ 2017-09-13T17:06:02+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] file_get_contents(haozi.com.cn/Shopping/Public/alipay/rsaPrivateKey.txt): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 134 行.
+
+[ 2017-09-13T17:08:15+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] file_get_contents(haozi.com.cn/Shopping/Public/alipay/rsaPrivateKey.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 134 行.
+
+[ 2017-09-13T17:08:36+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:11:13+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] file_get_contents(haozi.com.cn/Shopping/Public/alipay/rsaPrivateKey.txt): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 128 行.
+
+[ 2017-09-13T17:12:24+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:12:43+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:13:22+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:16:08+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:16:28+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:18:57+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:20:20+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:24:54+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:25:02+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:35:40+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:36:29+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:36:33+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:43:03+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:44:37+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:45:12+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:45:35+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:48:52+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:49:01+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:49:01+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:50:40+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:57:51+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 683 行.
+
+[ 2017-09-13T17:58:30+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 683 行.
+
+[ 2017-09-13T17:58:32+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 683 行.
+
+[ 2017-09-13T17:59:06+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T17:59:37+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T18:01:02+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+NOTIC: [2] openssl_verify(): supplied key param cannot be coerced into a public key D:\phpStudy\WWW\haozi\Shopping\Public\alipay\aop\AopClient.php 第 682 行.
+
+[ 2017-09-13T18:01:15+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T18:02:42+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T18:02:55+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+
+[ 2017-09-13T18:04:02+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=77.00&timestamp=2017-09-13+15%3A48%3A25&sign=IJZEPbobjB8jFlEWsjyUt7P3criyK0QpZQn0H60KPgB0%2FedkFhZ6%2FKwS3MM5PqwNn75VP9B5M2XTOZmCM5IpZfy9KtvhTzmMaVQw095viiOmTFoGvpaICSP65kIOEId63FzU%2Fw%2BSWx2dEWpm9E94ibyVj2liyznjM%2BdOANtki1RNEPUgQDR9xpq7FWu2BimUQb%2FUxJQLiZDkAz82AyCHZTAFotF%2BIl51OdVK8jZw0MsWrKhXbZl0e6UanPxzcTTSCltiIWtbrkaoPW97otpTfM0dkzfDXhFIhjKECVk%2FdvtXyIOs1nQn%2FGDaidHv%2FRN5isJcIW69zTH4canhkPndvg%3D%3D&trade_no=2017091321001004840200497376&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H17091303480111505288881&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 7 行.
+

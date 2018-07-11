@@ -1,0 +1,171 @@
+<include file="Usersj/header"/>
+
+<!--aside nav-->
+<aside class="lt_aside_nav content mCustomScrollbar" id="boxboxbox">
+ <h2><a href="index.html">起始页</a></h2>
+ <ul>
+  <li>
+   <dl>
+    <dt>个人设置</dt>
+    <!--当前链接则添加class:active-->
+    <dd><a href="<?php echo U('Home/Usersj/userInfo');?>">个人资料</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/changePassWord');?>">密码修改</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/safeLog');?>">安全日志</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>列表信息</dt>
+    <dd><a href="<?php echo U('Home/Usersj/yuluList')?>">经典语录列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/jokeList')?>">幽默笑话列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/articleList');?>">优美文章列表</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>相册管理</dt>
+    <dd><a href="<?php echo U('Home/Usersj/photo');?>">相册列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoAdd');?>">增加相册</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoCoverAdd')?>" class="active">封面图像修改</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>账号绑定</dt>
+    <dd><a href="<?php echo U('Home/Usersj/bindList')?>">账号绑定信息</a></dd>
+   </dl>
+  </li>
+ </ul>
+</aside>
+<!-- end aside nav -->
+
+<style>
+.box{
+	width:90%;
+}
+.box-left{
+	width:30%;
+	padding-left:5%;
+	padding-top:5%;
+	float:left;
+}
+.box-right{
+	width:40%;
+	padding-left:5%;
+	padding-top:5%;
+	float:left;
+}
+
+#user-img{
+	width:100%;
+}
+
+#img-success{
+	color:red;
+	padding-top:20px;
+	font-size:20px;
+	text-align:center;
+}
+</style>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+    <div class="page_title">
+     <h2 class="fl">封面图像</h2>
+    </div>
+    <div class="box">
+       <div class="box-left">
+       	<img class="am-img-thumbnail am-img-bdrs" id="user-img" src="<?php echo $info['img'];?>" alt=""/>
+       	<span id="error_img" style="font-size:20px;color:red;text-align:center;"></span>
+       </div>
+       <div class="box-right">
+         <p style="color:#333;"><span style="color:#F37B1D;font-size:30px;">封面图上传</span></p>
+	     <form class="am-form" method="post" enctype="multipart/form-data" >
+	       <div class="am-form-group">
+	         <input type="file" name="fileImg" id="user-pic" onchange="uploadChangeImg('user-img','user-pic')" accept="image/jpeg,image/jpg,image/png,image/gif">
+	         <p class="am-form-help" style="padding:5% 0;">请选择要上传的文件...</p>
+	         <button type="button" onclick="location.replace(location.href)" class="am-btn am-btn-primary am-btn-xs unboxbutton" style="width:30%;">取消</button>
+	         <button type="button" onclick="abc('user-img','user-pic')" class="am-btn am-btn-primary am-btn-xs boxbutton" style="width:30%;">保存</button>
+	       </div>
+	       <div id="img-success"></div>
+	     </form>       
+       </div>
+    </div>
+    
+    <input type="hidden" id="imgsrc" />
+    
+ </div>
+ 
+  <include file="Usersj/footer"/>
+ 
+</section>
+
+</body>
+</html>
+
+<script>
+//选择图片时，图片位置的图片改变，  但不保存到数据库
+function uploadChangeImg(imgid,fileid){
+//imgid指<img />标签id,fileid表示<input type='file' />文件上传标签的id,hiddenid指隐藏域标签id
+   $("#"+imgid).attr("src","");//加载loading图片
+   $.ajaxFileUpload({            
+       url: '<?php echo U("Home/Photo/uploadUserPhotoIndex");?>',
+       secureuri: false,
+       fileElementId: fileid,  
+       dataType: 'json',              
+       success: function (data, status){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+           if(typeof (data.error) != 'undefined'){
+           	var error_msg = "";
+           	switch(data.error){
+            	case "101": error_msg="文件类型错误";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "102": error_msg="文件过大";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "400": error_msg="非法上传";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "404": error_msg="文件为空";
+            		$('#error_img').html(error_msg);
+                	break;
+            	default :error_msg="服务器不稳定";
+            		$('#error_img').html(error_msg);
+           	}
+           	//alert(error_msg);
+           }else{
+        	$('#error_img').empty();
+        	$('#imgsrc').val(data.path);
+           	$("#"+imgid).attr("src",data.path).addClass("load1");//加载返回的图片路径并附加上样式
+               //$("#"+hiddenid).val(data.path);//给对应的隐藏域赋值，以便提交时给后台
+           }              
+       }
+   });	
+}
+
+//手机端不知道是什么原因，点击保存的时候如果是onclick时，显示的是非法上传，所以现在的处理方法是
+//选择图片时(onchange时)，保存图片的url到imgsrc标签里，然后现在点击保存时，获取这个imgsrc标签里的值，既拿到图片url
+//现在觉得这种方法其实更好用一点，比onclick时代码简洁很多，而且不用再上传一次图片到服务器。
+//其他地方保存时都是用的onclick（再上传一次图片到服务器，只是这次保存到数据库）的处理方法，这种方法没有现在的这种好，但还是不改了，免得出错，也麻烦。。。
+function abc(imgid){
+	var img = $('#imgsrc').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/Photo/addUserPhotoIndex");?>',
+		data:{'img':img},
+		success:function(respon){
+			if(respon.errno == 10001){
+				$('#error_img').html(respon.errmsg);
+			}else{
+				$("#"+imgid).attr("src",img);
+				$('#img-success').html('保存成功！');
+				//setTimeout( "close()",3000);	//停留三秒，执行close()函数
+			}
+		}
+	});
+}
+
+function close(){
+	window.location.href="<?php echo U('Home/Usersj/photo');?>";
+}
+</script>

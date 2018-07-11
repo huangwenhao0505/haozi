@@ -1,0 +1,74 @@
+[ 2018-07-05T16:32:27+08:00 ] 127.0.0.1 /index.php/home/sms/sendCode?mobilephone=13417499061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+NOTIC: [2] require_once(lib/Ucpaas.class.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Application\Home\Controller\SmsController.class.php 第 6 行.
+
+[ 2018-07-05T16:33:16+08:00 ] 127.0.0.1 /index.php/home/sms/sendCode?mobilephone=13417499061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] require_once(Ucpaas.class.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Application\Home\Controller\SmsController.class.php 第 6 行.
+
+[ 2018-07-05T16:33:24+08:00 ] 127.0.0.1 /index.php/home/sms/sendCode?mobilephone=13417499061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0070s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('7412','2018-Jul-05 16:33:24','13417499061') [ RunTime:0.0010s ]
+ERR: Class 'Ucpaas' not found
+
+[ 2018-07-05T16:35:15+08:00 ] 127.0.0.1 /index.php/home/sms/sendCode?mobilephone=13417499061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include_once(/Model/UrlUtilModel.class.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Application\Home\Controller\SmsController.class.php 第 18 行.
+NOTIC: [2] include_once(): Failed opening '/Model/UrlUtilModel.class.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\WWW\haozi\Application\Home\Controller\SmsController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('3371','2018-Jul-05 16:35:15','13417499061') [ RunTime:0.0000s ]
+ERR: Class 'Ucpaas' not found
+
+[ 2018-07-05T16:36:53+08:00 ] 127.0.0.1 /index.php/home/sms/sendCode?mobilephone=13417499061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0140s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('1871','2018-Jul-05 16:36:53','13417499061') [ RunTime:0.0010s ]
+ERR: Class 'Ucpaas' not found
+
+[ 2018-07-05T16:36:55+08:00 ] 127.0.0.1 /index.php/home/sms/sendCode?mobilephone=13417499061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('1674','2018-Jul-05 16:36:55','13417499061') [ RunTime:0.0010s ]
+ERR: Class 'Ucpaas' not found
+
+[ 2018-07-05T16:38:27+08:00 ] 127.0.0.1 /index.php/home/sms/sendCode?mobilephone=13417499061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('4552','2018-Jul-05 16:38:27','13417499061') [ RunTime:0.0000s ]
+

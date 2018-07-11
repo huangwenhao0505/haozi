@@ -1,0 +1,116 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Admin/Index/index');?>">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">试题管理</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="#" method="post">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">作者:</th>
+                            <td><input class="common-text" placeholder="作者" name="author" value="" id="author" type="text"></td>
+                            <th width="70">关键字:</th>
+                            <td><input class="common-text" placeholder="关键字" name="keywords" value="" id="keywords" type="text"></td>
+                            <th width="'300">
+	                           	<td>
+		                           	<select name="uid_type" id="uid_type">
+						              <option value="">作者类别</option>
+						              <option value="1">后台管理员</option>
+						              <option value="2">前台用户</option>
+						            </select>
+					            </td>
+                           	</th>
+                            <td>
+                            <input class="btn btn-primary btn2" name="sub" id="sub_but" value="查询" type="button">
+                            <input type="hidden" id="curr_page" value="1"/>
+							<input type="hidden" id="total_page" value="1"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                    	所属试卷：<span style="color:red;font-size:18px"><?php echo $examInfo['papername'];?></span>
+                        <a href="<?php echo U('Admin/Exam/createExam');?>"><i class="icon-font"></i>新增试题</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <!-- <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a> -->
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" id="result-tab" width="100%">
+                    	<thead>
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" id="allChoose" name="" type="checkbox"></th>
+                            <th>ID</th>
+                            <th>试题名称</th>
+                            <th>试题类型</th>
+                            <th>A选项</th>
+                            <th>B选项</th>
+                            <th>C选项</th>
+                            <th>D选项</th>
+                            <th>正确选项</th>
+                            <th>创建时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        	<?php foreach($list as $k => $v){?>
+                        		<tr>
+	                        		<td></td>
+	                        		<td><?php echo $v['id'];?></td>
+	                        		<td><?php echo $v['title'];?></td>
+	                        		<td><?php echo $v['type'];?></td>
+	                        		<td><?php echo $v['optiona'];?></td>
+	                        		<td><?php echo $v['optionb'];?></td>
+	                        		<td><?php echo $v['optionc'];?></td>
+	                        		<td><?php echo $v['optiond'];?></td>
+	                        		<td><?php echo $v['rightoption'];?></td>
+	                        		<td><?php echo $v['createdate'];?></td>
+	                        		<td>
+	                        		<input type="button" onclick='delQuestion(<?php echo $v["id"]?>)' value="删除试题"/>
+	                        		</td>
+                        		</tr>
+                        	<?php } ?>
+                        </tbody>
+                        <tfoot>
+                        </tfoot>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+
+</body>
+</html>
+
+<script>
+function delQuestion(id){
+	$.ajax({
+		type:'get',
+		url:'<?php echo U("Admin/exam/delQuestion");?>',
+		data:{'id':id},
+		success:function(respon){
+			if(respon.errno == 10001)
+			{
+				alert(respon.errmsg);
+			}
+			else
+			{
+				location.replace(location.href);
+			}
+		}
+	});
+}
+
+
+</script>

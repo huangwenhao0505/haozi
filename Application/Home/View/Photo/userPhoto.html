@@ -1,0 +1,186 @@
+<include file="Public/header2"/>
+
+<link href="/third-party/photo2/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="/third-party/photo2/css/sim-prev-anim.css" rel="stylesheet" type="text/css" />
+            
+                    <!-- navbar -->
+                    <nav class="navbar tm-main-nav">
+
+                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                            &#9776;
+                        </button>
+                        
+                        <div class="collapse navbar-toggleable-sm" id="tmNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item active">
+                                    <a href="<?php echo U('Home/Index/index');?>" class="nav-link">首页</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Yulu/yuluList');?>" class="nav-link">精典语录</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a href="<?php echo U('Home/Joke/listJoke');?>" class="nav-link">幽默笑话</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Article/listArti');?>" class="nav-link">优美文章</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Photo/index');?>" class="nav-link">相册列表</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo U('Home/Fun/index');?>" class="nav-link">文件列表</a>
+                                </li>
+                            </ul>                        
+                        </div>
+                        
+                    </nav>  
+
+                </div>                                  
+            </div>            
+        </div>
+
+
+<div class="albums">
+
+	<div class="albums-inner">
+		<!-- 
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-1">
+				<img src="/third-party/photo2/images/studio_0001.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0002.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0003.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0004.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0005.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0006.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0001.jpg" class="all studio"/>
+			</div>
+			<div class="albums-tab-text">.sim-anim-1 <span>(7 pictures)</span></div>
+		</div>
+		 -->
+	
+		<!-- 
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-2">
+				<img src="/third-party/photo2/images/studio_0001.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0002.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0003.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0004.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0010.jpg" class="all studio"/>
+			</div>
+			<div class="albums-tab-text">.sim-anim-2 <span>(5 pictures)</span></div>
+		</div>
+		 -->
+	
+		<!-- 
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-7">
+				<img src="/third-party/photo2/images/studio_0001.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0002.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0003.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0004.jpg" class="all studio"/>
+			</div>
+			<div class="albums-tab-text">.sim-anim-7 <span>(4 pictures)</span></div>
+		</div>
+		 -->
+		 
+		 <div class="albums-tab">
+			<div class="albums-tab-text"></div>
+		</div>
+		
+		<div class="albums-tab">
+			<div class="albums-tab-text"></div>
+		</div>
+		
+		<div class="albums-tab">
+			<div class="albums-tab-text"></div>
+		</div>
+	 
+	 	<!-- 
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-3">
+				<img src="/third-party/photo2/images/studio_0001.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0002.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0003.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0004.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0005.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0006.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0007.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0008.jpg" class="all studio"/>
+				<img src="/third-party/photo2/images/studio_0011.jpg" class="all studio"/>
+			</div>
+			<div class="albums-tab-text">.sim-anim-3 <span>(9 pictures)</span></div>
+		</div>
+		 -->
+		 
+		 <div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-6">
+				<?php foreach($userPhoto9 as $k => $v){ ?>
+					<img src="<?php echo $v['img'];?>" class="all studio"/>
+				<?php } ?>
+			</div>
+			<div class="albums-tab-text">.sim-anim-9 <span>(9 pictures)</span></div>
+		</div>
+	
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-5">
+				<?php foreach($userPhoto5 as $k => $v){ ?>
+					<img src="<?php echo $v['img'];?>" class="all studio"/>
+				<?php } ?>
+			</div>
+			<div class="albums-tab-text">.sim-anim-5 <span>(5 pictures)</span></div>
+		</div>
+	
+	
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-9">
+				<?php foreach($userPhoto18 as $k => $v){ ?>
+					<img src="<?php echo $v['img'];?>" class="all studio"/>
+				<?php } ?>
+			</div>
+			<div class="albums-tab-text">.sim-anim-6 <span>(9 pictures)</span></div>
+		</div>
+	
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-5">
+				<?php foreach($userPhoto23 as $k => $v){ ?>
+					<img src="<?php echo $v['img'];?>" class="all studio"/>
+				<?php } ?>
+			</div>
+			<div class="albums-tab-text">.sim-anim-4 <span>(5 pictures)</span></div>
+		</div>
+	
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-9">
+				<?php foreach($userPhoto32 as $k => $v){ ?>
+					<img src="<?php echo $v['img'];?>" class="all studio"/>
+				<?php } ?>
+			</div>
+			<div class="albums-tab-text">.sim-anim-8 <span>(9 pictures)</span></div>
+		</div>
+	
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-6">
+				<?php foreach($userPhoto32 as $k => $v){ ?>
+					<img src="<?php echo $v['img'];?>" class="all studio"/>
+				<?php } ?>
+			</div>
+			<div class="albums-tab-text">.sim-anim-9 <span>(9 pictures)</span></div>
+		</div>
+		
+		<div class="albums-tab">
+			<div class="albums-tab-thumb sim-anim-9">
+				<?php foreach($userPhotoList as $k => $v){ ?>
+				<img src="<?php echo $v['img'];?>" class="all studio"/>
+				<?php } ?>
+			</div>
+			<div class="albums-tab-text">.sim-anim-9 <span>(9 pictures)</span></div>
+		</div>
+	
+	</div>
+
+</div>
+
+
+</body>
+</html>
+

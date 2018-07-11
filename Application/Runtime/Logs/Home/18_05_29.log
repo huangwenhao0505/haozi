@@ -1,0 +1,10 @@
+[ 2018-05-29T10:24:07+08:00 ] 127.0.0.1 /index.php/home/abc/get_order_sn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: arr D:\phpStudy\WWW\haozi\Application\Home\Controller\AbcController.class.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\WWW\haozi\Application\Home\Controller\AbcController.class.php 第 50 行.
+

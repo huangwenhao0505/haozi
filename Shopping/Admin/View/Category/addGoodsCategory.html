@@ -1,0 +1,77 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">添加商品分类</h2>
+       <a href="<?php echo U('Category/getGoodsCategoryList');?>" class="fr top_rt_btn">返回分类列表</a>
+      </div>
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">分类名称：</span>
+        <input type="text" name="goodsCategoryName" id="goodsCatName" class="textbox textbox_295" placeholder="分类名称"/>
+        <span id="errorCatName"></span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">分类：</span>
+        <select class="select" name="goodsCategoryId" id="goodsCatId">
+         <option value="0">选择商品分类(不选为顶级)</option>
+         <?php foreach($goodsCatList as $k => $v){ ?>
+         	<option value="<?php echo $v['id'];?>"><?php echo $v['name'];?></option>
+         <?php } ?>
+        </select>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">排序：</span>
+        <input type="text" name="orderNum" id="orderNum" class="textbox" value="99" placeholder="排序..."/>
+       </li>
+	   <li>
+        <span class="item_name" style="width:120px;">是否显示：</span>
+        <input type="radio" name="isShow" value="1" checked="checked"/>是
+        <input type="radio" name="isShow" value="0"/>否
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">上传图片：</span>
+        <label class="uploadImg">
+         <input type="file"/>
+         <span>上传图片</span>
+        </label>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" class="link_btn"/>
+        <span id="errorSubmit"></span>
+       </li>
+      </ul>
+     </section>
+ </div>
+</section>
+
+<script>
+$('.link_btn').bind('click').click(function(){
+	var goodsCatName = $('#goodsCatName').val();
+	var goodsCatId = $('#goodsCatId').val();
+	var orderNum = $('#orderNum').val();
+	var isShow = $("input[type='radio']:checked").val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Category/addGoodsCategory")?>',
+		data:{'goodsCategoryName':goodsCatName,'goodsCategoryId':goodsCatId,'orderNum':orderNum,'isShow':isShow},
+		dataType: 'json',
+		success:function(respon){
+			if(respon.errno == 10001){
+				$("#errorCatName span").addClass('errorTips');
+				$('#errorCatName').html(respon.errmsg);
+			}else if(respon.errno == 10002){
+				$('#errorSubmit').html(respon.errmsg);
+			}else{
+				$('#errorCatName').empty();
+				$('#errorSubmit').html(respon.errmsg);
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>

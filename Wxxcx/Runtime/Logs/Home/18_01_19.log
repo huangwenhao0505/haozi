@@ -1,0 +1,124 @@
+[ 2018-01-19T16:24:03+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] fopen(./Public/pachong/url.txt): failed to open stream: No error D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\PachongController.class.php 第 10 行.
+ERR: Class 'Crawler' not found
+
+[ 2018-01-19T16:25:42+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(./Public/pachong/url.txt): failed to open stream: No error D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\PachongController.class.php 第 10 行.
+ERR: Class 'Crawler' not found
+
+[ 2018-01-19T16:28:32+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] fopen(./Public/pachong/url.txt): failed to open stream: No error D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\PachongController.class.php 第 10 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\CrawlerController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 703 and defined D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 12 行.
+NOTIC: [2] fopen(http://): failed to open stream: operation failed D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033001s ]
+
+[ 2018-01-19T16:30:23+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-19T16:30:43+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-19T16:31:22+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-19T16:32:19+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(./Public/pachong/url.txt): failed to open stream: No error D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\PachongController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\CrawlerController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 703 and defined D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 12 行.
+NOTIC: [2] fopen(http://): failed to open stream: operation failed D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-19T16:32:21+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(./Public/pachong/url.txt): failed to open stream: No error D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\PachongController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\CrawlerController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 703 and defined D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 12 行.
+NOTIC: [2] fopen(http://): failed to open stream: operation failed D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-19T16:33:57+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] fopen(./Public/pachong/url.txt): failed to open stream: No error D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\PachongController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\CrawlerController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 703 and defined D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 12 行.
+NOTIC: [2] fopen(http://): failed to open stream: operation failed D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-19T16:34:00+08:00 ] 127.0.0.1 /wxxcx.php/home/pachong/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(./Public/pachong/url.txt): failed to open stream: No error D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\PachongController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\CrawlerController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 703 and defined D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: url D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 12 行.
+NOTIC: [2] fopen(http://): failed to open stream: operation failed D:\phpStudy\WWW\haozi\Wxxcx\Home\Controller\CrawlerController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

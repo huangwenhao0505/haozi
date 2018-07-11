@@ -1,0 +1,70 @@
+<include file="Usercenter/header"/>
+
+ <!--右侧样式属性-->
+ <div class="right_style">
+ <!--消费记录样式-->
+  <div class="user_address_style">
+    <div class="title_style"><em></em>消费记录</div> 
+    <div class="Exp_record_style">
+    <!-- 
+    <div class="record_filter">
+     <a href="#">购买消费记录</a>
+     <a href="#">充值记录</a>     
+    </div>
+     -->
+   <!--  <div class="prompt_xinxi">暂无任何消费记录</div>-->
+      <table cellpadding="0"  cellspacing="0"  width="100%" class="record_list">
+       <thead><tr class="label_name"><td width="20%">创建时间</td><td width="20%">交易号</td><td width="20%">名称</td><td width="10%">金额</td><td width="10%">状态</td><td width="20%">操作</td></tr></thead>
+       <tbody>
+
+       </tbody>
+      </table>
+    <div class="Pagination_tow">
+      <div class="right">
+      跳转到<select name="" size="1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select><input type="submit" value="GO" class="btn_go"> 共：345条</div>
+      <div class="right">
+      <a href="#">首页</a><a href="#">上一页</a><a href="#" class="digital">1</a><a href="#" class="digital">2</a><a href="#" class="digital">3</a><a href="#">下一页</a><a href="#">尾页</a>
+     
+      </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ </div>
+ </div>
+ 
+ <include file="Public/footer"/>
+ 
+<script>
+$(function(){
+	do_sub();
+});
+
+function do_sub(){
+	$.post('<?php echo U("Usercenter/myPayLogList");?>',function(data){
+		var d = eval("("+data+")");
+		var html = '';
+		if(d.list != false && d.list != null){
+			for(var i in d.list){
+				html += '<tr class="content">';
+				html += '<td>'+d.list[i].paytimes+'</td>';
+				html += '<td>'+d.list[i].orderno+'</td>';
+				html += '<td>消费</td>';
+				html += '<td><b class="xf">-'+d.list[i].payamount+'</b></td>';
+				html += '<td>完成</td>';
+				html += '<td><a href="__URL__/payLogDetail?id='+d.list[i].id+'">详细</a></td>';
+				html += '</tr>';
+			}
+			
+		}else{
+			html += '<div class="prompt_xinxi">暂无任何消费记录</div>';
+		}
+		
+		$('.record_list > tbody').html(html);
+	});
+};
+</script>

@@ -1,0 +1,200 @@
+<include file="User/header"/>
+<script src="/Public/Home/js/jquery.min.1.8.2.js"></script>
+
+<style>
+.bind{
+	 font-size:16px;
+	 color:red;
+}
+
+.box_but{
+	border:1px solid #48DGCG ; 
+	background-color:#48D1CC; 
+	text-align:center;
+	font-size:16;
+	height:32px;
+	ling-height:32px;
+}
+
+.box_un_but{
+	border:1px solid #CGCGCG ; 
+	background-color:#7EC0EE; 
+	text-align:center;
+	font-size:16px;
+	height:32px;
+	ling-height:32px;
+}
+</style>
+
+<!-- content start -->
+<div class="admin-content">
+  <div class="admin-content-body">
+    <div class="am-cf am-padding am-padding-bottom-0">
+      <div class="am-fl am-cf">
+        <strong class="am-text-primary am-text-lg">账号绑定信息</strong> /
+        <small>Bind on Account</small>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="am-tabs am-margin">
+      <ul class="am-tabs-nav am-nav am-nav-tabs">
+        <li class="am-active"><a href="#tab1">账号绑定信息</a></li>
+      </ul>
+
+      <div class="am-tabs-bd">
+        <div class="am-tab-panel am-fade am-in am-active">
+
+          <div class="am-g am-margin-top">
+            <div class="am-u-sm-4 am-u-md-4 am-text-right">
+              	<?php if($res == 1){ ?>
+              		<span class="bind">注册了本网站账号，同时也进行了QQ号绑定哟！</span>
+              	<?php }else if($res == 2){ ?>
+              		<span class="bind">注册了本网站账号，但未进行QQ号绑定</span>
+              		<input type="button" class="box_un_but" onclick="bindQQ()" value="现在进行QQ号绑定"/>
+              	<?php }else if($res == 3){ ?>
+              		<span class="bind">你使用QQ登录的网站，但未绑定本网站账号</span>
+              		<input type="button" class="box_but" onclick="bindAccount()" value="现在去绑定本网站账号"/>
+              	<?php } ?>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+<include file="User/footer"/>
+
+<script>
+$('#sub_but').unbind('click').click(function(){
+	var oldPwd = $('#oldPwd').val();
+	var newPwd = $('#newPwd').val();
+	var newPwd2 = $('#newPwd2').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/User/changePassWord");?>',
+		data:{'oldPwd':oldPwd,'newPwd':newPwd,'newPwd2':newPwd2},
+		success:function(respon){
+			if(respon.errno == 30001){
+				$('#error_button').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>'+respon.errmsg+'</font>');
+			}if(respon.errno == 10001){
+				$('#error_oldPwd').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>'+respon.errmsg+'</font>');
+			}else if(respon.errno == 10002){
+				$('#error_newPwd').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>'+respon.errmsg+'</font>');
+			}else if(respon.errno == 10003){
+				$('#error_newPwd2').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>'+respon.errmsg+'</font>');
+			}else if(respon.errno == 10004){
+				$('#error_button').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>'+respon.errmsg+'</font>');
+			}else if(respon.errno == 10000){
+				$('#error_button').html('<img src="/Public/Home/regist/images/success.png"><font color=red>修改成功[1秒后请重新登录]</font>');
+				$('#error_oldPwd').empty();
+				$('#error_newPwd').empty();
+				$('#error_newPwd2').empty();
+				//setTimeout( "close()",1000);	//停留1秒，执行close()函数    已在后台做了处理，更安全
+				close();
+			}
+		}
+	});
+});
+
+function close(){
+	window.location.href="<?php echo U('Home/User/logOutUserPass');?>";
+}
+
+function is_oldPwd(){
+	var oldPwd = $('#oldPwd').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/User/oldPwdAjax");?>',
+		data:{'oldPwd':oldPwd},
+		success:function(respon){
+			if(respon.errno == 10001){
+				$('#error_oldPwd').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>'+respon.errmsg+'</font>');
+				return false;
+			}else{
+				$('#error_oldPwd').empty();
+				return true;
+			}
+		}
+	});
+}
+
+function is_newPwd(){
+	var newPwd= $("#newPwd").val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/User/pwdsAjax");?>',
+		data:{'newPwd':newPwd},
+		success:function(respon){
+			if(respon.errno == 10002){
+				$('#error_newPwd').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>'+respon.errmsg+'</font>');
+				return false;
+			}else{
+				$('#error_newPwd').empty();
+				//密码强弱提示
+				if(newPwd.length >= 6 && newPwd.length <= 8){
+					$("#strength_L").css({background: "#FF0000"});
+					$("#strength_M").css({background: "#eeeeee"});
+					$("#strength_H").css({background: "#eeeeee"});
+				}else if(newPwd.length > 8 && newPwd.length <= 12){
+					$("#strength_L").css({background: "#FF0000"});
+					$("#strength_M").css({background: "#FF9900"});
+					$("#strength_H").css({background: "#eeeeee"});
+				}else if(newPwd.length > 12 && newPwd.length <= 16){
+					$("#strength_L").css({background: "#FF0000"});
+					$("#strength_M").css({background: "#FF9900"});
+					$("#strength_H").css({background: "#33CC00"});
+				}
+				return true;
+			}
+		}
+	});
+	if(newPwd.length < 6 || newPwd.length > 16 || newPwd.length == ''){
+		$("#error_newPwd").html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>新密码请设置在6-16位字符之间!</font>');
+		return false;
+	}else{
+		$("#error_newPwd").empty();
+		//密码强弱提示
+		if(newPwd.length >= 6 && newPwd.length <= 8){
+			$("#strength_L").css({background: "#FF0000"});
+			$("#strength_M").css({background: "#eeeeee"});
+			$("#strength_H").css({background: "#eeeeee"});
+		}else if(newPwd.length > 8 && newPwd.length <= 12){
+			$("#strength_L").css({background: "#FF0000"});
+			$("#strength_M").css({background: "#FF9900"});
+			$("#strength_H").css({background: "#eeeeee"});
+		}else if(newPwd.length > 12 && newPwd.length <= 16){
+			$("#strength_L").css({background: "#FF0000"});
+			$("#strength_M").css({background: "#FF9900"});
+			$("#strength_H").css({background: "#33CC00"});
+		}
+		return true;
+	}
+
+}
+
+function is_newPwd2(){
+	var newPwd = $('#newPwd').val();
+	var newPwd2 = $('#newPwd2').val();
+	if(newPwd != newPwd2){
+		$('#error_newPwd2').html('<img src="/Public/Home/regist/images/tip-error.png"><font color=red>新密码和确认密码不一致!</font>');
+		return false;
+	}else{
+		$('#error_newPwd2').empty();
+		return true;
+	}
+}
+
+function bindQQ(){
+	window.location.href = "<?php echo $qqurl;?>";
+}
+
+function bindAccount(){
+	window.location.href = "<?php echo U('Home/User/userInfo')?>"
+}
+</script>

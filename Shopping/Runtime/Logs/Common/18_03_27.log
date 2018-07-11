@@ -1,0 +1,42 @@
+[ 2018-03-27T11:10:00+08:00 ] 127.0.0.1 /mall.php/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Js
+
+[ 2018-03-27T11:10:00+08:00 ] 127.0.0.1 /mall.php/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Js
+
+[ 2018-03-27T11:10:00+08:00 ] 127.0.0.1 /mall.php/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Js
+
+[ 2018-03-27T11:10:00+08:00 ] 127.0.0.1 /mall.php/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2018-03-27T11:10:00+08:00 ] 127.0.0.1 /mall.php/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Js
+
+[ 2018-03-27T11:10:00+08:00 ] 127.0.0.1 /mall.php/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Js
+
+[ 2018-03-27T11:10:00+08:00 ] 127.0.0.1 /mall.php/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Js
+

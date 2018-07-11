@@ -1,0 +1,94 @@
+<include file="User/header"/>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">安全日志</strong> / <small>Safe Log</small></div>
+      </div>
+
+      <hr/>
+
+      <div class="am-g error-log">
+        <div class="am-u-sm-12 am-u-sm-centered">
+        <input type="hidden" id="total_page" value="1"/>
+        <input type="hidden" id="curr_page" value="1"/>
+        
+        <pre class="am-pre-scrollable" id="user_log">
+        	<!-- 这里ajax动态获取内容 -->
+        </pre>
+        <div class="pages"></div>
+        
+        </div>
+      </div>
+    </div>
+
+<include file="User/footer"/>
+
+<script>
+$(function(){
+	init();
+	do_sub();
+});
+
+function init(){	
+	
+	//点击上一页
+	$('#pre_page').unbind('click').click(function(){
+		var cur = $('#curr_page').val();	//当前页
+		if( Number(cur) > 1 ){
+			$('#curr_page').val( Number(cur)-1 );	//上一页	
+			do_sub();
+		}
+		
+	});
+	//点击下一页
+	$('#nex_page').unbind('click').click(function(){
+		var cur = $('#curr_page').val();	//当前页
+		var total = $('#total_page').val();	//总页数
+		if( Number(cur) < Number(total) ){
+			var a = $('#curr_page').val( Number(cur) + 1 ); //下一页
+			do_sub();
+		}
+		
+	});
+
+}
+
+function do_sub(){
+	var currPage = $('#curr_page').val();
+	$.post('<?php echo U("Home/User/safeLogList")?>',{'currPage':currPage},
+		function(data){
+			var html = '';
+			var d = eval("("+data+")");	//解析json格式
+			if(d.list != false && d.list != null){	//内容不为空
+				for(var o in d.list){	//遍历			
+					
+					html += '<span class="am-text-success">['+d.list[o].times+']</span>';
+					html += '<span class="am-text-danger">[IP地址：'+d.list[o].user_ip+']</span>';
+					html += ''+d.list[o].type+'<br/>'
+				}
+				
+				if(d.total_page == 1){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==1){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==d.total_page){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=3 && d.currPage>1 && d.currPage<d.total_page){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}
+				$("#total_page").val(d.total_page);	//获取总页数
+				
+			}else{
+				html += '<span class="am-text-success">['+d.list[o].times+']</span>';
+				html += '<span class="am-text-danger">[IP地址：'+d.list[o].user_ip+']</span>';
+				html += ''+d.list[o].type+'<br/>'
+			}
+			
+			$("#user_log").html(html);
+			init();
+		}
+	);
+}
+</script>

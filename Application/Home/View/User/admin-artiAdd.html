@@ -1,0 +1,183 @@
+<include file="User/header"/>
+
+<!-- content start -->
+<div class="admin-content">
+  <div class="admin-content-body">
+    <div class="am-cf am-padding am-padding-bottom-0">
+      <div class="am-fl am-cf">
+        <strong class="am-text-primary am-text-lg">新增优美文章</strong> / Add Article
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="am-tabs am-margin" data-am-tabs>
+      <ul class="am-tabs-nav am-nav am-nav-tabs">
+        <li class="am-active"><a href="#tab1">基本信息</a></li>
+        <li><a href="#tab2">内容描述</a></li>
+      </ul>
+
+      <div class="am-tabs-bd">
+        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+
+          <div class="am-g am-margin-top">
+           <div class="am-u-sm-4 am-u-md-2 am-text-right"> 文章标题 </div>
+              <div class="am-u-sm-8 am-u-md-4">
+                <input type="text" id="title" style="width:400px;" class="am-input-sm">
+              </div>
+              <div class="am-u-sm-12 am-u-md-6" id="error_title" style="color:red;"></div>
+            </div>
+
+            <div class="am-g am-margin-top">
+              <div class="am-u-sm-4 am-u-md-2 am-text-right"> 文章简介 </div>
+              <div class="am-u-sm-8 am-u-md-4 am-u-end col-end">
+              	<textarea name="jianjie" class="common-textarea" id="jianjie" cols="10" style="width: 80%;" rows="10"></textarea>
+              </div>
+              <div class="am-u-sm-12 am-u-md-6" id="error_jianjie" style="color:red;"></div>
+            </div>
+            
+            <div class="am-g am-margin-top">
+              <div class="am-u-sm-4 am-u-md-2 am-text-right"> 封面图 [ Cover Image ] ： </div>
+              <div class="am-u-sm-8 am-u-md-4 am-u-end col-end">
+              	<img class="load0" name="img1" id="img1" src=""/> 
+				<input style="padding-top:10px;" id="image" type="file" name="image" onchange="uploadimg('img1','image')" placeholder="请上传封面图,用于在列表展示" />
+              </div>
+              <div class="am-u-sm-12 am-u-md-6" id="error_img" style="color:red;"></div>
+            </div>
+
+        </div>
+
+        <div class="am-tab-panel am-fade" id="tab2">
+          <form class="am-form">
+           
+            <div class="am-g am-margin-top-sm">
+              <div class="am-u-sm-12 am-u-md-2 am-text-right admin-form-text"></div>
+              <div class="am-u-sm-12 am-u-md-10">
+                <script type="text/plain" id="content" style="width:90%;height:400px;"></script>
+	            <span id="error_content" style="font-size:20px;color:red;text-align:center;"></span>
+              </div>
+              
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="am-margin" style="padding-left:40%;">
+      <button type="button" onclick="history.go(-1)" class="am-btn am-btn-default am-btn-xs">取消</button>
+      <button type="button" id="but" class="am-btn am-btn-primary am-btn-xs">提交</button>
+      <span id="error_but" style="color:red;"></span>
+    </div>
+  </div>
+
+<include file="User/footer"/>
+
+<!-- <script src="/Public/jquery-1.8.3.min.js"></script> 已经引入了在<include file="User/header"/> -->
+<!-- 加载编辑器的容器 -->
+  <!-- 配置文件 -->
+  <script type="text/javascript" src="/third-party/ueditor/ueditor.config.js"></script>
+  <!-- 编辑器源码文件 -->
+  <script type="text/javascript" src="/third-party/ueditor/ueditor.all.js"></script>
+  <!-- 实例化编辑器 -->
+  <script type="text/javascript">
+      var ue = UE.getEditor('content');
+  </script>
+
+<script>
+
+//上传按钮改变时触发  增加用户体验度  实现实时显示选择的图片
+function uploadimg(imgid,fileid) {
+ //imgid指<img />标签id,fileid表示<input type='file' />文件上传标签的id,hiddenid指隐藏域标签id
+    $("#"+imgid).attr("src","");//加载loading图片
+    $.ajaxFileUpload({            
+     	url: '<?php echo U("Home/Article/artiPosterImg");?>',
+        secureuri: false,
+        fileElementId: fileid,  
+        dataType: 'json',              
+        success: function (data, status){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+            if(typeof (data.error) != 'undefined'){
+            	var error_msg = "";
+            	switch(data.error){
+	            	case "101": error_msg="文件类型错误";
+	            		$('#error_img').html(error_msg);
+	                	break;
+	            	case "102": error_msg="文件过大";
+	            		$('#error_img').html(err_msg);
+	                	break;
+	            	case "400": error_msg="非法上传";
+	            		$('#error_img').html(err_msg);
+	                	break;
+	            	case "404": error_msg="文件为空";
+	            		$('#error_img').html(err_msg);
+	                	break;
+	            	default :error_msg="服务器不稳定";
+	            	$('#error_img').html(err_msg);
+            	}
+            	//alert(error_msg);
+            }else{
+            	$('#error_img').empty();
+            	$("#"+imgid).attr("src",data.path);//加载返回的图片路径并附加上样式
+            	$("#"+imgid).css({"width":"150px","height":"150px"});
+                //$("#"+hiddenid).val(data.path);//给对应的隐藏域赋值，以便提交时给后台
+            }              
+        },
+    });
+}
+
+$('#but').bind().click(function(){
+	$.ajaxFileUpload({
+		type:'post',
+		url:'<?php echo U("Home/Article/artiPosterImg");?>',
+	    secureuri: false,
+        fileElementId: 'image',  //file标签的id
+        dataType: 'json',  
+		success:function(data){
+			var title = $('#title').val();
+			var jianjie = $('#jianjie').val();
+			//var content = $('#content').val();
+			var ue = UE.getEditor('content');
+			var content = ue.getContent();
+		    var img = data.path;
+			$.ajax({
+				type:'post',
+				url:'<?php echo U("Home/User/articleAdd");?>',
+				data:{'title':title,'jianjie':jianjie,'content':content,'img_url':img},
+				success:function(respon){
+					if(respon.errno == 10001){
+						$('#error_title').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+						$('#error_jianjie').empty();
+						$('#error_content').empty();
+						$('#error_img').empty();
+						$('#error_but').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+					}else if(respon.errno == 10002){
+						$('#error_jianjie').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+						$('#error_title').empty();
+						$('#error_content').empty();
+						$('#error_img').empty();
+						$('#error_but').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+					}else if(respon.errno == 10003){
+						$('#error_content').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+						$('#error_title').empty();
+						$('#error_jianjie').empty();
+						$('#error_img').empty();
+						$('#error_but').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+					}else if(respon.errno == 10004){
+						$('#error_but').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+					}else if(respon.errno == 10005){
+						$('#error_img').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+						$('#error_content').empty();
+						$('#error_title').empty();
+						$('#error_jianjie').empty();
+						$('#error_but').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+					}else if(respon.errno == 10000){
+						window.location.href="<?php echo U('Home/User/articleList')?>";
+					}
+				}
+			});
+		}
+	});
+})
+	
+</script>  

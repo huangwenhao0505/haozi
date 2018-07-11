@@ -1,0 +1,256 @@
+[ 2017-12-06T11:31:36+08:00 ] 127.0.0.1 /index.php/exam/exam/examlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:examlist
+
+[ 2017-12-06T11:32:17+08:00 ] 127.0.0.1 /index.php/exam/exam/examlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:examlist
+
+[ 2017-12-06T11:32:39+08:00 ] 127.0.0.1 /index.php/exam/user/listExam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `hwh_exam`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-06T11:32:41+08:00 ] 127.0.0.1 /index.php/Exam/User/onExam?id=2&timestamp=17506.147685185184H
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_exam` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_question` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE ( examId=2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-06T11:32:54+08:00 ] 127.0.0.1 /index.php/exam/user/getexam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-06T11:34:36+08:00 ] 127.0.0.1 /index.php/exam/user/examlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:examlist
+
+[ 2017-12-06T11:34:42+08:00 ] 127.0.0.1 /index.php/exam/user/listexam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_exam`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-06T11:34:46+08:00 ] 127.0.0.1 /index.php/Exam/User/onExam?id=2&timestamp=17506.14914351852H
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_exam` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_question` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE ( examId=2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-06T11:34:51+08:00 ] 127.0.0.1 /index.php/exam/user/getexam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_exam` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_user_result` [ RunTime:0.0210s ]
+SQL: INSERT INTO `hwh_exam_user_result` (`userId`,`examId`,`questionId`,`userOption`) VALUES ('7','2','1','C') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hwh_exam_user_result` (`userId`,`examId`,`questionId`,`userOption`) VALUES ('7','2','2','B|C|D') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_exam_user_result` WHERE `userId` = 7 AND `examId` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE `examId` = 2 AND `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_exam_user_result` SET `isRightOption`='2',`quesOption`='B' WHERE `userId` = 7 AND `examId` = 2 AND `questionId` = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE `examId` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_exam_user_result` SET `isRightOption`='2',`quesOption`='A|C' WHERE `userId` = 7 AND `examId` = 2 AND `questionId` = 2 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_exam_user_result` WHERE `userId` = 7 AND `examId` = 2 AND `isRightOption` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_exam_user_result` WHERE `id` = 2 AND `userId` = 7 AND `examId` = 2 AND `isRightOption` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_exam_question` WHERE `examId` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_rank_list` [ RunTime:0.0110s ]
+SQL: INSERT INTO `hwh_exam_rank_list` (`examId`,`userId`,`rightNum`,`errorNum`,`accuracy`,`createDate`) VALUES ('2','7','0','1','0','2017-12-06 11:34:51') [ RunTime:0.0010s ]
+
+[ 2017-12-06T11:34:51+08:00 ] 127.0.0.1 /index.php/exam/user/setuserexam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_rank_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_exam_rank_list` WHERE `examId` = 2 AND `userId` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_user_result` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_exam_user_result` WHERE `examId` = 2 AND `userId` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-06T11:35:51+08:00 ] 127.0.0.1 /index.php/Exam/User/onExam?id=2&timestamp=17506.14914351852H
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_exam` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_question` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE ( examId=2 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-06T11:35:55+08:00 ] 127.0.0.1 /index.php/exam/user/getexam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-06T11:35:55+08:00 ] 127.0.0.1 /index.php/exam/user/setuserexam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_rank_list` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_exam_rank_list` WHERE `examId` = 2 AND `userId` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_user_result` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_exam_user_result` WHERE `examId` = 2 AND `userId` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-06T13:56:06+08:00 ] 127.0.0.1 /index.php/exam/user/getexam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_exam` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_user_result` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_exam_user_result` (`userId`,`examId`,`questionId`,`userOption`) VALUES ('7','2','1','C') [ RunTime:0.0000s ]
+SQL: INSERT INTO `hwh_exam_user_result` (`userId`,`examId`,`questionId`,`userOption`) VALUES ('7','2','2','B|C|D') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_exam_user_result` WHERE `userId` = 7 AND `examId` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_question` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE `examId` = 2 AND `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_exam_user_result` SET `isRightOption`='2',`quesOption`='B' WHERE `userId` = 7 AND `examId` = 2 AND `questionId` = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE `examId` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_exam_user_result` SET `isRightOption`='2',`quesOption`='A|C' WHERE `userId` = 7 AND `examId` = 2 AND `questionId` = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE `examId` = 2 AND `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_exam_user_result` SET `isRightOption`='2',`quesOption`='B' WHERE `userId` = 7 AND `examId` = 2 AND `questionId` = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_exam_question` WHERE `examId` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_exam_user_result` SET `isRightOption`='2',`quesOption`='A|C' WHERE `userId` = 7 AND `examId` = 2 AND `questionId` = 2 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_exam_user_result` WHERE `userId` = 7 AND `examId` = 2 AND `isRightOption` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_exam_user_result` WHERE `id` = 2 AND `userId` = 7 AND `examId` = 2 AND `isRightOption` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_exam_question` WHERE `examId` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_rank_list` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hwh_exam_rank_list` (`examId`,`userId`,`rightNum`,`errorNum`,`accuracy`,`createDate`) VALUES ('2','7','0','1','0','2017-12-06 13:56:06') [ RunTime:0.0000s ]
+
+[ 2017-12-06T13:56:06+08:00 ] 127.0.0.1 /index.php/exam/user/setuserexam.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_rank_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_exam_rank_list` WHERE `examId` = 2 AND `userId` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_exam_user_result` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_exam_user_result` WHERE `examId` = 2 AND `userId` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

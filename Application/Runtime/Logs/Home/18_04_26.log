@@ -1,0 +1,3640 @@
+[ 2018-04-26T11:39:08+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T11:39:08+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T11:39:22+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'a' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=2 ) [ RunTime:0.0310s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0370s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('2','2018-04-26 11:39:22','127.0.0.1') [ RunTime:0.0050s ]
+
+[ 2018-04-26T11:39:23+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T11:39:23+08:00 ] 127.0.0.1 /index.php/home/usersj/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UsersjController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-26T11:39:23+08:00 ] 127.0.0.1 /index.php/home/usersj/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:22:17+08:00 ] 127.0.0.1 /index.php/home/login/ajaxLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:22:18+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:22:23+08:00 ] 127.0.0.1 /index.php/home/login/ajaxRegist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:22:23+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:22:23+08:00 ] 127.0.0.1 /index.php/home/login/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:29:27+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:29:32+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:29:44+08:00 ] 127.0.0.1 /index.php/home/fun/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select u.u_img,u.login_way,q.qq_img from hwh_user u left join hwh_user_qq q on q.qq_openid = u.qq_openid where u.id = 2 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\51e16bf351317cd6372be40a729f5c1d.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\51e16bf351317cd6372be40a729f5c1d.php 第 101 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\51e16bf351317cd6372be40a729f5c1d.php 第 227 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:29:44+08:00 ] 127.0.0.1 /index.php/home/fun/filelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fileCate D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `hwh_file_upload` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 63 行.
+SQL: SELECT COUNT(*) AS tp_count FROM hwh_file_upload u LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 79 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 79 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 90 行.
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Application\Home\Controller\FunController.class.php 第 97 行.
+SQL: SELECT u.*,a.nickname FROM hwh_file_upload u LEFT JOIN hwh_admin a on a.id = u.adminId  ORDER BY u.createDate desc LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_file_upload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_file_upload` GROUP BY fileSuffix  [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:29:45+08:00 ] 127.0.0.1 /index.php/Home/Fun/document?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_file_upload` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_file_upload` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:50:56+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:50:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:50:58+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:51:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:51:00+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:51:00+08:00 ] 127.0.0.1 /index.php/home/login/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:51:16+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:52:03+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:52:03+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:52:29+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:53:21+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:53:21+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:53:42+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '厅枯枯枯无可奈何枯枯枯枯要' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:53:47+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '厅枯枯枯无可奈何枯枯枯枯要' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:54:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '厅枯枯枯无可奈何枯枯枯枯要' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:54:28+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:54:28+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:54:56+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:56:13+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:56:13+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:56:16+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T14:56:20+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T14:56:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:56:29+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:56:29+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:56:30+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:56:34+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:56:36+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T14:56:37+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T14:59:47+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:59:47+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:53+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:53+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:54+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:54+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:55+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:55+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:59:56+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T14:59:56+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-26T14:59:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T14:59:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:00:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:00:01+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:00:02+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:00:04+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: subject D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:02:23+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:02:23+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:02:26+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:28+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:28+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:29+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:29+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:30+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:30+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:30+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:34+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:35+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:35+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:35+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:37+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0120s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:37+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0090s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:38+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:38+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:02:41+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+
+[ 2018-04-26T15:04:16+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:16+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:04:20+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'adsds' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:04:23+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'adsdssd' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:04:24+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:04:25+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'adsdssd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:25+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:04:26+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'adsdssd' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:26+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0090s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:04:26+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'adsdssd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:04:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:04:31+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:32+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:04:32+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:33+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:33+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:34+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:04:35+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:05:44+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:05:44+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:05:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:05:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:05:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:05:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:05:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:05:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:01+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:02+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:05+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:08+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:09+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:10+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0120s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:10+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:11+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:12+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:12+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:41+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:41+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:46+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:06:47+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:06:48+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:06:49+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:06:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:02+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是博学枯枯' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:08+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:07:08+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是博学枯枯' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:09+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0090s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:10+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是博学枯枯' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:10+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:07:10+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是博学枯枯' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:11+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:13+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:07:21+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:22+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0120s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:23+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:23+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:24+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:48+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是坏孩子' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:07:52+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0120s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:07:54+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是坏' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:07:57+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:07:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是坏要' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:08:07+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是坏2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:08:14+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:15+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是坏22' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:17+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0090s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:18+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是坏22' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:08:36+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我人要要22' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:08:37+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:38+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我人要要222' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:08:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:40+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我人要要2222' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:08:41+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:42+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我人要要22222' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:08:43+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:09:32+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:15:52+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:15:52+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:15:56+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:15:57+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:16:01+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是博学' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:16:02+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:16:08+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都……' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:16:09+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:16:14+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都%' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:16:20+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:18:38+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:18:38+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-26T15:18:42+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要在' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:18:45+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:18:51+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:18:51+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-26T15:18:54+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要在' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:18:55+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:18:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要在【' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:18:59+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0100s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:19:00+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0090s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要在【' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:01+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:19:18+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:19:18+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:24+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要【' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: missing terminating ] for character class at offset 41 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:24+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:25+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要【' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: missing terminating ] for character class at offset 41 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:26+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:19:26+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要【' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: missing terminating ] for character class at offset 41 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要【' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] preg_match(): Compilation failed: missing terminating ] for character class at offset 41 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:19:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:28+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要【' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: missing terminating ] for character class at offset 41 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:28+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:29+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我要【' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] preg_match(): Compilation failed: missing terminating ] for character class at offset 41 D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 109 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:29+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0100s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:19:34+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:42+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:19:42+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:19:50+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '.qsdsd' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:52+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:55+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'qssds' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:56+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:19:57+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'qssdsss' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:19:58+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:20:02+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'qssdsssxx.' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:20:03+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:20:07+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = 'qssdsssxx.0)' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:20:09+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:20:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:20:39+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:20:49+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '大文豪' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:20:57+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:21:13+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '1165092460' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:21:19+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '1165092460@qq.com' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:21:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:21:39+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:21:57+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '豪子666' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:22:08+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '1165092460@qq.com' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:22:31+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0090s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '豪子666' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hwh_user` (`password_leven`,`username`,`password`,`regist_time`,`email`,`activate_code`,`activate_code_times`) VALUES ('1','豪子666','e10adc3949ba59abbe56e057f20f883e','2018-04-26 15:22:29','1165092460@qq.com','796abc2a663f34001e3aa08ae2c5d0be','1524813749') [ RunTime:0.0450s ]
+SQL: SELECT `id` FROM `hwh_user` WHERE `username` = '豪子666' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:22:46+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:22:46+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:23:25+08:00 ] 127.0.0.1 /Home/Login/userActivate?id=8&verify=796abc2a663f34001e3aa08ae2c5d0be&time=1524813749
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: UPDATE `hwh_user` SET `states`='1' WHERE `id` = 8 AND `activate_code` = '796abc2a663f34001e3aa08ae2c5d0be' [ RunTime:0.0450s ]
+SQL: UPDATE `hwh_user` SET `activate_code`='',`activate_code_times`='0' WHERE `states` = 1 AND `id` = 8 [ RunTime:0.0240s ]
+
+[ 2018-04-26T15:23:27+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:23:27+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:23:28+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:23:40+08:00 ] 127.0.0.1 /index.php/Home/Login/verify?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:23:44+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = '豪子666' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_user` SET `login_way`='0' WHERE ( id=8 ) [ RunTime:0.0220s ]
+SQL: SELECT `username`,`nickname` FROM `hwh_user` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('8','2018-04-26 15:23:44','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:23:44+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state`,`login_way`,`is_black`,`login_time` FROM `hwh_user` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Application\Home\Controller\UserController.class.php 第 203 行.
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=8 ) LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 63 行.
+NOTIC: [8] Undefined variable: numMessage D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 121 行.
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:23:44+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:24:13+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:24:13+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:24:28+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都是坏字枯' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:24:31+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:24:36+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们都###' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:24:37+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0120s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:24:41+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:24:42+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:24:43+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:24:44+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:24:46+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:24:46+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:24:49+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '枯厅在' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:24:50+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:24:51+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-26T15:24:52+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:27:02+08:00 ] 127.0.0.1 /index.php/home/login/ajaxregist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:27:02+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:27:04+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:27:05+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:27:05+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:27:06+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:27:09+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:27:12+08:00 ] 127.0.0.1 /index.php/home/login/ajaxuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0120s ]
+SQL: SELECT `username` FROM `hwh_user` WHERE `username` = '我们在' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:27:14+08:00 ] 127.0.0.1 /index.php/home/login/ajaxemail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT `email` FROM `hwh_user` WHERE `email` = '枯' AND `states` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:38:57+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:38:57+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:38:59+08:00 ] 127.0.0.1 /index.php/home/login/wjpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:39:35+08:00 ] 127.0.0.1 /index.php/home/login/wjpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select id from hwh_user where username = '豪子666' and email = '1165092460@qq.com' [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\haozi\Application\Home\Controller\LoginController.class.php 第 435 行.
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: UPDATE `hwh_user` SET `reset_password_code`='7de58a10808ee677e948ad3759552465' WHERE `email` = '1165092460@qq.com' [ RunTime:0.0320s ]
+
+[ 2018-04-26T15:39:50+08:00 ] 127.0.0.1 /index.php/home/login/resetpassview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:39:50+08:00 ] 127.0.0.1 /index.php/Home/Login/passActivate?username=%BA%C0%D7%D3666&verify=7de58a10808ee677e948ad3759552465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: UPDATE `hwh_user` SET `reset_password_state`='1' WHERE `username` = '����666' AND `reset_password_code` = '7de58a10808ee677e948ad3759552465' [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:39:53+08:00 ] 127.0.0.1 /index.php/home/login/resetpassview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:39:53+08:00 ] 127.0.0.1 /index.php/home/login/resetpassview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:40:09+08:00 ] 127.0.0.1 /index.php/home/login/resetpass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: UPDATE `hwh_user` SET `password`='96e79218965eb72c92a549dd5a330112' WHERE `username` = '豪子666' AND `reset_password_state` = 1 [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:40:12+08:00 ] 127.0.0.1 /index.php/home/login/resetpass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0110s ]
+SQL: UPDATE `hwh_user` SET `password`='96e79218965eb72c92a549dd5a330112' WHERE `username` = '豪子666' AND `reset_password_state` = 1 [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:40:39+08:00 ] 127.0.0.1 /index.php/home/login/resetpass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: UPDATE `hwh_user` SET `password`='96e79218965eb72c92a549dd5a330112' WHERE `username` = '豪子666' AND `reset_password_state` = 1 [ RunTime:0.0000s ]
+
+[ 2018-04-26T15:40:52+08:00 ] 127.0.0.1 /index.php/home/login/resetpassview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T15:42:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:42:11+08:00 ] 127.0.0.1 /index.php/home/yulu/yululist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\a71985f96dcf72b70d6d4a7ef1c79771.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T15:42:11+08:00 ] 127.0.0.1 /index.php/home/yulu/yululistajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_yulu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_yulu` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 271 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\YuluController.class.php 第 271 行.
+SQL: SELECT `id`,`content`,`uid`,`uid_type`,`author`,`img`,`like_count`,`maketime`,`is_ok` FROM `hwh_yulu` WHERE `is_ok` = 1 ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T16:28:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

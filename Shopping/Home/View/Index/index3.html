@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>网站首页</title>
+</head>
+
+<body>
+
+<form action="" method="post">
+	<input type="hidden" name="createDate" value=""/>		<!-- 发送日期 -->
+	<input type="hidden" name="bizDate" value=""/>			<!-- 业务日期 -->
+	<input type="hidden" name="publicKeyCode" value=""/>	<!-- 公私钥对编号 -->
+	<input type="hidden" name="createTime" value=""/>		<!-- 发送时间 -->
+	<input type="hidden" name="msgID" value=""/>			<!-- @@@传手机号 -->
+	<input type="hidden" name="svrCode" value=""/>			<!-- 服务代码  空即可 -->
+	<input type="hidden" name="service" value=""/>			<!-- @@@接口名称 值为nopwdCreateOrder -->
+	<input type="hidden" name="partnerBuyerId" value=""/>	<!-- @@@用户id,自己公司的用户 -->
+	<input type="hidden" name="outerOrderNo" value=""/>		<!-- @@@自己公司的订单号 -->
+	<input type="hidden" name="subject" value=""/>			<!-- @@@交易标题 -->
+	<input type="hidden" name="amount" value=""/>			<!-- @@@交易金额 -->
+	<input type="hidden" name="currency" value=""/>			<!-- @@@订单币种  默认CNY -->
+	<input type="hidden" name="body" value=""/>				<!-- @@@交易详细内容 -->
+	<input type="hidden" name="jumpSec" value=""/>			<!-- @@@跳转时间  单位秒 -->
+	<input type="hidden" name="returnUrl" value=""/>		<!-- @@@同步跳转地址 -->
+	<input type="hidden" name="notifyUrl" value=""/>		<!-- @@@异步通知地址 -->
+	<input type="hidden" name="version" value=""/>			<!-- 版本号 -->
+	<input type="hidden" name="channelNo" value=""/>		<!-- 发起渠道  固定为m -->	
+	<input type="hidden" name="partnerId" value=""/>		<!-- 合作商ID -->		
+	<input type="hidden" name="field1" value=""/>			<!-- 预留字段1 -->
+	<input type="hidden" name="field2" value=""/>			<!-- 预留字段2 -->
+	<input type="hidden" name="field3" value=""/>			<!-- 预留字段3 -->
+	<input type="hidden" name="charset" value=""/>			<!-- 字符集 -->	
+	<input type="hidden" name="signType" value=""/>			<!-- 签名类型 -->
+	<input type="hidden" name="sign" value=""/>				<!-- 签名串   由后台经过处理返回得到-->
+	
+	<input type="button" value="提交" onclick="sub()"/>
+</form>
+
+<script>
+function sub(){
+	var createDate = $("input['name=createDate']").val();
+	var bizDate = ....;
+	var 略。。。。
+	$.ajax({
+		type: 'post',
+		url: 'https://xxxjsbankweburlxxx:port/epcs/pubcashier/login.htm',//江苏银行链接地址
+		data: {
+			'createDate': createDate,
+			'bizDate': bizDate,
+			'publicKeyCode': publicKeyCode,
+			'createTime': createTime,
+			'msgID': msgID,
+			'svrCode': svrCode,
+			'service': service,
+			'partnerBuyerId': partnerBuyerId,
+			'outerOrderNo': outerOrderNo,
+			'subject': subject,
+			'amount': amount,
+			'currency': currency,
+			'body': body,
+			'jumpSec': jumpSec,
+			'returnUrl': returnUrl,
+			'notifyUrl': notifyUrl,
+			'version': version,
+			'channelNo': channelNo,
+			'partnerId': partnerId,
+			'field1': field1,
+			'field2': field2,
+			'field3': field3,
+			'charset': charset,
+			'signType': signType,
+			'sign': sign
+		},
+		success: function(respon){
+		}
+	});
+}
+</script>
+
+</body>
+

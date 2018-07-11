@@ -1,0 +1,1999 @@
+[ 2018-03-28T14:54:28+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0160s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:54:28+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0170s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0260s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T14:54:31+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:54:31+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T14:54:32+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:54:32+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:54:33+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:54:33+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:54:34+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:54:34+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:54:35+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:54:35+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:55:44+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0040s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:55:44+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T14:55:48+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T14:55:48+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:59:14+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:59:14+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0030s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0040s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:59:16+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-28T14:59:16+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:59:21+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T14:59:21+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:59:27+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:59:27+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:59:42+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '红色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T14:59:42+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:59:44+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T14:59:44+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:59:45+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T14:59:45+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T14:59:46+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T14:59:46+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:00:32+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:00:32+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0050s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:00:34+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:00:34+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:00:36+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:00:36+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:00:40+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0040s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:00:40+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0030s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:00:42+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '红色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:00:42+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:01:17+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:01:17+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0030s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:01:19+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:01:19+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:02:58+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0040s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:02:58+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0040s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:02:59+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:02:59+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:04:31+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0040s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:04:31+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0050s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:04:32+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:04:32+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:04:49+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:04:49+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0040s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:04:50+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:04:50+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:05:29+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:05:29+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0060s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0050s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:05:30+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:05:31+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:06:28+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0040s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:06:28+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:06:29+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:06:29+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:06:49+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0060s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:06:49+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0050s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:06:51+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-28T15:06:51+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:07:43+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0040s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:07:44+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0040s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:07:46+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:07:46+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:08:32+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:08:32+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0040s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:08:33+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:08:33+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:12:22+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0040s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:12:22+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0040s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:12:23+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:12:23+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:15:18+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:15:18+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0040s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:15:20+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:15:20+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:15:41+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:15:41+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:21:42+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:21:42+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0030s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:21:43+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0070s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:21:44+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:21:45+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:21:45+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:22:15+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:22:15+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:22:17+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:22:17+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:23:09+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 1 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:23:09+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0040s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '1' ORDER BY createDate desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:23:11+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:23:11+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:13+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:24:13+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:13+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:24:13+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:14+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '红色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:24:14+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:14+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '红色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:24:14+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:15+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:24:15+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:15+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-28T15:24:15+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:15+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '红色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:24:15+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:24:16+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '红色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:24:16+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:24:16+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T15:24:16+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:18+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-28T15:24:18+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0010s ]
+
+[ 2018-03-28T15:24:19+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:24:19+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:20+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:24:20+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+
+[ 2018-03-28T15:24:21+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 1 AND `attrValue1` = '白色' AND `attrValue2` = 'XL' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T15:24:21+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=1 )  [ RunTime:0.0000s ]
+

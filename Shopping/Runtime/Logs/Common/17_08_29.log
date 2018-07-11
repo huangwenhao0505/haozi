@@ -1,0 +1,348 @@
+[ 2017-08-29T15:56:25+08:00 ] 127.0.0.1 /mall.php/Goods/goodsView?id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Goods
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_12.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_15.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_58.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_57.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_56.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_54.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_55.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_50.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_51.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_52.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_53.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_17.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_19.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_44.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_43.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_41.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_42.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_21.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_24.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_31.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_32.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_33.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_37.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/logo/34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/AD/ad-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AD
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/AD/ad-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AD
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/AD/ad-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:AD
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/AD/ad-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:AD
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/AD/ad-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:AD
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_12.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_15.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_34.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_58.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_57.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_56.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_54.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_55.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_50.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_51.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_52.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_53.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_17.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_19.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_44.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:24:28+08:00 ] 127.0.0.1 /mall.php/products/p_43.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Products
+
+[ 2017-08-29T16:39:24+08:00 ] 127.0.0.1 /mall.php/proinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Proinfo
+
+[ 2017-08-29T16:48:11+08:00 ] 127.0.0.1 /mall.php/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Product
+
+[ 2017-08-29T17:24:17+08:00 ] 127.0.0.1 /mall.php/proinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Proinfo
+

@@ -1,0 +1,117 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">编辑商品</h2>
+       <a class="fr top_rt_btn" href="<?php echo U('Goods/goodsList');?>">返回商品列表</a>
+      </div>
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">商品分类：</span>
+        <input type="text" name="categoryId" id="categoryId" value="<?php echo $goodsInfo['categoryname'];?>" class="textbox textbox_295" disabled="disabled" placeholder="商品分类..."/>
+       </li>
+	   <li>
+        <span class="item_name" style="width:120px;">商品名称：</span>
+        <input type="hidden" name="id" id="id" value="<?php echo $goodsInfo['id'];?>"/>
+        <input type="text" name="name" id="name" value="<?php echo $goodsInfo['name'];?>" class="textbox textbox_295" placeholder="商品名称..."/>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品原价：</span>
+        <input type="text" name="oldPrice" id="oldPrice" value="<?php echo $goodsInfo['oldprice'];?>" class="textbox" placeholder="商品原价"/>
+       </li>
+       <?php foreach($goodsInfo['goodsStoreList'] as $k => $v){ ?>
+	       <ul style="border-left:1px dashed #000;border-top:1px dashed #000;border-bottom:1px dashed #000;float:left;margin-right:2px;">
+	       <li>
+	        <span class="item_name" style="width:120px;">商品属性：</span>
+	        <input type="text" name="attrValue1_<?php echo $v['id'];?>" id="attrValue1_<?php echo $v['id'];?>" value="<?php echo $v['attrvalue1'];?>" class="textbox" disabled="disabled" placeholder="商品属性"/>
+	       </li>
+	       <li>
+	        <span class="item_name" style="width:120px;">商品扩展属性：</span>
+	        <input type="text" name="attrValue2_<?php echo $v['id'];?>" id="attrValue2_<?php echo $v['id'];?>" value="<?php echo $v['attrvalue2'];?>" class="textbox" disabled="disabled" placeholder="商品扩展属性"/>
+	       </li>
+	       <li>
+	        <span class="item_name" style="width:120px;">商品销售价格：</span>
+	        <input type="text" name="price_<?php echo $v['id'];?>" id="price_<?php echo $v['id'];?>" value="<?php echo $v['price'];?>" class="textbox" placeholder="商品销售价格"/>
+	       </li>
+	       <li>
+	        <span class="item_name" style="width:120px;">库存：</span>
+	        <input type="text" name="stock_<?php echo $v['id'];?>" id="stock_<?php echo $v['id'];?>" value="<?php echo $v['stock'];?>" class="textbox" placeholder="库存"/>
+	       	<!-- 给个隐藏域，保存[goods_store的id值] -->
+	       	<input type="hidden" name="goodsStoreId" value="<?php echo $v['id'];?>"/>
+	       </li>
+	       </ul>
+       <?php } ?>
+
+       <li style="clear:both;padding-top:20px;">
+        <span class="item_name" style="width:120px;">是否上架：</span>
+        <input type="radio" name="isShow" value="1" checked="checked"/>是
+        <input type="radio" name="isShow" value="0"/>否
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">上传图片：</span>
+        <label class="uploadImg">
+         <input type="file"/>
+         <span>上传图片</span>
+        </label>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品详情：</span>
+        <script id="editor" type="text/plain" style="width:1024px;height:500px;margin-left:120px;margin-top:0;"></script>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" class="link_btn"/>
+        <span class="errorTips"></span>
+       </li>
+      </ul>
+     </section>
+ </div>
+</section>
+
+<script>
+//点击编辑按钮
+$('.link_btn').unbind('click').click(function(){
+
+	var id = $('#id').val();//商品id
+	var goodsName = $('#name').val();//商品名称
+	var oldPrice = $('#oldPrice').val();//商品原价
+	var unitName = $('#unitName').val();//计量单位
+	var isShow = $("input[type='radio']:checked").val();
+	
+	var goodsStoreValue = new Array();
+	$("input[name='goodsStoreId']").each(function(){
+		goodsStoreValue.push($(this).val());//把goods_store的id值装在数组里面
+	});
+	
+	var storeValueArray = new Array();
+	for(var i in goodsStoreValue){
+		var storeId = goodsStoreValue[i];//遍历出id
+		var price = $('#price_'+storeId).val();//得出相对应id的销售价格
+		var stock = $('#stock_'+storeId).val();//得出相对应id的库存
+		var string = storeId+"-"+price+"-"+stock;//拼接成字符串  id-销售价格-库存
+		storeValueArray.push(string);
+	}
+	
+	$.post('<?php echo U("Goods/goodsEdit");?>',
+		{
+			'id':id,
+			'name':goodsName,
+			'oldPrice':oldPrice,
+			'unitName':unitName,
+			'isShow':isShow,
+			'goodsStoreValueList':storeValueArray
+		},function(respon){
+		if(respon.errno == 10001){
+			$('.errorTips').html(respon.errmsg);
+		}else{
+			$('.errorTips').html(respon.errsmg);
+			window.location.href = "<?php echo U('Goods/GoodsList');?>";
+		}
+	});
+});
+
+</script>
+</body>
+</html>

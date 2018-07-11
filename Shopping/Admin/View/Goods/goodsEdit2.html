@@ -1,0 +1,165 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">编辑商品</h2>
+       <a class="fr top_rt_btn" href="<?php echo U('Goods/goodsList');?>">返回商品列表</a>
+      </div>
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">商品分类：</span>
+        <select class="select" name="categoryId" id="categoryId">
+         <option value="0">选择商品分类</option>
+         <?php foreach($categoryList as $k => $v){ ?>
+         	<?php if($goodsInfo['categoryid'] == $v['id']){ ?>
+         		<option value="<?php echo $v['id'];?>" selected="selected"><?php echo $v['name'];?></option>
+         	<?php }else{ ?>
+         		<option value="<?php echo $v['id'];?>"><?php echo $v['name'];?></option>
+         	<?php } ?>
+         	
+         	<?php foreach($v['son'] as $key => $val){ ?>
+         		<?php if($goodsInfo['categoryid'] == $val['id']){ ?>
+         			<option value="<?php echo $val['id'];?>" selected="selected">----<?php echo $val['name'];?></option>
+         		<?php }else{ ?>
+         			<option value="<?php echo $val['id'];?>">----<?php echo $val['name'];?></option>
+         		<?php } ?>
+         	<?php } ?>
+         <?php } ?>
+        </select>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品属性：</span>
+        <select class="select" name="attrName" id="attrName">
+         <option value="0">选择商品属性：</option>
+         <?php foreach($goodsAttrList as $k => $v){ ?>
+         	<?php if($goodsInfo['attrnameid'] == $v['id']){ ?>
+         		<option value="<?php echo $v['id'];?>" selected="selected" onclick="subAttr(<?php echo $v['id']?>)"><?php echo $v['attrname'];?></option>
+         	<?php }else{ ?>
+         		<option value="<?php echo $v['id'];?>" onclick="subAttr(<?php echo $v['id']?>)"><?php echo $v['attrname'];?></option>
+         	<?php } ?>
+         <?php } ?>
+        </select>
+       </li>
+       <li id="attrValues">
+        <span class="item_name" style="width:120px;"></span>
+        <?php foreach($attrValue as $k => $v){ ?>
+        	<?php foreach($goodsInfo['attrvalue'] as $key => $val){ ?>
+        		<?php if($val == $v['id']){ ?>
+        			<span style="margin-right:10px;"><input type="checkbox" name="value" value="<?php echo $v['id']?>" class="textbox" checked="checked"/><?php echo $v['value'];?></span>
+        		<?php } ?>
+        	<?php } ?>
+        <?php } ?>
+        <button onclick="editAttr()">编辑</button>
+       </li>
+	   <li>
+        <span class="item_name" style="width:120px;">商品名称：</span>
+        <input type="hidden" name="id" id="id" value="<?php echo $goodsInfo['id'];?>"/>
+        <input type="text" name="name" id="name" value="<?php echo $goodsInfo['name'];?>" class="textbox textbox_295" placeholder="商品名称..."/>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品原价：</span>
+        <input type="text" name="oldPrice" id="oldPrice" value="<?php echo $goodsInfo['oldprice'];?>" class="textbox" placeholder="商品销售价格"/>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品销售价格：</span>
+        <input type="text" name="price" id="price" value="<?php echo $goodsInfo['price'];?>" class="textbox" placeholder="商品销售价格"/>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">库存：</span>
+        <input type="text" name="stock" id="stock" value="<?php echo $goodsInfo['stock'];?>" class="textbox" placeholder="库存"/>
+        <input type="text" name="unitName" id="unitName" value="<?php echo $goodsInfo['unitname'];?>" class="textbox" placeholder="计量单位（件、张）"/>
+       </li>
+       
+       <li>
+        <span class="item_name" style="width:120px;">是否上架：</span>
+        <input type="radio" name="isShow" value="1" checked="checked"/>是
+        <input type="radio" name="isShow" value="0"/>否
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">上传图片：</span>
+        <label class="uploadImg">
+         <input type="file"/>
+         <span>上传图片</span>
+        </label>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品详情：</span>
+        <script id="editor" type="text/plain" style="width:1024px;height:500px;margin-left:120px;margin-top:0;"></script>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" class="link_btn"/>
+        <span class="errorTips"></span>
+       </li>
+      </ul>
+     </section>
+ </div>
+</section>
+
+<script>
+//点击属性时，显示对应的属性值
+function subAttr(id){
+	$.post('<?php echo U("Goods/attrValueList");?>',{'id':id},function(data){
+		var html = "";
+		var d = eval("("+data+")");
+		if(d.list != false && d.list != null){
+			$('#attrValues').empty();
+			$('#attrValues').html('<span class="item_name" style="width:120px;"></span>');
+			for(var i in d.list){
+				html = '<span style="margin-right:10px;"><input type="checkbox" name="value" value="'+d.list[i].id+'" class="textbox"/>'+d.list[i].value+'</span>';
+				$('#attrValues').append(html);
+			}
+		}
+	    $('#attrValues').show();
+	});
+}
+
+//点击新增按钮
+$('.link_btn').unbind('click').click(function(){
+	var attrValueArray = new Array();
+	$("input[type='checkbox']:checked").each(function(){
+		attrValueArray.push($(this).val());//把选中的数据添加到数组中
+	});
+	var attrIdList = attrValueArray.toString();//把数组转换成字符串形式  属性值
+	var id = $('#id').val();//商品id
+	var categoryId = $('#categoryId').val();
+	var attrId = $('#attrName').val();
+	var goodsName = $('#name').val();
+	var oldPrice = $('#oldPrice').val();
+	var unitName = $('#unitName').val();
+	var price = $('#price').val();
+	var stock = $('#stock').val();
+	var isShow = $("input[type='radio']:checked").val();
+	
+	$.post('<?php echo U("Goods/goodsEdit");?>',
+		{
+			'id':id,
+			'categoryId':categoryId,
+			'attrId':attrId,
+			'attrIdList':attrIdList,
+			'name':goodsName,
+			'oldPrice':oldPrice,
+			'unitName':unitName,
+			'price':price,
+			'stock':stock,
+			'isShow':isShow
+		},function(respon){
+		if(respon.errno == 10001){
+			$('.errorTips').html(respon.errmsg);
+		}else{
+			$('.errorTips').html(respon.errsmg);
+			window.location.href = "<?php echo U('Goods/GoodsList');?>";
+		}
+	});
+});
+
+//点击编辑时
+function editAttr(){
+	var id = $("#attrName").find("option:selected").val();
+	subAttr(id);
+}
+</script>
+</body>
+</html>

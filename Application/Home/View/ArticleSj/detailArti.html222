@@ -1,0 +1,88 @@
+<include file="Public/header"/>
+
+<div id="banner_inner">
+	<div style="background-image:url(images/banner_inner.jpg);">&nbsp;</div>
+	<div class="warp">
+		<h2><a href="/gongsijianjie">文章详情<br><span>Detail Article</span></a></h2>
+	</div>
+</div>
+<div class="warp clearfix">
+	<div class="c_l">
+	<dl class="left_nav">					
+				
+					<dt><a href="/qiyejianjie/" title="企业简介">企业简介</a></dt>
+				
+					<dt><a href="/zongcaizhici/" title="总裁致辞">总裁致辞</a></dt>
+				
+					<dt><a href="/zuzhijigou/" title="组织机构">组织机构</a></dt>
+				
+					<dt><a href="/qiyelinian/" title="企业理念">企业理念</a></dt>
+				
+					<dt><a href="/qiyerongyu/" title="企业荣誉">企业荣誉</a></dt>
+				
+		</dl>
+		<ul class="list_left_btn">
+			<li><a href="/chanpinzonghui"><img src="images/btn_products.jpg"></a></li>
+			<li><a href="/lianxiwomen"><img src="images/btn_contact.jpg"></a></li>
+			<li><img src="images/btn_rexian.jpg"></li>
+		</ul>
+		<div class="list_left">
+			<p class="title">重点推荐</p>
+			<ul>
+			<li><a href="/hangyezixun/284.html">·超市冷柜直冷式和风冷式独具</a></li>
+<li><a href="/xinwendongtai/285.html">·临汾水果柜/不同食品的最佳存</a></li>
+<li><a href="/hangyezixun/282.html">·使用熟食柜的时候应该有哪些</a></li>
+<li><a href="/xinwendongtai/280.html">·宝尼尔电器冷藏展示柜卖点在</a></li>
+<li><a href="/xinwendongtai/283.html">·日常蛋糕展示柜的使用须知：</a></li>
+<li><a href="/hangyezixun/281.html">·佛山保鲜柜价格/东莞展示柜要</a></li>
+<li><a href="/hangyezixun/279.html">·展示冷柜温度如何管理？</a></li>
+<li><a href="/xinwendongtai/278.html">·丹佛斯压缩机最新价格是多少</a></li>
+<li><a href="/hangyezixun/277.html">·深圳水果保鲜柜/蛋糕柜的维护</a></li>
+<li><a href="/xinwendongtai/276.html">·南昌风幕柜/如何巧妙运用超市</a></li>
+
+			</ul>
+		</div>
+	</div>
+	<div class="c_r">
+		<div class="pos2">
+			<p><a href='http://www.bnedq.com/'>首页</a> > <a href='/gongsijianjie/'>文章详情</a></p>
+		</div>
+		<h1 class="dis_title" style="padding-left:20%;">
+		<?php echo $artiList['title'];?>
+		<span style="font-size:12px;margin-left:25px;color:#A1A1A1;">作者：<?php echo $artiList['author'];?></span>
+		<span style="font-size:12px;margin-left:25px;color:#A1A1A1;">发布时间：<?php echo $artiList['maketime'];?></span>
+		</h1>
+		<!-- <div class="dis_content2"> -->
+		<div>
+			　<?php echo $artiList['content'];?>
+		</div>
+		
+		<!-- 评论部分  -->
+		<div style="margin-top:20%;">
+			<div style="border-top:1px dashed #A1A1A1;">
+				　<span></span>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<div id="footer">
+	<div class="warp">
+		<p>合肥宝尼尔电器有限公司：专业的<a href="http://www.bnedq.com">冷柜</a>、<a href="http://www.bnedq.com">冷藏柜</a>、<a href="http://www.bnedq.com">保鲜柜</a>、<a href="http://www.bnedq.com">展示柜</a>、<a href="http://www.bnedq.com">超市陈列柜</a>等产品供应商。&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<p>业务一部：0551-63714896 / 0551-63542853&nbsp;&nbsp;&nbsp;&nbsp;	业务二部：0551-63542832 / 0551-63714511  </p>
+		<p>业务三部：0551-62382938 / 0551-62382996&nbsp;&nbsp;&nbsp;&nbsp;	业务四部：0551-62382920 / 0551-62382963  </p>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(function(){
+	init();
+	do_sub();
+});
+
+function init(){
+	//点击上一页
+	
+}
+</script>

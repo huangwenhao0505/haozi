@@ -1,0 +1,130 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Admin/Index/index');?>">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">爬虫管理</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="#" method="post">
+                    
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="<?php echo U('Admin/News/addRule');?>"><i class="icon-font"></i>新增爬虫规则</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <!-- <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a> -->
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" id="result-tab" width="100%">
+                    	<thead>
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" id="allChoose" name="startCheck" type="checkbox"></th>
+                            <th>规则id</th>
+                            <th>任务来源</th>
+                            <th>种子链接</th>
+                            <th>种子名称</th>
+                            <th>创建时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        	<tr><td colspan="7" align="center">请选择条件进行查询!</td></tr>
+                        </tbody>
+                        <tfoot>
+                        </tfoot>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+
+<script>
+
+$(function(){
+	do_sub();
+});
+
+function do_sub(){
+	$.post('<?php echo U("Admin/News/getRuleList");?>',
+		function(data){
+			var html = '';
+			var d = eval("("+data+")");	//解析json格式
+			if(d.result != false && d.result != null){	//内容不为空
+				for(var i in d.result){	//遍历
+					html += '<tr>';
+					html += '<td class="tc" width="5%"><input class="allChoose" name="check" type="checkbox" value="'+d.result[i].id+'"></td>';
+					html += '<td>'+d.result[i].id+'</td>';
+					html += '<td>'+d.result[i].name+'</td>';
+					html += '<td>'+d.result[i].url+'</td>';
+					html += '<td>'+d.result[i].cateName+'</td>';
+					html += '<td>'+d.result[i].createDate+'</td>';
+					html += '<td>';
+					html += '<a href="javascript:void(0);" onclick="delRule('+d.result[i].id+')">删除</a> | ';
+					html += '<a href="__URL__/startCrawler?id='+d.result[i].id+'" target="_blank" onclick="startNews('+d.result[i].id+')">开始爬虫</a>';
+					html += '</td>';
+					html += '</tr>';
+				}
+				
+			}else{
+				html = '<tr><td colspan="7" align="center">暂无符合条件记录！</td></tr>';
+			}
+			
+			$("#result-tab>tbody").html(html);
+		}
+	);
+}
+
+/**
+ * 删除规则
+ @param id 规则id
+ */
+function delRule(id){
+	$.get('<?php echo U("Admin/News/delRule")?>',{'id':id},
+		function(data)
+		{
+			var d = eval("("+data+")");
+			if(d.status == 10001)
+			{
+				alert(d.msg);
+				return;
+			}
+			else
+			{
+				do_sub();
+			}
+		}		
+	);
+}
+
+/**
+ * 批量选择
+ */
+$('#allChoose').unbind('click').click(function(){
+	$("input[name='check']").prop("checked",this.checked);
+});
+
+/**
+ * 批量删除
+ */
+ $('#batchDel').unbind('click').click(function(){
+	var checkedNum = $("input[name='check']:checked").length; 
+	if(checkedNum == 0) {
+		alert("请选择至少一项！");
+		return false;
+	}
+	
+	alert("暂未进行处理。。。");
+ })
+</script>
+</body>
+</html>

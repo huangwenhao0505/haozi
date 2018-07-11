@@ -1,0 +1,135 @@
+<include file="Usercenter/header"/>
+
+ <!--右侧样式属性-->
+ <div class="right_style">
+ <!--地址管理-->
+  <div class="user_address_style">
+    <div class="title_style"><em></em>地址管理</div> 
+   <div class="add_address">
+    <span class="name">编辑收货地址</span>
+    <table cellpadding="0" cellspacing="0" width="100%">
+     <input type="hidden" id="addressId" value="<?php echo $info['id'];?>"/>
+     <tr><td class="label_name">收&nbsp;货&nbsp;&nbsp;人：</td><td><input name="name" id="username" type="text" value="<?php echo $info['name'];?>"  class="add_text" style=" width:100px"/><i>*</i></td></tr>
+     <tr><td class="label_name">所在地区：</td><td>
+            <select size="1" id="province" onchange="provinceChange()">
+              <option value="0">请选择省</option>
+            </select>
+            <select size="1" id="city" onchange="cityChange()">
+              <option value="2">请选择市</option>
+            </select>
+            <select size="1" id="zone">
+              <option value="3">请选择县/区</option>
+            </select><i>*</i></td></tr>
+     <tr><td class="label_name">街道地址：</td><td><textarea name="content" id="content" cols="" rows="" style=" width:500px; height:100px; margin:5px 0px"><?php echo $info['address'];?></textarea><i>*</i></td></tr>
+     <tr><td class="label_name">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：</td><td><input name="code" id="code" value="<?php echo $info['zipcode'];?>" type="text" class="add_text" style=" width:100px"/><i>*</i></td></tr>
+     <tr><td class="label_name">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</td><td><input name="phone" id="phone" value="<?php echo $info['phone'];?>" type="text" class="add_text" style=" width:200px"/>&nbsp;&nbsp;<i>*</i></td></tr>
+     <tr class="moren_dz" style="color: #999"><td class="label_name"></td>
+     	<td><label>
+     	<?php if($info['isdefault'] == 1){ ?>
+     		<input name="isDefault" type="checkbox" value="1" checked="checked"/>设置为默认地址
+     	<?php }else{ ?>
+     		<input name="isDefault" type="checkbox" value="1" />设置为默认地址
+     	<?php } ?>
+     	</label></td>
+     </tr>
+     <tr><td colspan="2" class="center"><input name="submit" onclick="subEditAddress()" type="submit" value="修改"  class="add_dzbtn"/><input name="" type="reset" onclick="quxiaoEditAddress()" value="取消"  class="reset_btn"/></td></tr>
+    </table>
+   </div>
+   
+<script>
+$(function(){
+	//给省列表赋值
+	$.post('<?php echo U("Usercenter/areaList");?>',function(data){
+		var d = eval("("+data+")");
+		for(var i in d.province){
+			$('#province').append('<option value="'+d.province[i].id+'">'+d.province[i].name+'</option>');
+		}
+	});
+
+});
+
+//点击省时给其市赋值
+function provinceChange(){
+	//每次改变省时，市的内容清空，下面会给其赋值，如果不清空就会一直叠加。区也对应的清空，加上一个请选择区
+	$('#city').empty();
+	$('#zone').empty();
+	$('#zone').append('<option value="0">请选择区</option>');
+	
+	//给市赋值
+	var provinceId = $('#province').find("option:selected").val();
+	var cityId = $('#city').find("option:selected").val();
+	$.post('<?php echo U("Usercenter/areaList");?>',{'provinceId':provinceId,'cityId':cityId},function(data){
+		var d = eval("("+data+")");
+		for(var i in d.city){
+			$('#city').append('<option value="'+d.city[i].id+'">'+d.city[i].name+'</option>');
+		}
+	});
+}
+
+//点击市时给其区赋值
+function cityChange(){
+	//每次市改变时，区的清空，下面会给其赋值，如果不清空就会一直叠加。
+	$('#zone').empty();
+
+	//给区赋值
+	var provinceId = $('#province').find("option:selected").val();
+	var cityId = $('#city').find("option:selected").val();
+	$.post('<?php echo U("Usercenter/areaList");?>',{'provinceId':provinceId,'cityId':cityId},function(data){
+		var d = eval("("+data+")");
+		if(d.zone != false && d.zone != null){
+			for(var i in d.zone){
+				$('#zone').append('<option value="'+d.zone[i].id+'">'+d.zone[i].name+'</option>');
+			}
+		}else{
+			$('#zone').append('<option value="0">-------</option>');
+		}
+		
+	});
+}
+
+//取消编辑收货地址
+function quxiaoEditAddress(){
+	window.location.href = "/mall.php/Home/Usercenter/addAddress";
+}
+
+//保存编辑
+function subEditAddress(){
+	var id = $('#addressId').val();
+	var name = $('#username').val();
+	var phone = $('#phone').val();
+	var areaId = $('#province').find("option:selected").val();
+	var cityId = $('#city').find("option:selected").val();
+	var zoneId = $('#zone').find("option:selected").val();
+	var address = $('#content').val();
+	var zipCode = $('#code').val();
+	var isDefault = $("input[name='isDefault']:checked").val();
+	$.post('<?php echo U("Usercenter/editAddress");?>',{'id':id,'name':name,'phone':phone,'areaId':areaId,'cityId':cityId,'zoneId':zoneId,'address':address,'zipCode':zipCode,'isDefault':isDefault},function(respon){
+		if(respon.errno == 10001){
+			alert(respon.errmsg);
+		}else{
+			window.location.href = "/mall.php/Home/Usercenter/addAddress";
+		}
+	});
+}
+</script>
+   
+  </div>
+ </div>
+ </div>
+ </div>
+<script>
+$(document).ready(function(){
+  $('.moren_dz input').iCheck({
+    checkboxClass: 'icheckbox_flat-green',
+    radioClass: 'iradio_flat-green'
+  });
+});
+</script>
+
+<script>
+
+</script>
+
+<include file="Public/footer"/>
+
+

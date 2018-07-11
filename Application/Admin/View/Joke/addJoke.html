@@ -1,0 +1,110 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Admin/Index/index');?>">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="<?php echo U('Admin/Joke/listJoke');?>">笑话管理</a><span class="crumb-step">&gt;</span><span>新增笑话</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        	<tr>
+                                <th><i class="require-red">*</i>缩略图：</th>
+                                <td>
+                                	<input type="file" name="img" id="img" onchange="fileImg('images','img')">
+                                	<img src="" id="images"/>
+                                	<span id="error_img" style="color:red;">没上传图片默认显示的是你的个人头像哟!</span>
+                                </td>  
+                            </tr>
+                            <tr>
+                                <th>内容：</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"></textarea></td>
+                            </tr>
+                            <tr><td colspan="2" class="error" style="font-size:20px;color:red;text-align:center;"><span></span></td></tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" id="but" value="提交" type="button">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+<script>
+//上传按钮改变时触发  增加用户体验度  实现实时显示选择的图片
+function fileImg(imgid,fileid) {
+ //imgid指<img />标签id,fileid表示<input type='file' />文件上传标签的id,hiddenid指隐藏域标签id
+    $("#"+imgid).attr("src","");//加载loading图片
+    $.ajaxFileUpload({            
+     	url: '<?php echo U("Admin/Joke/uploadImg");?>',
+        secureuri: false,
+        fileElementId: fileid,  
+        dataType: 'json',              
+        success: function (data, status){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+            if(typeof (data.error) != 'undefined'){
+            	var error_msg = "";
+            	switch(data.error){
+	            	case "101": error_msg="文件类型错误";
+	            		$('#error_img').html(error_msg);
+	                	break;
+	            	case "102": error_msg="文件过大";
+	            		$('#error_img').html(err_msg);
+	                	break;
+	            	case "400": error_msg="非法上传";
+	            		$('#error_img').html(err_msg);
+	                	break;
+	            	case "404": error_msg="文件为空";
+	            		$('#error_img').html(err_msg);
+	                	break;
+	            	default :error_msg="服务器不稳定";
+	            	$('#error_img').html(err_msg);
+            	}
+            	//alert(error_msg);
+            }else{
+            	$('#error_img').empty();
+            	$("#"+imgid).attr("src",data.path);//加载返回的图片路径并附加上样式
+                //$("#"+hiddenid).val(data.path);//给对应的隐藏域赋值，以便提交时给后台
+            }              
+        },
+    });
+}
+
+$('#but').bind().click(function(){
+	var content = $('#content').val();
+	
+	$.ajaxFileUpload({
+		type:'post',
+		url:'<?php echo U("Admin/Joke/uploadImg");?>',
+	    secureuri: false,
+        fileElementId: 'img',  //file标签的id
+        dataType: 'json', 
+        success:function(data){
+        	var img = data.path;
+        	$.ajax({
+        		type:'post',
+        		url:'<?php echo U("Admin/Joke/addJoke");?>',
+        		data:{'content':content,'img':img},
+        		success:function(respon){
+        			if(respon.errno == 10001){
+        				$('tr td.error span').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+        			}else{
+        				window.location.href="<?php echo U('Admin/Joke/listJoke')?>";
+        			}
+        		},dataType:'json'
+        	});
+        }
+	});
+});
+ 
+</script>
+</div>
+</body>
+</html>

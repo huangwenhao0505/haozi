@@ -1,0 +1,104 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">编辑属性（颜色、尺码、类型、材质。。。）</h2>
+       <a href="<?php echo U('Attribute/listAttr');?>" class="fr top_rt_btn add_icon">属性列表</a>
+      </div>
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">属性名称：</span>
+        <input type="hidden" name="id" id="id" value="<?php echo $attrName['id'];?>"/>
+        <input type="text" name="attrName" id="attrName" value="<?php echo $attrName['attrname'];?>" class="textbox textbox_295" placeholder="属性名称"/>
+        <span id="errorAttrName"></span>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">属性值(X XL)：</span>
+        <?php foreach($attrValue as $k => $v){ ?>
+        	<input type="hidden" name="attrId" value="<?php echo $v['id'];?>"/>
+        	<li style="padding-left:120px;">
+        	<input type="text" name="attrValue" id="attrValue_<?php echo $v['id'];?>" value="<?php echo $v['value'];?>" class="textbox textbox_100 attrValue" placeholder="属性值"/>
+        	<a href="javascript:void(0)" onclick="delAttrValue(<?php echo $v['id'];?>)">删除</a> 
+        	<span id="errorDelAttrValue_<?php echo $v['id'];?>" style="padding-left:20px;color:red;"></span>
+        	<li>
+        <?php } ?>
+        <span id="attrValue" style="padding-left:120px;"><!-- 接收追加的数据 --></span>
+        <span id="errorAttrValue"><!-- 显示错误信息 --></span>
+        <button onclick="addAttrValueBox()">添加</button>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" class="link_btn"/>
+        <span id="errorSubmit"></span>
+       </li>
+      </ul>
+     </section>
+ </div>
+</section>
+
+<script>
+//添加属性值
+function addAttrValueBox(){
+	html = '<input type="text" name="addAttrValue" class="textbox textbox_100" style="margin-right:5px;" placeholder="属性值"/>';
+	$('#attrValue').append(html);
+}
+
+//删除单个属性值   id为属性值的id
+function delAttrValue(id){
+	$.post('<?php echo U("Attribute/delAttrValue");?>',{'id':id},function(respon){
+		if(respon.errno == 10001){
+			$('#errorDelAttrValue_'+id).val(respon.errmsg);
+		}else{
+			self.location.reload();
+		}
+	});
+}
+
+//提交
+$('.link_btn').bind('click').click(function(){
+	var id = $('#id').val();
+	var attrName = $('#attrName').val();
+	var attrId = "";//属性值id
+	var object = document.getElementsByName("attrId");
+	for(var i=0;i<object.length;i++){
+		attrId += object[i].value + ",";
+	}
+	
+	var attrValue = "";//属性值
+	var obj = document.getElementsByName("attrValue");
+    for(var i=0;i<obj.length;i++){
+    	attrValue += obj[i].value + ",";
+    }
+    
+    var addAttrValue = "";//新增的属性值
+    var addObj = document.getElementsByName("addAttrValue");
+    for(var i=0;i<addObj.length;i++){
+    	addAttrValue += addObj[i].value + ",";
+    }
+	
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Attribute/editAttr")?>',
+		data:{'id':id,'attrName':attrName,'attrIdStr':attrId,'attrValue':attrValue,'addAttrValue':addAttrValue},
+		dataType: 'json',
+		success:function(respon){
+			if(respon.errno == 10001){
+				$("#errorAttrName span").addClass('errorTips');
+				$('#errorAttrName').html(respon.errmsg);
+			}else if(respon.errno == 10002){
+				$('#errorAttrName').empty();
+				$('#errorAttrValue').html(respon.errmsg);
+			}else{
+				$('#errorAttrName').empty();
+				$('#errorAttrValue').empty();
+				//$('#errorSubmit').html(respon.errmsg);
+				window.location.href="<?php echo U('Attribute/listAttr');?>";
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+[ 2017-11-14T09:14:33+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-11-14T11:14:13+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1510629253000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510629253000
+
+[ 2017-11-14T11:15:57+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1510629357000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510629357000
+
+[ 2017-11-14T11:16:54+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-14T11:18:20+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1510629500000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510629500000
+
+[ 2017-11-14T11:30:07+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1510630207000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510630207000
+
+[ 2017-11-14T11:31:31+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&&s=1510630291000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510630291000
+
+[ 2017-11-14T11:34:03+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1510630443000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510630443000
+
+[ 2017-11-14T11:37:18+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1510630638000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1510630638000
+
+[ 2017-11-14T11:39:08+08:00 ] 127.0.0.1 /Exam/User/onExam?id={1}&s=1510630747000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510630747000
+
+[ 2017-11-14T11:39:24+08:00 ] 127.0.0.1 /Exam/User/onExam?id=1&s=1510630764000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510630764000
+
+[ 2017-11-14T11:40:32+08:00 ] 127.0.0.1 /index.php/Exam/User/onExam?id=1&s=1510630831000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1510630831000
+
+[ 2017-11-14T11:41:44+08:00 ] 127.0.0.1 /Exam/User/onExam?s=1510630904000&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510630904000
+
+[ 2017-11-14T11:42:01+08:00 ] 127.0.0.1 /Exam/User/onExam?s=1&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+
+[ 2017-11-14T11:42:49+08:00 ] 127.0.0.1 /Exam/User/onExam?s=1510630904000&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510630904000
+
+[ 2017-11-14T11:42:54+08:00 ] 127.0.0.1 /Exam/User/onExam?s=22&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:22
+
+[ 2017-11-14T11:47:12+08:00 ] 127.0.0.1 /index.php/Exam/User/onExam?id=1&s=1510631232000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510631232000
+
+[ 2017-11-14T11:49:25+08:00 ] 127.0.0.1 /Exam/User/[User/onExam?]id=1&s=1510631365000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510631365000
+
+[ 2017-11-14T11:49:42+08:00 ] 127.0.0.1 /Exam/User/[User/onExam?]id=1&s=1510631382000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1510631382000
+

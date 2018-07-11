@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+
+	<div>
+	<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx40f988df4cff4211&amp;redirect_uri=https%3A%2F%2Fwww.beliv.cn%2Fwxindex.php%2FHome%2Findex%2FgoodsList&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=2017#wechat_redirect">点击这里体验授权弹框</a>
+	</div>
+	<?php foreach($list as $k => $v){ ?>
+		<div><a href="__URL__/web?id=<?php echo $v['id'];?>"><?php echo $v['name'];?></a></div>
+		<div><a href="__URL__/web?id=<?php echo $v['id'];?>"><img src="<?php echo $v['cover_image'];?>"/></a></div>
+	<?php } ?>
+</div>
+</body>
+</html>

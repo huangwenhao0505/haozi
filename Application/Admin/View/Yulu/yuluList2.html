@@ -1,0 +1,133 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">作品管理</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="#" method="post">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">作者:</th>
+                            <td><input class="common-text" placeholder="作者" name="author" value="" id="author" type="text"></td>
+                            <th width="70">关键字:</th>
+                            <td><input class="common-text" placeholder="关键字" name="keywords" value="" id="" type="text"></td>
+                            <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="<?php echo U('Admin/Yulu/yuluAdd');?>"><i class="icon-font"></i>新增语录</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                        <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" name="" type="checkbox"></th>
+                            <th>排序</th>
+                            <th>ID</th>
+                            <th>发布人</th>
+                            <th>内容</th>
+                            <th>审核状态</th>
+                            <th>浏览量</th>
+                            <th>发布时间</th>
+                            <th>操作</th>
+                        </tr>
+                        <?php foreach($res as $k => $v){ ?>
+                        <tr>
+                        	<td class="tc"><input name="id[]" value="59" type="checkbox"></td>
+                        	<td>
+                                <input name="ids[]" value="59" type="hidden">
+                                <input class="common-input sort-input" name="ord[]" value="0" type="text">
+                            </td>
+                            <td><?php echo $v['id'];?></td>
+                            <td><?php echo $v['author'];?></td>
+                            <td><?php echo $v['content'];?></td>
+                            <td>
+								<?php if($v['is_ok'] == 0){ ?>
+									<span style="color:red;padding-left:5px;padding-right:5px;">未通过</span>
+									<a href="javascript:void(0);" onclick = "change(this, <?php echo $v['id'];?>, 1)" class="btn btn-primary btn2">通过</a>
+								<?php }else if($v['is_ok'] == 1){ ?>
+									<span style="color:red;padding-left:5px;padding-right:5px;">已通过</span>
+									<a href="javascript:void(0);" onclick = "change(this, <?php echo $v['id'];?>, 0)" class="btn btn-primary btn2">禁用</a>
+								<?php } ?>
+
+							</td>
+                            <td><?php echo $v['like_count'];?></td>
+                            <td><?php echo $v['create_date'];?></td>
+                            <td class="error">
+                                <a class="link-update" href="<?php echo U('yuluEdit',array('id'=>$v['id'])),false;?>">修改</a>
+                                <a class="link-del" href="" onclick="yuluDel(<?php echo $v['id'];?>)">删除</a>
+                                <span style="font-size:20px;color:red;text-align:center;"></span>
+                            </td>
+                        </tr>	
+                        <?php } ?>
+                        
+                    </table>
+                    <div class="list-page"> 2 条 1/1 页</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+
+<script>
+function change(obj,id,state){
+	if(state == 1){
+		var res = confirm('通过后将会在前端显示，是否确认通过？');
+		if(res == true){
+			$.ajax({
+				type:'post',
+				url:'<?php echo U("Admin/Yulu/yuluChange")?>',
+				data:{'id':id,'state':state},
+				success:function(){
+					location.replace(location.href);
+				}
+			});
+		}
+	}else if(state == 0){
+		var res = confirm('禁用后将不会在前端显示，是否确认禁用？');
+		if(res == true){
+			$.ajax({
+				type:'post',
+				url:'<?php echo U("Admin/Yulu/yuluChange")?>',
+				data:{'id':id,'state':state},
+				success:function(){
+					location.replace(location.href);
+				}
+			});
+		}
+	}
+}
+
+function yuluDel(id){
+	var res = confirm('删除之后不可恢复，是否确定要删除？');
+	if(res == true){
+		$.ajax({
+			type:'post',
+			url:'<?php echo U("Admin/Yulu/yuluDel");?>',
+			data:{'id':id},
+			success:function(respon){
+				if(respon.errno == 10001){
+					$('tr td.error span').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+				}else{
+					location.replace(location.href);
+				}
+			},typeData:'json'
+		});
+	}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    #th th{
+        background-color: #50a9fa;
+        color: aliceblue;
+        font-size: large;
+    }
+</style>
+
+<!-- vue不支持请求   所以要用到axios来执行请求地址  -->
+<script type="text/javascript" src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+<div id="app"> 
+	<input type="text" v-model="name"/>
+	<input type="number" v-model="ordernum"/>
+	<button @click="addDate">添加数据</button>
+	<span>{{message}}</span>
+	
+	<table id="th" border="1" solid width="400px">
+		<tr>
+			<th>类别名称</th>
+			<th>权重</th>
+			<th>创建时间</th>
+			<th>操作</th>
+		</tr>
+		<tr v-for="item in list">
+			<td>{{item.name}}</td>
+			<td>{{item.ordernum}}</td>
+			<td>{{item.createdate}}</td>
+			<td><a href="javascript:void(0);" @click="delDate(item.id)">删除</a></td>
+		</tr>
+	</table>
+</div>
+
+<script>
+new Vue({
+	el: '#app',
+	data: {
+		name: '',
+		ordernum: '',
+		createDate: '',
+		message: '',//存储提示信息
+		list: []//用于存储列表
+	},
+	
+	created: function() {
+		this.getList();//实例化成功之后调用这个方法
+	},
+	
+	methods:{
+		getList:function() {
+			//console.log(this);
+			var that = this;
+			//请求服务器的api地址
+			axios.get('/index.php/home/vue/getList').then(function (response) {
+			   console.log(response.data.list);
+
+			   that.list = response.data.list;//给list赋值
+			 }).catch(function (error) {
+				 
+			   console.log(error);
+			 });	
+		},
+
+		addDate:function() {
+			var that = this;
+			var name = that.name;
+			var ordernum = that.ordernum;
+
+			if(name == '')
+			{
+				that.message = "类别名称不能为空！";
+				return false;
+			}
+			
+			if(ordernum == '')
+			{
+				that.message = "请填写权重！";
+				return false;
+			}
+			
+			if(ordernum > 100 || ordernum < 0)
+			{
+				that.message = "权重请填写在1-99之间";
+				return false;
+			}
+			
+			var params = new URLSearchParams();
+			params.append('name', name);
+			params.append('ordernum', ordernum);
+			axios.post('/index.php/home/vue/addData', params)
+			.then(function (response) {
+				console.log(response);
+				var res = response.data;
+				if(res == 1){
+					that.message = '新增成功！';
+					that.getList();
+				}else{
+					alert('新增失败！');
+				}
+			  })
+			  .catch(function (error) {
+			    console.log(error);
+			  });
+			
+			/*  GET请求
+			axios.get('/index.php/home/vue/addData', {
+				params: {
+			      name: name,
+			      ordernum: ordernum
+			    }
+			})
+			.then(function (response) {
+				console.log(response);
+				var res = response.data;
+				if(res == 1){
+					that.message = '新增成功！';
+					that.getList();
+				}else{
+					alert('新增失败！');
+				}
+			})
+			.catch(function (error) {
+				console.log(error);
+			});
+			*/
+		},
+		
+		delDate:function(id) {
+			var that = this;
+			//请求服务器的api地址
+			axios.get('/index.php/home/vue/delData?id='+id).then(function (response) {
+			   //console.log(response);
+			   var res = response.data;
+			   if(res == 1){
+				   that.getList();
+			   }else{
+			    	alert('删除失败');   
+			   }
+			 }).catch(function (error) {
+				 
+			   console.log(error);
+			 });	
+		}
+	},
+});
+
+</script>
+
+</body>
+</html>

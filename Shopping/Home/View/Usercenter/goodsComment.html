@@ -1,0 +1,82 @@
+<include file="Usercenter/header"/>
+
+<!--发布商品样式-->
+<div class="Inside_pages clearfix">
+
+<div class="right_style">
+  <!--内容详细-->
+   <div class="title_style"><em></em>发布商品</div>
+    <div class="content_style">
+     <div class="Release_product_style">
+     <form>
+      <input type="hidden" id="orderId" value="<?php echo $orderId;?>"/>
+      
+      <?php foreach($list as $k => $v){ ?>
+	      <table cellpadding="0" cellspacing="0" width="100%">
+	      	<input type="hidden" name="goodsId" value="<?php echo $v['goodsid'];?>"/>
+	      	<tr>
+	       	   <td class="label"><img src="<?php echo $v['img'];?>" width="80px" height="80px"></td>
+		       <td class="label"><?php echo $v['name'];?></td>
+		       <td class="label"><?php echo $v['attrvalue'];?></td>
+		       <td class="label"><?php echo $v['goodsnum'];?></td>
+		       <td class="label">￥<?php echo $v['amount'];?></td>
+	        </tr> 
+	   			<table cellpadding="0" cellspacing="0" width="100%">
+	   				<tr>
+	   					<td class="label">发表评论：</td>
+	   					<td colspan="4">
+	     					<input type="radio" name="type_<?php echo $v['goodsid']?>" value="1" checked="checked"/>好评
+	     					<input type="radio" name="type_<?php echo $v['goodsid']?>" value="2"/>中评
+	     					<input type="radio" name="type_<?php echo $v['goodsid']?>" value="3"/>差评
+	     				</td>
+	   				</tr>
+	       			<tr> 
+	       				<td></td>
+	       				<td colspan="4"><textarea style="border:solid 1px #f00;width:80%;height:100px;" id="textContent_<?php echo $v['goodsid'];?>"></textarea></td>
+	       			</tr>
+	      		</table>
+	     </table>
+     <?php } ?>
+      
+      <a href="javascript:void(0);" onclick="subGoodsComment()" class="Next_btn">提交商品资料</a>
+      
+     </form>
+     </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function subGoodsComment(){
+	//商品id
+	var goodsIdArray = new Array();
+	$("input[name='goodsId']").each(function(){
+		goodsIdArray.push($(this).val());
+	});
+	//商品评论内容
+	var goodsContentArray = new Array();
+	for(var i in goodsIdArray){
+		var content = $('#textContent_'+goodsIdArray[i]).val();
+		goodsContentArray.push(content);
+	}
+	//商品评论类型
+	var typeArray = new Array();
+	for(var i in goodsIdArray){
+		var type = $("input[name='type_"+goodsIdArray[i]+"']:checked").val();
+		typeArray.push(type);
+	}
+	
+	var goodsIdStr = goodsIdArray.toString();
+	var goodsContentStr = goodsContentArray.toString();
+	var goodsTypeStr = typeArray.toString();
+	
+	var orderId = $("#orderId").val();//订单id
+	
+	$.post('<?php echo U("Usercenter/goodsComment")?>',{'orderId':orderId,'goodsIdStr':goodsIdStr,'goodsContentStr':goodsContentStr,'goodsTypeStr':goodsTypeStr},function(respon){
+		if(respon.errno == 10001){
+			alert(respon.errmsg);
+		}
+	});
+}
+</script>
+
+<include file="Public/footer"/>

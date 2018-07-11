@@ -1,0 +1,2770 @@
+[ 2017-09-11T15:08:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:08:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:08:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:08:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:08:16+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:08:35+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T15:08:35+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:08:35+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:08:35+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:08:55+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:08:55+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:08:55+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:08:56+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T15:08:56+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:08:56+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-11T15:08:56+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:08:58+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include_once(./Public/alipay/aop/request/AlipayTradePagePayRequest.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 31 行.
+NOTIC: [2] include_once(): Failed opening './Public/alipay/aop/request/AlipayTradePagePayRequest.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 31 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haozi.s_order' doesn't exist
+
+[ 2017-09-11T15:10:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:10:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:10:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:10:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:10:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:10:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:10:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:10:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:10:16+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include_once(./Public/alipay/aop/request/AlipayTradePagePayRequest.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 33 行.
+NOTIC: [2] include_once(): Failed opening './Public/alipay/aop/request/AlipayTradePagePayRequest.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+ERR: Class 'AlipayTradePagePayRequest' not found
+
+[ 2017-09-11T15:10:31+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:10:31+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:10:31+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-11T15:10:31+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:10:32+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:10:32+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:10:32+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:10:32+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:10:33+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+NOTIC: [2] include_once(./Public/alipay/aop/AopClient.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 14 行.
+NOTIC: [2] include_once(): Failed opening './Public/alipay/aop/AopClient.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 14 行.
+ERR: Class 'AopClient' not found
+
+[ 2017-09-11T15:11:42+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:11:43+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:11:43+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:11:43+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:11:44+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T15:11:44+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:11:44+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-11T15:11:44+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:11:47+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:12:53+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+
+[ 2017-09-11T15:21:12+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:24:45+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+
+[ 2017-09-11T15:24:48+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+
+[ 2017-09-11T15:24:48+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:24:48+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:24:48+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:24:48+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:24:50+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:24:50+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:24:50+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-11T15:24:50+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:24:53+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+
+[ 2017-09-11T15:26:03+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+
+[ 2017-09-11T15:26:04+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:26:04+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:26:04+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-11T15:26:04+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:26:05+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:26:05+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T15:26:06+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T15:26:06+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T15:26:07+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: totalamount D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 60 行.
+
+[ 2017-09-11T15:37:59+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T15:38:14+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:09:26+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:10:11+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-11T16:10:11+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:10:12+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:10:13+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:48:58+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:48:58+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:48:59+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:49:04+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:49:04+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:49:05+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:49:06+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:49:07+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:49:07+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:49:07+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:49:07+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:49:07+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('1') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:49:34+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2017-09-11T16:49:46+08:00 ] 127.0.0.1 /mall.php/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: w D:\phpStudy\WWW\haozi\Shopping\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SELECT `id`,`topCategoryId`,`categoryId`,`attrIdList`,`attrNameList`,`name`,`price`,`oldPrice`,`soldNum`,`img`,`unitName`,`isMarketable`,`description`,`createDate`,`updateDate` FROM `hwh_goods`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0380s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`parentId`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=0 ) ORDER BY ordernum  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( parentId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:49:49+08:00 ] 127.0.0.1 /mall.php/home/Goods/goodsView?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE ( goodsId=15 )  [ RunTime:0.0010s ]
+SQL: SELECT attrValue1 as attrValue FROM `hwh_goods_store` WHERE ( goodsId=15 ) GROUP BY attrValue1  [ RunTime:0.0120s ]
+SQL: SELECT attrValue2 as attrValue FROM `hwh_goods_store` WHERE ( goodsId=15 ) GROUP BY attrValue2  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0320s ]
+SQL: SELECT `id`,`attrname` FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=7 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=6 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 材质 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:50:18+08:00 ] 127.0.0.1 /mall.php/home/Goods/goodsView?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE ( goodsId=14 )  [ RunTime:0.0000s ]
+SQL: SELECT attrValue1 as attrValue FROM `hwh_goods_store` WHERE ( goodsId=14 ) GROUP BY attrValue1  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`attrname` FROM `hwh_attribute_name`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=7 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_attribute_value` WHERE ( attrNameId=6 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 颜色 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined index: 尺码 D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:50:20+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '纯棉' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:50:22+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '纯棉' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-11T16:50:26+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '纯棉' AND `attrValue2` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:50:28+08:00 ] 127.0.0.1 /mall.php/home/cart/addcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0080s ]
+SQL: INSERT INTO `hwh_goods_cart` (`userId`,`goodsId`,`goodsNum`,`amount`,`attrValue1`,`attrValue2`,`createDate`) VALUES ('1','14','1','77','羊毛','','2017-09-11 16:50:28') [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='8' WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `goodsId` = 14 AND `attrValue1` = '羊毛' AND `userId` = 1 AND `isok` = 1 ORDER BY createDate desc  [ RunTime:0.0000s ]
+
+[ 2017-09-11T16:50:28+08:00 ] 127.0.0.1 /mall.php/home/goods/goodscartnum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 AND `isok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:50:31+08:00 ] 127.0.0.1 /mall.php/home/cart/cartlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T16:50:31+08:00 ] 127.0.0.1 /mall.php/home/cart/cartlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT id as cartId,`goodsNum`,`amount`,`attrValue1`,`attrValue2`,`isok`,`createDate` FROM `hwh_goods_cart` WHERE `userId` = 1 LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: goodsid D:\phpStudy\WWW\haozi\Shopping\Home\Controller\CartController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`img`,`description`,`price`,`unitName` FROM `hwh_goods` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-11T16:50:31+08:00 ] 127.0.0.1 /mall.php/home/cart/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T16:50:37+08:00 ] 127.0.0.1 /mall.php/home/cart/subcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `id` IN ('1')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:50:39+08:00 ] 127.0.0.1 /mall.php/home/Order/confirmOrder?cartIdList=1&totalAmount=77
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT g.id,g.name,g.img,g.price,c.goodsNum,c.amount,c.attrValue1,c.attrValue2 FROM hwh_goods_cart c LEFT JOIN hwh_goods g on g.id = c.goodsId  WHERE c.id = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_ship_address` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `hwh_user_ship_address` WHERE `userId` = 1 AND `isDefault` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:50:39+08:00 ] 127.0.0.1 /mall.php/home/Order/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T16:50:39+08:00 ] 127.0.0.1 /mall.php/home/Order/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T16:50:42+08:00 ] 127.0.0.1 /mall.php/home/order/suborder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0080s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`shipAdressId`,`createDate`) VALUES ('1','H17091104504211505119842','77','77','1','2017-09-11 16:50:42') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0080s ]
+SQL: INSERT INTO `hwh_order_item` (`orderId`,`goodsId`,`price`,`goodsNum`,`amount`,`attrValue1`,`attrValue2`,`createDate`) VALUES ('6','14','77','1','77','羊毛','','2017-09-11 16:50:42') [ RunTime:0.0010s ]
+SQL: DELETE FROM `hwh_goods_cart` WHERE `id` IN ('1') [ RunTime:0.0000s ]
+
+[ 2017-09-11T16:51:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T16:51:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T16:51:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+
+[ 2017-09-11T16:51:13+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T16:51:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+
+[ 2017-09-11T16:51:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T16:51:17+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.payAmount,o.payState,o.orderNo,g.name,i.attrValue1,i.attrValue2 FROM hwh_order o left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id IN ('6') AND o.userId = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:23:15+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:23:15+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:15+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:15+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+
+[ 2017-09-11T17:23:15+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:23:19+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:23:20+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:20+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:20+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:23:20+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:23:25+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:23:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:23:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:23:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:23:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:29:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:29:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:29:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:29:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+
+[ 2017-09-11T17:29:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:29:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:29:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:29:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:29:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+
+[ 2017-09-11T17:29:12+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:30:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:30:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:30:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:30:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:30:34+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:32:09+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:32:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:32:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:32:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+
+[ 2017-09-11T17:32:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:32:46+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:32:46+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:32:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:32:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:32:47+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:33:23+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:33:23+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:33:23+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:33:23+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0010s ]
+
+[ 2017-09-11T17:33:24+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:34:43+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:34:43+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:34:44+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:34:44+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:34:44+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:35:37+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:35:37+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:35:38+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:35:38+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:35:38+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:35:46+08:00 ] 127.0.0.1 /mall.php/home/usercenter/deleteorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_order` WHERE `userId` = 1 AND `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `hwh_order` WHERE `userId` = 1 AND `id` = 6 [ RunTime:0.0010s ]
+
+[ 2017-09-11T17:35:46+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1'  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:35:46+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:36:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:36:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:36:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:36:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:36:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-09-11T17:36:17+08:00 ] 127.0.0.1 /mall.php/home/usercenter/deleteorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_order` WHERE `userId` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `hwh_order` WHERE `userId` = 1 AND `id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-09-11T17:36:17+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:43:17+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState IN (3,4)  [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:45:50+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:45:50+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:45:51+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:45:51+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:47:09+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:47:09+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:47:09+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:47:10+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:51:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-11T17:51:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:51:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:51:21+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+
+[ 2017-09-11T17:52:02+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 161 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 162 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 163 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 164 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 165 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 166 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-11T17:52:02+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:52:02+08:00 ] 127.0.0.1 /mall.php/home/usercenter/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:layer
+
+[ 2017-09-11T17:52:02+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.id,o.orderNo,o.totalAmount,o.payState,o.shipState,o.createDate,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order as o INNER JOIN hwh_order_item i on i.orderId = o.id INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE o.userId = '1' AND o.payState = 1  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 1 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 2 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState = 2 and shipState = 3 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 1 and payState in (3,4) [ RunTime:0.0000s ]
+

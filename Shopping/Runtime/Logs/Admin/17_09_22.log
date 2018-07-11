@@ -1,0 +1,2665 @@
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:08+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:09+08:00 ] 127.0.0.1 /mall.php/admin/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:product_list
+
+[ 2017-09-22T11:30:10+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:10+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:10+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:10+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:10+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T11:30:11+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T13:58:01+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T13:58:04+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.id,c.name from hwh_goods g left join hwh_goods_category c on c.id = g.categoryId where g.isMarketable = 1 and c.parentId = 0 group by g.categoryId [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T13:58:04+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T13:58:04+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 475 行.
+SQL: SELECT c.name as categoryName,g.* FROM hwh_goods g LEFT JOIN hwh_goods_category c ON c.id=g.categoryId  ORDER BY createDate desc  [ RunTime:0.0000s ]
+
+[ 2017-09-22T14:05:16+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select c.id,c.name from hwh_goods g left join hwh_goods_category c on c.id = g.categoryId where g.isMarketable = 1 and c.parentId = 0 group by g.categoryId [ RunTime:0.0020s ]
+SQL: select topCategoryId as id from hwh_goods group by topCategoryId [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-22T14:05:51+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select topCategoryId as id from hwh_goods group by topCategoryId [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:05:51+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:05:51+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 475 行.
+SQL: SELECT c.name as categoryName,g.* FROM hwh_goods g LEFT JOIN hwh_goods_category c ON c.id=g.categoryId  ORDER BY createDate desc  [ RunTime:0.0000s ]
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:22:18+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:22:19+08:00 ] 127.0.0.1 /mall.php/admin/goods/listattr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-22T14:22:19+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:22:20+08:00 ] 127.0.0.1 /mall.php/admin/goods/listattr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 73 行.
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0040s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 6  [ RunTime:0.0010s ]
+
+[ 2017-09-22T14:22:21+08:00 ] 127.0.0.1 /mall.php/admin/goods/listattr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 73 行.
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0030s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 6  [ RunTime:0.0010s ]
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:38:35+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T14:38:37+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select topCategoryId as id from hwh_goods group by topCategoryId [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:38:38+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:38:38+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 475 行.
+SQL: SELECT c.name as categoryName,g.* FROM hwh_goods g LEFT JOIN hwh_goods_category c ON c.id=g.categoryId  ORDER BY createDate desc  [ RunTime:0.0000s ]
+
+[ 2017-09-22T14:38:42+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( isShow=1 and parentId=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:38:42+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:38:42+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:38:42+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodstorelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE `goodsId` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:41:22+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodsAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( isShow=1 and parentId=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:41:22+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:41:22+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:41:22+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodstorelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE `goodsId` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:43:06+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select topCategoryId as id from hwh_goods group by topCategoryId [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:43:06+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:43:06+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:43:06+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 475 行.
+SQL: SELECT c.name as categoryName,g.* FROM hwh_goods g LEFT JOIN hwh_goods_category c ON c.id=g.categoryId  ORDER BY createDate desc  [ RunTime:0.0000s ]
+
+[ 2017-09-22T14:43:07+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( isShow=1 and parentId=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:43:07+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:43:08+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:43:08+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodstorelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE `goodsId` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:44:21+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( isShow=1 and parentId=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:44:21+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:44:21+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-22T14:44:21+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodstorelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE `goodsId` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:44:22+08:00 ] 127.0.0.1 /mall.php/admin/goods/listattr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:44:23+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:44:23+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:44:23+08:00 ] 127.0.0.1 /mall.php/admin/goods/listattr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 73 行.
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_value` [ RunTime:0.0040s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `value` FROM `hwh_attribute_value` WHERE `attrNameId` = 6  [ RunTime:0.0010s ]
+
+[ 2017-09-22T14:44:23+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select topCategoryId as id from hwh_goods group by topCategoryId [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `hwh_goods_category` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:44:23+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:44:23+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:44:23+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\GoodsController.class.php 第 484 行.
+SQL: SELECT c.name as categoryName,g.* FROM hwh_goods g LEFT JOIN hwh_goods_category c ON c.id=g.categoryId  ORDER BY createDate desc  [ RunTime:0.0000s ]
+
+[ 2017-09-22T14:44:24+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodsadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `hwh_goods_category` WHERE ( isShow=1 and parentId=0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_attribute_name` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_attribute_name`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:44:24+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T14:44:24+08:00 ] 127.0.0.1 /mall.php/admin/goods/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T14:44:24+08:00 ] 127.0.0.1 /mall.php/admin/goods/goodstorelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods_store` WHERE `goodsId` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T16:30:02+08:00 ] 127.0.0.1 /mall.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T16:30:02+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:02+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:02+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:02+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T16:30:03+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T16:30:03+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:03+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:03+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:15+08:00 ] 127.0.0.1 /mall.php/admin/index/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:order_list
+
+[ 2017-09-22T16:30:16+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:16+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:16+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:16+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:16+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:30:16+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:29+08:00 ] 127.0.0.1 /mall.php/admin/index/order_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:order_list
+
+[ 2017-09-22T16:46:31+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:31+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:31+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:31+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:31+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:31+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/js/amcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/js/serial.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:34+08:00 ] 127.0.0.1 /mall.php/admin/index/js/pie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-09-22T16:46:36+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T16:46:36+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T16:46:36+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:01:47+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:01:48+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:01:48+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:01:48+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haozi.hwh_ship_address' doesn't exist
+
+[ 2017-09-22T17:02:16+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:02:16+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:02:16+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:02:16+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0010s ]
+
+[ 2017-09-22T17:03:07+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:03:07+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:03:07+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:03:07+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:03:36+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:03:36+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:03:37+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:03:37+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:10:00+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:10:00+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:10:01+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:10:01+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:10:10+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:10:10+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:10:10+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:10:10+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:10:12+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:10:12+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:10:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:10:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:10:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:10:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-22T17:10:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:10:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:10:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:16:25+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address,g.name as goodsName,g.img as goodsImg FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId INNER JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:16:52+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address,g.name as goodsName,g.img as goodsImg FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:16:55+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address,g.name as goodsName,g.img as goodsImg FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id = '1' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:17:07+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:17:07+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:17:07+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:17:07+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:17:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address,g.name as goodsName,g.img as goodsImg FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id = '2' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-22T17:17:33+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address,g.name as goodsName,g.img as goodsImg FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId left JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-22T17:19:17+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:19:17+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:19:17+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-22T17:19:17+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:19:19+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address,g.name as goodsName,g.img as goodsImg FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId INNER JOIN hwh_order_item i on i.orderId = o.id left JOIN hwh_goods g on g.id = i.goodsId  WHERE o.id = '4'  [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:20:11+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:20:11+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:20:11+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:20:11+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0010s ]
+
+[ 2017-09-22T17:20:13+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:30:35+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:30:35+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:30:35+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:30:35+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:30:36+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0030s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = 'H'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '6'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '6'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '0'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = 'w'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '2'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 112 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 113 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 114 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 114 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 115 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 118 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 119 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 120 行.
+NOTIC: [8] Undefined variable: v D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:30:37+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:30:37+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:30:37+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:30:37+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:31:10+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0050s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = 'H'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '6'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '6'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '0'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = 'w'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '2'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 115 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 119 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 120 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Admin\42615f6a5f5b343bb1c7dde19785b62b.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:31:10+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:31:10+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:31:10+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:31:11+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:31:27+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0060s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = 'H'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '6'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '6'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '0'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = 'w'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '2'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0010s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = null  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '1'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [2] Illegal string offset 'id' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 36 行.
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '�'  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'detail' D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 37 行.
+
+[ 2017-09-22T17:32:31+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0030s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:32:50+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:32:50+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:32:50+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:32:50+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0010s ]
+
+[ 2017-09-22T17:32:51+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0040s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:32:51+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:32:51+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:32:52+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:32:52+08:00 ] 127.0.0.1 /mall.php/Admin/Order/upload/goods01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:36:38+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0060s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0060s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-22T17:36:38+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:36:38+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:44:20+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0030s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img,g.attrNameList FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 46 行.
+
+[ 2017-09-22T17:48:55+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0040s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img,g.attrNameList FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 44 行.
+
+[ 2017-09-22T17:50:26+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0070s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0050s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img,g.attrNameList FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:50:26+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-22T17:50:26+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:50:46+08:00 ] 127.0.0.1 /mall.php/Admin/Order/orderDetail?orderId=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId  WHERE o.id = '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0040s ]
+SQL: SELECT i.price,i.goodsNum,i.amount,i.attrValue1,i.attrValue2,g.name,g.img,g.attrNameList FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE i.orderId = '4'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 44 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Shopping\Admin\Controller\OrderController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:50:46+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T17:50:46+08:00 ] 127.0.0.1 /mall.php/Admin/Order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:58:40+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:58:40+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:58:40+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:58:40+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0010s ]
+
+[ 2017-09-22T17:58:45+08:00 ] 127.0.0.1 /mall.php/admin/order/orderdelete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_order` WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_order_item` WHERE `orderId` = 4 [ RunTime:0.0000s ]
+ERR: Think\Controller:errmsg方法不存在！
+
+[ 2017-09-22T17:59:48+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:59:48+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:59:48+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T17:59:48+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:59:53+08:00 ] 127.0.0.1 /mall.php/admin/order/orderdelete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: DELETE FROM `hwh_order` WHERE `id` = 3 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0050s ]
+SQL: DELETE FROM `hwh_order_item` WHERE `orderId` = 3 [ RunTime:0.0000s ]
+
+[ 2017-09-22T17:59:53+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T18:01:05+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T18:01:05+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:05+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:05+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T18:01:14+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T18:01:14+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:14+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:14+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T18:01:18+08:00 ] 127.0.0.1 /mall.php/admin/order/orderdelete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_order` WHERE `id` = 2 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0030s ]
+SQL: DELETE FROM `hwh_order_item` WHERE `orderId` = 2 [ RunTime:0.0000s ]
+
+[ 2017-09-22T18:01:18+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T18:01:32+08:00 ] 127.0.0.1 /mall.php/admin/order/orderdelete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_order` WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0040s ]
+SQL: DELETE FROM `hwh_order_item` WHERE `orderId` = 1 [ RunTime:0.0000s ]
+
+[ 2017-09-22T18:01:32+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0000s ]
+
+[ 2017-09-22T18:01:40+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T18:01:40+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:41+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:41+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0010s ]
+
+[ 2017-09-22T18:01:59+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-22T18:01:59+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:59+08:00 ] 127.0.0.1 /mall.php/admin/order/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-22T18:01:59+08:00 ] 127.0.0.1 /mall.php/admin/order/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT o.*,s.name,s.phone,s.areaName,s.address FROM hwh_order o left JOIN hwh_user_ship_address s on s.id = o.shipAdressId   [ RunTime:0.0010s ]
+

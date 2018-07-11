@@ -1,0 +1,73 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Admin/Index/index');?>">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="<?php echo U('Admin/Joke/listJoke');?>">文件管理</a><span class="crumb-step">&gt;</span><span>新增文件</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+            <div class="result-title">
+               <div class="result-list">
+                   <a href="<?php echo U('Admin/Uploade/fileList');?>">文件列表</a>
+                   <!-- <a id="updateOrd" href="javascript:void(0)"><i class="icon-font"></i>更新排序</a> -->
+               </div>
+           	</div>
+                <form action="" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th>选择文件：</th>
+                                <td><input type="file" name="fileNames" id="fileNames"/></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" id="but" value="上传" type="button">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+
+</div>
+</body>
+</html>
+
+<script>
+$('#but').unbind('click').click(function(){
+	var path = $('#fileNames').val();
+	if(path == '')
+	{
+		alert('请选择要上传的文件');
+		return false;
+	}
+	
+	var result_msg = "";
+    $.ajaxFileUpload({
+        url: '<?php echo U("Admin/Uploade/uploade");?>',  //这里是服务器处理的代码
+        type: 'post',
+        secureuri: false, //一般设置为false
+        fileElementId: 'fileNames', // 上传文件的id、name属性名
+        dataType: 'json', //返回值类型，一般设置为json、application/json
+        data: {}, //传递参数到服务器
+        success: function (data, status){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+        	if(data.errno == 10000)
+        	{
+       			window.location.href = "<?php echo U('Admin/Uploade/fileList');?>";
+        	}
+        	else
+        	{
+        		alert(data.errmsg);
+        	}
+        },
+    });
+	
+});
+</script>

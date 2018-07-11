@@ -1,0 +1,169 @@
+<include file="Usersj/header"/>
+
+<!--aside nav-->
+<aside class="lt_aside_nav content mCustomScrollbar" id="boxboxbox">
+ <h2><a href="index.html">起始页</a></h2>
+ <ul>
+  <li>
+   <dl>
+    <dt>个人设置</dt>
+    <!--当前链接则添加class:active-->
+    <dd><a href="<?php echo U('Home/Usersj/userInfo');?>">个人资料</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/changePassWord');?>">密码修改</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/safeLog');?>">安全日志</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>列表信息</dt>
+    <dd><a href="<?php echo U('Home/Usersj/yuluList')?>">经典语录列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/jokeList')?>">幽默笑话列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/articleList');?>">优美文章列表</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>相册管理</dt>
+    <dd><a href="<?php echo U('Home/Usersj/photo');?>" class="active">相册列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoAdd');?>">增加相册</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoCoverAdd')?>">封面图像修改</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>账号绑定</dt>
+    <dd><a href="<?php echo U('Home/Usersj/bindList')?>">账号绑定信息</a></dd>
+   </dl>
+  </li>
+ </ul>
+</aside>
+<!-- end aside nav -->
+
+<style>
+.box-son{
+	width:20%;
+	height:200px;
+	padding:0 3% 6% 2%;
+	float:left;
+}
+
+.box_but{
+	border:1px solid #48DGCG ; 
+	background-color:#48D1CC; 
+	text-align:center;
+	height:24px;
+	ling-height:24px;
+}
+
+.box_un_but{
+	border:1px solid #CGCGCG ; 
+	background-color:#CFCFCF; 
+	text-align:center;
+	height:24px;
+	ling-height:24px;
+}
+</style>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+    <div class="page_title">
+     <h2 class="fl">相册列表</h2>
+    </div>
+    <div class="box">
+       <!-- ajax动态获取内容 -->
+    </div>
+    <aside class="paging" style="clear:both;">
+       <!-- ajax动态获取内容 -->
+    </aside>
+    
+    <input type="hidden" id="total_page" value="1"/>
+    <input type="hidden" id="curr_page" value="1"/>
+ </div>
+ 
+  <include file="Usersj/footer"/>
+ 
+</section>
+
+</body>
+</html>
+
+<script>
+$(function(){
+	do_sub();
+});
+
+function do_sub(){
+	var datetime1 = $('#datetimepicker3').val();
+	var datetime2 = $('#datetimepicker4').val();
+	var currPage = $('#curr_page').val();
+	$.post('<?php echo U("Home/Usersj/ajaxPhotoList")?>',{'datetime1':datetime1,'datetime2':datetime2,'currPage':currPage},
+		function(data){
+			var html = '';
+			var d = eval("("+data+")");
+			if(d.list != false || d.list != null){
+				for(var o in d.list){
+			        
+			        html += '<div class="box-son">';
+			        html += '<a href="javascript:void(0);">';
+			        html += '<img class="am-img-thumbnail am-img-bdrs" onclick="bigImg('+d.list[o].id+')" id="img_'+d.list[o].id+'" src="'+d.list[o].img+'" style="height:200px;width:99%;" alt=""/>';
+			        html += '</a>';
+			        html += '<div class="gallery-desc" style="padding-left:5%;">'+d.list[o].maketime+'<input type="button" class="box_un_but" style="margin-left:5%;" onclick="imgDel('+d.list[o].id+','+d.list[o].is_photo_show+')" value="删除"></div>'
+			        html += '</div>';
+				}
+				
+				if(d.total_page == 1){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==1){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==d.total_page){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=3 && d.currPage>1 && d.currPage<d.total_page){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}
+				$("#total_page").val(d.total_page);	//获取总页数
+				
+			}else{
+				
+			}
+			
+			$('.box').html(html);
+			init();
+		}		
+	);
+}
+
+//删除照片
+function imgDel(imgId,isShow){
+	if(isShow == 1){
+		var res = confirm('删除封面图之后，网站将不再显示你的相册图片，确定要删除吗？');
+		if(res == true){
+			$.ajax({
+				type:'post',
+				url:'<?php echo U("Home/Usersj/delPhoto");?>',
+				data:{'imgId':imgId},
+				success:function(respon){
+					do_sub();//统一尺寸显示函数
+				}
+			});
+		}
+	}else{
+		var res = confirm('删除之后不可恢复，是否确定要删除？');
+		if(res == true){
+			$.ajax({
+				type:'post',
+				url:'<?php echo U("Home/Usersj/delPhoto");?>',
+				data:{'imgId':imgId},
+				success:function(respon){
+					do_sub();	//统一尺寸显示函数
+				}
+			});
+		}
+	}
+	
+}
+
+//编辑封面图时的跳转
+function userEditCoverImg(){
+	window.location.href = "<?php echo U('Home/Usersj/photoCoverAdd');?>";
+}
+</script>

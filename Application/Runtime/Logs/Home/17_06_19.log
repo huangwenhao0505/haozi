@@ -1,0 +1,2890 @@
+[ 2017-06-19T09:12:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0310s ]
+SQL: SELECT `uid` FROM `hwh_user_photo` WHERE ( is_ok=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `hwh_user` WHERE `id` IN ('1') ORDER BY regist_time desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-19T15:15:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 8   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0030s ]
+SQL: SELECT `uid` FROM `hwh_user_photo` WHERE ( is_ok=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `hwh_user` WHERE `id` IN ('1') ORDER BY regist_time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:15:35+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:15:36+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:15:56+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:15:57+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:17:37+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:17:38+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 251 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:17:39+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:17:40+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:18:14+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:18:15+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:18:55+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:18:55+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:30:09+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:30:10+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:31:50+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:31:50+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:31:52+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:19+08:00 ] 127.0.0.1 /index.php/home/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:34+08:00 ] 127.0.0.1 /index.php/home/article/artiposterimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:32:37+08:00 ] 127.0.0.1 /index.php/home/article/artiposterimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:37+08:00 ] 127.0.0.1 /index.php/home/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:39+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:40+08:00 ] 127.0.0.1 /index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:54+08:00 ] 127.0.0.1 /index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE `username` = 'dawenhao' AND `password` = '670b14728ad9902aecba32e22fa4f6bd' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0270s ]
+SQL: INSERT INTO `hwh_user_log` (`uid`,`user_time`,`user_ip`) VALUES ('1','1497857574','127.0.0.1') [ RunTime:0.0090s ]
+
+[ 2017-06-19T15:32:54+08:00 ] 127.0.0.1 /index.php/home/user/userinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `u_sign` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_photo` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant u_sign - assumed 'u_sign' D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\542df0b0c61848fdce37b5299f5b97f0.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:55+08:00 ] 127.0.0.1 /index.php/home/user/userinfoson.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:32:58+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0020s ]
+SQL: SELECT `uid` FROM `hwh_user_photo` WHERE ( is_ok=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_user` WHERE `id` IN ('1') ORDER BY regist_time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:33:00+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-19T15:33:01+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:33:02+08:00 ] 127.0.0.1 /index.php/home/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:33:17+08:00 ] 127.0.0.1 /index.php/home/article/artiposterimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:33:17+08:00 ] 127.0.0.1 /index.php/home/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select count(*) as count from hwh_article where FROM_UNIXTIME(create_date,'%Y-%m-%d') = curdate() and uid = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: img_url D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 349 行.
+
+[ 2017-06-19T15:33:21+08:00 ] 127.0.0.1 /index.php/home/article/artiposterimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:33:22+08:00 ] 127.0.0.1 /index.php/home/article/artiposterimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:33:22+08:00 ] 127.0.0.1 /index.php/home/article/addarticle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select count(*) as count from hwh_article where FROM_UNIXTIME(create_date,'%Y-%m-%d') = curdate() and uid = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`username`,`password`,`nickname`,`u_birthday`,`u_img`,`u_photo`,`u_sign`,`province`,`city`,`district`,`address`,`qq_openid`,`weix_openid`,`remember_me`,`email`,`states`,`activate_code`,`activate_code_times`,`regist_time`,`token`,`password_leven`,`reset_password_code`,`reset_password_state` FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_article` (`uid`,`uid_type`,`author`,`title`,`jianjie`,`content`,`img_url`,`create_date`) VALUES ('1','2','呵呵哒','好好的','婀三六九等劳动时间','<p><img src=\"http://img.baidu.com/hi/jx2/j_0013.gif\"/></p>','http://haozi.com.cn/Public/Uploads/article/20170619/1497857602_146979_59477e42e0105.jpg','1497857602') [ RunTime:0.0000s ]
+
+[ 2017-06-19T15:33:23+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:33:23+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:34:10+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:34:10+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:35:24+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:35:24+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:35:27+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:37:10+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:37:11+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:37:13+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 111 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:38:40+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:38:40+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:38:42+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:39:44+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:39:44+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:39:46+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:39:46+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:39:49+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:43:02+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:43:02+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:43:03+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:43:30+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:43:32+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:43:49+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:43:49+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:43:51+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:46:47+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:46:48+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:46:50+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:46:55+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:46:57+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:47:23+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:47:25+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:47:26+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:48:49+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:48:50+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:48:51+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:48:52+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:48:54+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:50:14+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:50:14+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:50:45+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:50:46+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:50:50+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:50:52+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:51:36+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:51:39+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:51:42+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-19T15:51:44+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:52:59+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:52:59+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:53:02+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:53:44+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:53:44+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:53:46+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:56:36+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:56:37+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T15:56:42+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T15:59:47+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:01:01+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:01:01+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:01:04+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 106 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:01:09+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:03:04+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:03:04+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 131 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:03:07+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:03:12+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-19T16:03:15+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:03:17+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:03:18+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:03:20+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:13:20+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:13:20+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:13:25+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:13:25+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:13:26+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:13:27+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-19T16:13:36+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:13:46+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:15:09+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:15:10+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:16:16+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:16:17+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:16:38+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:16:38+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:16:40+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:16:41+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:19:00+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:19:01+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:19:04+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:20:45+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:29:19+08:00 ] 127.0.0.1 /index.php/home/article/listarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:29:20+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 105 行.
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:29:21+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:29:23+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:29:24+08:00 ] 127.0.0.1 /index.php/home/article/ajaxlistarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_ok` = 1 ORDER BY create_date desc LIMIT 1,1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:29:24+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:29:25+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 226 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 226 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:29:46+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:29:46+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 226 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 226 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 264 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:29:55+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 4,4   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:31:25+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:31:25+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,4   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:31:41+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:31:41+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,1   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:31:50+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 1,1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:31:51+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 2,1   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:31:52+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 3,1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:31:55+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 1,1   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:32:40+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:32:54+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:32:54+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:32:56+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 3,1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:33:00+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:47:12+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:47:21+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: towList D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 265 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:49:37+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:49:37+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:50:38+08:00 ] 127.0.0.1 /index.php/Home/Article/detailArti?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:50:38+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 227 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:50:42+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:53:51+08:00 ] 127.0.0.1 /index.php/home/joke/listjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:53:51+08:00 ] 127.0.0.1 /index.php/home/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime` FROM `hwh_joke` WHERE `is_ok` = 1 ORDER BY maketime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:53:51+08:00 ] 127.0.0.1 /index.php/home/joke/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:null
+
+[ 2017-06-19T16:53:54+08:00 ] 127.0.0.1 /index.php/home/joke/likes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select id from hwh_joke_like where FROM_UNIXTIME(create_date, '%Y-%m-%d') = curdate() and uid = '1' and joke_id = 1 [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `hwh_joke_like` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_joke_like` (`uid`,`joke_id`,`create_date`) VALUES ('1','1','1497862434') [ RunTime:0.0000s ]
+SQL: update hwh_joke set like_count = (CASE WHEN like_count IS NULL THEN 1 ELSE like_count + 1 END) where id = 1 [ RunTime:0.0000s ]
+
+[ 2017-06-19T16:58:25+08:00 ] 127.0.0.1 /index.php/home/joke/listjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-19T16:58:26+08:00 ] 127.0.0.1 /index.php/home/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\JokeController.class.php 第 99 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\JokeController.class.php 第 99 行.
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime` FROM `hwh_joke` WHERE `is_ok` = 1 ORDER BY maketime desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:58:26+08:00 ] 127.0.0.1 /index.php/home/joke/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+
+[ 2017-06-19T16:58:29+08:00 ] 127.0.0.1 /index.php/home/joke/ajaxlistjoke.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_joke` WHERE `is_ok` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`author`,`img`,`content`,`like_count`,`maketime` FROM `hwh_joke` WHERE `is_ok` = 1 ORDER BY maketime desc LIMIT 0,1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T16:58:31+08:00 ] 127.0.0.1 /index.php/home/joke/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:null
+

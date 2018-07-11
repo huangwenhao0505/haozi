@@ -1,0 +1,281 @@
+[ 2018-04-10T09:45:58+08:00 ] 127.0.0.1 /alipay.php/home/pay/alipayPublic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T09:47:31+08:00 ] 127.0.0.1 /alipay.php/home/pay/paymember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T09:48:23+08:00 ] 127.0.0.1 /alipay.php/home/pay/paymember
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T10:24:27+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 638 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 77 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 85 行.
+NOTIC: [2] trim() expects parameter 1 to be string, array given D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 638 行.
+NOTIC: [2] substr() expects parameter 1 to be string, array given D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 77 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 85 行.
+NOTIC: [2] trim() expects parameter 1 to be string, array given D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 638 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 420 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T10:41:05+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T10:45:16+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T10:47:37+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T10:48:00+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+10%3A47%3A56&sign=hrrDtSapc2h9o%2BxBTZkau0kgFzyma79JKhXp%2FXaXcMJ%2FNDThsimHAW%2BuMvQfVIzgEKqTVWAuqGDPbQVazb2T%2Bg409cLT3FDVZMuCoa8tBE%2FYHo4graVAHte6Rj%2Beu8nwP0KC7zx3KSJYu4E1XujHrg53c1iuKCixReCIcyFhnYgsJR2nSS3BtfVmf9lmdMUcOwtqb8fYaIAvuDo8eQfAL9qSvEVmATiJqWIj%2Fh5UrSSP7brUe3uHDOR7rJ7T7tsA%2FAKCtCwmi3%2BFxt3x6KSeSE6nRV41qhM1UfW0zwvEATd%2FHtN3I%2FfTgJATGVYnqOfic2lmjJ8ha5QiTgtm5OxSow%3D%3D&trade_no=2018041021001004840200571906&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804101047371523328457&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\haozi\Alipay\Public\alipay\aop\AopClient.php 第 650 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T10:49:53+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T10:50:40+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+10%3A50%3A37&sign=VesQ8fvlK6vXdbajQx54l9GLt3TE8MfI%2BMp4BMV0Q4diyvlAOOBrXlJ02Ur3s%2Fw1dN%2FCApIe90kW7RYlFSxrE1eD9Le1S0SDywBRUVbQkgSH%2Flkt20MVmXVipR0OZKoH5eeKAsL3H0y3mRaNxvt8hUO4CWQkoVY4CL%2BMUJ5RCeQNv00RvLk5A%2FgRt3BZo3VU7r%2Fcay3ns3vk36egXeHM%2F7ATR3aJ7ranlG%2FPgT43x1VUtJ%2B4RBt76JAuYgJZt45X8udgtdu0DaS5vpqUK2HDCX1zvrIMfg6xR%2BKplUD83GosoViJV0DBaIdmEFK2kg4AnWtOhaLFCOjN%2FaDgazx1pg%3D%3D&trade_no=2018041021001004840200572081&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804101049531523328593&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T10:52:45+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T10:53:16+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+10%3A53%3A13&sign=TWZlkufnXM8sis8m9h9KtLOrJKWrmm4vJRnK4QLDM3ZMBZTfCSXfM6G2TqZg4r0BHEcyr0iqdzInOCTCwNc%2FMhF%2BO0ZhQSTxyHUeLlczUiqvtEHZuzlNA4AxnOGEnHJK58FVJmqWioBayDJlrRUu%2F3sezEI1NU2iNSGeacc45J40QxHZ1TZ%2FK2atUVuGhBmUE8p2c%2BIPmzaziQ6qhuRCm3p4FR1jTuenPkX1gnTwmbL%2FZraKyOZWYWxreMTGM%2FKC%2BVY7S1ia%2FHXOrB%2FRO32ZdeQ6eGtECtF5tAXvPve7SNBeUppXLD2EtrvIQe2oo2OmoKYgJ3ZTbosIO6uUl4pkvg%3D%3D&trade_no=2018041021001004840200572083&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804101052451523328765&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T11:12:53+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:13:48+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+11%3A13%3A44&sign=VLnOstAlTyDVahRMKzqS8HwguDnodFD8q7%2BVpjoMY6CaAKDsqt4ShXwaBJVr1fAlKK4hFQgVwrO%2BZiQdEyLnmhrKJcaQturk6grRRMMAqSQck7FYSCiuO5wuv%2Ft%2FdYjFn0QhAkwVr8B6MJVrYA2XmQYARGoNTmQrEqdWM2FDh70K6SzIoD7%2Fgi%2F%2F3Dkw%2BebNE4m%2Frf7oe%2FruQxc0wcZlMQ46qd9yv0GOgLVleM731J9BXwmbt2tgDAHhi7o5hoonXb6r1Z9Ml8sKaVG7ycl578F5BxFjTYkFEtGv%2FAFe2YAOInNf%2BjOFomhJ%2FPO3hNgt62BxGAHWUK6Mq8II4zZk9w%3D%3D&trade_no=2018041021001004840200572086&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804101112531523329973&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:20:32+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:20:57+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+11%3A20%3A53&sign=HjvKR5bmBKjOurrFrZPxWFroFuLM4OTl7u1hjSG2%2BcQOsBH7gOpI40dWazlZN9acnql7UKoHEVVlNF6o7blwgN1lZ8efeWlyWgPISaAAVI3DUNrMo1LvsOQGsooIBjryPWXzxglEFPGKvu3q2IY%2B1DZESwEr4NIIBkldgvkxiYLNyaEpgrN4vScHhHxYvGq693RcP3EdfWhDBmCPtaLbcM3LPQbrYfGJ%2BXdtaaq0eigWAPfj4wojZv5bML0VWClD%2FQGql5eZz4ZgHyQFEH0%2Bjoav9l93aMjKiYM4vGaHNZyzufH5ITEd6sVUjzqxHHdMi27%2Bo%2B9Q%2FMTmdqtpovf8WQ%3D%3D&trade_no=2018041021001004840200572088&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804101120321523330432&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T14:53:01+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T14:54:10+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+14%3A54%3A06&sign=XPnfgfbLTE86DenggsU9aUT6oZftBmKD0JsxyrhLDZU427FYSjocDA%2FqMpxYIGW2f4VgFBCmbVWJav52hFSS0%2B%2FRwcIvaMU%2FFAxkDrYvBQ9KdPinEC1JycayE55fEX9yYZ2whxCqv5aKZHu%2FE38V2NNUR2EKzdwSPRDOZlO4gV1%2F2ZgXnGsXpHMnJyQnc7NlWFdgtlLbh668eVVUOWT4WpuXCv0gahoB28%2FCVuSArChs9pkHHfIE0NYcoh91jW8HmN3h%2BHpZ4VAoiPHSvcNHZyw90%2B%2F5GIL3VjDaC8LhD1d%2BsU2uzo%2FUPer%2BDeMsgPPv9Wyp7ijt0alqukqIhMiyvA%3D%3D&trade_no=2018041021001004840200572092&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804100253011523343181&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:03:42+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+15%3A03%3A38&sign=aOgRH5i2oKtGN7HwDYaziymGeHcZwrzOHgQiVW2na8f8nMZD0f2eFGjJ9EVjJ4%2BOxU%2BNDDj27VkEvQZdavIz5Eqz7N4LiL3CF4vZjyiLQdjfPmn%2BrUtXVa5ly9LnEN6kjY0KANB7g9FuiIf3%2FxoO04SqkaGdpWyHtluXeExqmgRRiBC2Psp2B1j1aN5xFpuWkhIjOAjquhftppp9a4gWThXFRH4VmtSpCALP8Txk4TeuWo7nb4Obcf8pQt6o9ON6SSF483jM77oDrPf4WBGeGJfbCmXSwDu4ZpRMa5UNjWuFlruyN9IXWSzrT06zQ41acSepSkhaT1uv9CLfUIhMgA%3D%3D&trade_no=2018041021001004840200572093&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804100303071523343787&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-10T15:09:51+08:00 ] 127.0.0.1 /alipay.php/home/pay/a?id=1&code=haozi&money=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] fwrite() expects parameter 2 to be string, array given D:\phpStudy\WWW\haozi\Alipay\Home\Controller\PayController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T15:10:20+08:00 ] 127.0.0.1 /alipay.php/home/pay/a?id=1&code=haozi&money=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:11:14+08:00 ] 127.0.0.1 /alipay.php/home/pay/a?id=1&code=haozi&money=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-10T15:11:45+08:00 ] 127.0.0.1 /alipay.php/home/pay/a?id=1&code=haozi&money=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T15:12:05+08:00 ] 127.0.0.1 /alipay.php/home/pay/a?id=1&code=haozi&money=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:12:43+08:00 ] 127.0.0.1 /alipay.php/home/pay/dopay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:13:13+08:00 ] 127.0.0.1 /alipay.php/home/pay/return_url?total_amount=100.00&timestamp=2018-04-10+15%3A13%3A09&sign=aGT3BoP5rbZfj07Plan5rIWkgauNyEm%2FeODbKVBYsv6ltRPV7lcSadJEmBRW37g%2B%2FzJNO2FNv5Kl5EdGYz%2B%2BOSKbDGLhfrADukF3N1fqy%2B8%2B8Hr9pLuFXUzejDlbyTNNui8Df0uTfXgDmP%2By9lz10nKVlybTnzF3j7RqaHlv%2FY%2BFJSH7txjaZLm0igWOO3vXVcwDib81PWTeY%2FOeC9PnFQPKuGXX7cxm%2FGQ%2BD1KiOvyU7M1ynTO0oRZiORFxgYXzi9TXz85l7iKE2G3eTeofOkrRUOYq7irWxgiU%2FUG0qMdxm6Ie6I%2B5wsSr7%2F2IE588a3ugmuYPizMhrfCkFjkLIQ%3D%3D&trade_no=2018041021001004840200572096&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H1804100312431523344363&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

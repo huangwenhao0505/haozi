@@ -1,0 +1,56 @@
+<?php if (!defined('THINK_PATH')) exit(); date_default_timezone_set('PRC'); $starttimestr = date('Y-m-d H:i:s', strtotime(date('Y-m-d'))); $endtimestr = date('Y-m-d H:i:s', strtotime(date('Y-m-d', strtotime('+1 day')))); $starttimestr = date('Y-m-d H:i:s', strtotime(date('2018-3-1 12:00'))); $endtimestr = date('Y-m-d H:i:s', strtotime(date('2018-3-1 16:53'))); $starttime = strtotime($starttimestr); $endtime = strtotime($endtimestr); $nowtime = time(); if ($nowtime < $starttime) { exit("活动还没开始,活动时间是：<?php echo ($starttimestr); ?>至<?php echo ($endtimestr); ?>"); } if ($endtime >= $nowtime) { $lefttime = $endtime - $nowtime; } else { $lefttime = 0; exit("活动已经结束！"); } ?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PHP+JS活动秒杀倒计时原理</title>
+    </head>
+    <body>
+        <h1>活动开始时间:<?php echo $starttimestr ?></h1>
+        <h1>活动结束时间:<?php echo $endtimestr ?></h1>
+        <h4>距离活动结束还有 <strong id="RemainD"></strong>天
+            <strong id="RemainH"></strong>小时
+            <strong id="RemainM"></strong>分钟
+            <strong id="RemainS"></strong>.<strong id="RemainL"></strong>秒
+        </h4>
+
+        <script>
+            var runtimes = 0;
+            function GetRTime() {
+                var lefttime = <?php echo $lefttime; ?> * 1000 - runtimes * 1000;
+                if (lefttime >= 0) {
+                    var nD = Math.floor(lefttime / (1000 * 60 * 60 * 24)) % 24;
+                    var nH = Math.floor(lefttime / (1000 * 60 * 60)) % 24;
+                    var nM = Math.floor(lefttime / (1000 * 60)) % 60;
+                    var nS = Math.floor(lefttime / 1000) % 60;
+                    document.getElementById("RemainD").innerHTML = nD;
+                    document.getElementById("RemainH").innerHTML = nH;
+                    document.getElementById("RemainM").innerHTML = nM;
+                    document.getElementById("RemainS").innerHTML = nS;
+                    if (lefttime == 5 * 60 * 1000) {
+                        alert("还有最后五分钟！");
+                    }
+                    runtimes++;
+                    setTimeout("GetRTime()", 1000);
+                } else {
+                    alert('活动结束了！');
+                    location.reload();
+                }
+            }
+            var Num = 0;
+            onload = function() {
+                Refresh();
+                setInterval("Refresh();", 100);
+                GetRTime();
+            }
+            function Refresh() {
+                if (Num < 10) {
+                    document.getElementById("RemainL").innerHTML = Num;
+                    Num = Num + 1;
+                } else {
+                    Num = 0;
+                }
+            }
+        </script>
+    </body>
+</html>

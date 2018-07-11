@@ -1,0 +1,92 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>登录密码</span></div>
+        </div>
+        <div class="result-wrap">
+
+        </div>
+        <div class="result-wrap">
+            <div class="result-title">
+                <h1>修改登录密码</h1>
+            </div>
+            <div class="result-content">
+                <ul class="sys-info-list">
+                    <li>
+                        <label class="res-lab">原密码</label><span class="res-info"><input type="password" name="old_password" id="old_password"/></span>
+                        <span id="error_old_password" style="color:red;"></span>
+                    </li>
+                    <li>
+                        <label class="res-lab">新密码</label><span class="res-info"><input type="password" name="new_password" id="new_password"/></span>
+                        <span id="error_new_password" style="color:red;"></span>
+                    </li>
+                    <li>
+                        <label class="res-lab">确认密码</label><span class="res-info"><input type="password" name="new_password2" id="new_password2"/></span>
+                        <span id="error_new_password2" style="color:red;"></span>
+                    </li>
+                    <li>
+                    	<input type="button" id="but_sub" style="margin-left:9.5%;width:200px;background:#0E90D2;" value="修改"/>
+                    	<span id="error_sub" style="color:red;"></span>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="result-wrap" id="adminInfo">
+            <div class="result-title">
+                <h1>个人基本信息</h1>
+            </div>
+            
+            <!-- ajax动态获取该处内容 -->
+            
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>
+
+<script>
+$('#but_sub').click(function(){
+	var password = $('#old_password').val();
+	var newpwd = $('#new_password').val();
+	var newpwd2 = $('#new_password2').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Admin/Login/changePass");?>',
+		data:{'password':password,'newpwd':newpwd,'newpwd2':newpwd2},
+		success:function(respon){
+			if(respon.errno == 10001){
+				$('#error_old_password').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+				$('#error_new_password').empty();
+				$('#error_new_password2').empty();
+			}else if(respon.errno == 10002){
+				$('#error_new_password').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+				$('#error_old_password').empty();
+				$('#error_new_password2').empty();
+			}else if(respon.errno == 10003){
+				$('#error_new_password2').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+				$('#error_old_password').empty();
+				$('#error_new_password').empty();
+			}else if(respon.errno == 10004){
+				$('#error_old_password').empty();
+				$('#error_new_password').empty();
+				$('#error_new_password2').empty();
+				$('#error_sub').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+			}else if(respon.errno == 10000){
+				$('#error_old_password').empty();
+				$('#error_new_password').empty();
+				$('#error_new_password2').empty();
+				$('#error_sub').html('<img src="/Public/Home/regist/images/success.png"><font color=red>修改成功[2秒后请重新登录]</font>');
+				close();
+			}
+		}
+	});
+});
+
+function close(){
+	window.location.href="<?php echo U('Admin/Login/logOutPass');?>";
+}
+</script>

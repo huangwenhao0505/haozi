@@ -1,0 +1,55 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Admin/Index/index');?>">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="<?php echo U('Admin/Joke/listJoke');?>">笑话管理</a><span class="crumb-step">&gt;</span><span>修改笑话</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                <input type="hidden" name="id" id="ids" value="<?php echo $info['id'];?>"/>
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th>内容：</th>
+                                <td><textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"><?php echo $info['content'];?></textarea></td>
+                            </tr>
+                            <tr><td colspan="2" class="error" style="font-size:20px;color:red;text-align:center;"><span></span></td></tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" id="but" value="提交" type="button">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+<script>
+ $('#but').bind().click(function(){
+	 var id = $('#ids').val();
+	 var content = $('#content').val();
+	 $.ajax({
+		 type:'post',
+		 url:'<?php echo U("Admin/Joke/editJoke");?>',
+		 data:{'id':id,'content':content},
+		 success:function(respon){
+			 if(respon.errno == 10001){
+				 $('tr td.error span').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+			 }else{
+				 window.location.href="<?php echo U('Admin/Joke/listJoke')?>";
+			 }
+		 }
+	 });
+ });
+ 
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<include file="User/header"/>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">笑话列表</strong> / <small>Joke List</small></div>
+      </div>
+
+      <hr>
+
+      <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-6">
+          <div class="am-btn-toolbar">
+            <div class="am-btn-group am-btn-group-xs">
+              <button type="button" onclick="{location.href='<?php echo U("Home/User/jokeAdd");?>'}" class="am-btn am-btn-default"><span class="am-icon-plus"></span> 新增</button>
+              <button type="button" class="am-btn am-btn-default" id="batchDel"><span class="am-icon-trash-o"></span> 批量删除</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="am-u-sm-12 am-u-md-6">
+          <div class="am-input-group am-input-group-sm">
+            <input type="text" style="margin-left:30px;" name="datepicker3" id="datetimepicker3" placeholder="2017-5-5" value=""/>
+         		至
+		    <input type="text" name="datepicker4" id="datetimepicker4" placeholder="2017-5-8" value=""/>
+            
+            <input  type="button" style="height:32px;background:#0E90D2;color:#FFFFFF;font-size:14px;" name="sub" id="sub_but" value="点击查询">
+            
+            <input type="hidden" id="total_page" value="1"/>
+            <input type="hidden" id="curr_page" value="1"/>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <form class="am-form">
+            <table id="result-tab" class="am-table am-table-striped am-table-hover table-main">
+              <thead>
+              <tr>
+                <th class="table-check"><input id="allChoose" name="" type="checkbox" /></th>
+                <th class="table-id">序号</th>
+                <th class="table-title">内容</th>
+                <th class="table-author am-hide-sm-only">作者</th>
+                <th class="table-date am-hide-sm-only">发布日期</th>
+                <th class="table-date am-hide-sm-only">审核状态</th>
+                <th class="table-set">操作</th>
+              </tr>
+              </thead>
+              <tbody>
+			  	<!-- ajax获取内容 -->
+              </tbody>
+            </table>
+            <div class="pages">
+
+            </div>
+            <hr />
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+<include file="User/footer"/>
+
+<script type="text/javascript">
+$(function (){
+	
+	$("#datetimepicker3").on("click",function(e){
+		e.stopPropagation();
+		$(this).lqdatetimepicker({
+			css : 'datetime-day',
+			dateType : 'D',
+			selectback : function(){
+
+			}
+		});
+
+	});
+	
+	$("#datetimepicker4").on("click",function(e){
+		e.stopPropagation();
+		$(this).lqdatetimepicker({
+			css : 'datetime-day',
+			dateType : 'D',
+			selectback : function(){
+
+			}
+		});
+
+	});
+});
+</script> 
+
+<script>
+$(function(){
+	init();
+	do_sub();
+});
+
+function init(){	
+	//点击查询
+	$('#sub_but').unbind('click').click(function(){
+		do_sub();
+	});
+	
+	//点击上一页
+	$('#pre_page').unbind('click').click(function(){
+		var cur = $('#curr_page').val();	//当前页
+		if( Number(cur) > 1 ){
+			$('#curr_page').val( Number(cur)-1 );	//上一页	
+			do_sub();
+		}
+		
+	});
+	//点击下一页
+	$('#nex_page').unbind('click').click(function(){
+		var cur = $('#curr_page').val();	//当前页
+		var total = $('#total_page').val();	//总页数
+		if( Number(cur) < Number(total) ){
+			var a = $('#curr_page').val( Number(cur) + 1 ); //下一页
+			do_sub();
+		}
+		
+	});
+	
+	//搜索条件发生变化 
+	$('#datetimepicker3').unbind('change').click(function(){
+		$('#curr_page').val(1);
+		$('#total_page').val(1);
+	});
+	
+	$('#datetimepicker4').unbind('change').click(function(){
+		$('#curr_page').val(1);
+		$('#total_page').val(1);
+	});
+
+}
+
+function do_sub(){
+	var datetime1 = $('#datetimepicker3').val();
+	var datetime2 = $('#datetimepicker4').val();
+	var currPage = $('#curr_page').val();
+	$.post('<?php echo U("Home/User/jokeListAjax")?>',{'datetime1':datetime1,'datetime2':datetime2,'currPage':currPage},
+		function(data){
+			var html = '';
+			var d = eval("("+data+")");	//解析json格式
+			if(d.list != false && d.list != null){	//内容不为空
+				var num = 0;
+				for(var o in d.list){	//遍历
+					num += 1;
+					html += '<tr>';
+					html += '<td><input type="checkbox" class="allChoose" name="check" value="'+d.list[o].id+'"/></td>';
+					html += '<td>'+num+'</td>';
+					html += '<td class="am-hide-sm-only">'+d.list[o].content+'</td>';
+					html += '<td class="am-hide-sm-only">'+d.list[o].author+'</td>';
+					html += '<td class="am-hide-sm-only">'+d.list[o].maketime+'</td>';
+					html += '<td class="am-hide-sm-only">'+d.list[o].is_ok+'</td>';
+					html += '<td>';
+					html += '<div class="am-btn-toolbar">';
+					html += '<div class="am-btn-group am-btn-group-xs">';
+					html += '<button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary" onclick="jokeEdit('+d.list[o].id+')"><span class="am-icon-pencil-square-o"></span> 编辑</button>';
+					html += '<button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" onclick="jokeDel('+d.list[o].id+')"><span class="am-icon-trash-o"></span> 删除</button>';
+					html += '</div>';
+					html += '</div>';
+					html += '</td>';
+					html += '</tr>';
+				}
+				
+				if(d.total_page == 1){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==1){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==d.total_page){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=3 && d.currPage>1 && d.currPage<d.total_page){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}
+				$("#total_page").val(d.total_page);	//获取总页数
+				
+			}else{
+				html = '<tr><td colspan="7" align="center">暂无符合条件记录！</td></tr>';
+			}
+			
+			$("#result-tab>tbody").html(html);
+			init();
+		}
+	);
+}
+
+//删除
+function jokeDel(id){
+	var res = confirm('删除之后不可恢复，是否确定要删除？');
+	if(res == true){
+		$.ajax({
+			type:'post',
+			url:'<?php echo U("Home/User/jokeDel");?>',
+			data:{'id':id},
+			success:function(respon){
+				if(respon.errno == 10001){
+					$('tr td.error span').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+				}else{
+					do_sub();
+					//location.replace(location.href);
+				}
+			}
+		});
+	}
+}
+
+//编辑
+function jokeEdit(id){
+	window.location.href="__URL__/jokeEdit?id="+id;
+}
+
+/**
+ * 批量删除
+ */
+$('#allChoose').unbind('click').click(function(){
+	$("input[name='check']").prop("checked",this.checked);
+});
+
+$('#batchDel').unbind('click').click(function(){
+	var checkedNum = $("input[name='check']:checked").length; 
+	if(checkedNum == 0) {
+		alert("请选择至少一项！");
+		return false;
+	}
+	if(confirm("确定要删除所选项目？")) { 
+		var checkedList = new Array(); 
+		$("input[name='check']:checked").each(function() { checkedList.push($(this).val()); });
+		//alert(checkedList.toString());
+		$.ajax({ 
+			type: "POST", 
+			url: "<?php echo U('Home/User/jokeAllDel');?>", 
+			data: {'id':checkedList.toString()}, 
+			success: function(result) {
+				if(result.errno == 10000){
+					$("[name ='check']:checkbox").attr("checked", false); 
+					window.location.reload(); //没有选中删除的刷新
+				}else{
+					alert(result.errmsg);
+				}
+				
+			} 
+		}); 
+	}  
+});
+</script>

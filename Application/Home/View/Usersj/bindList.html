@@ -1,0 +1,107 @@
+<include file="Usersj/header"/>
+
+<!--aside nav-->
+<aside class="lt_aside_nav content mCustomScrollbar" id="boxboxbox">
+ <h2><a href="index.html">起始页</a></h2>
+ <ul>
+  <li>
+   <dl>
+    <dt>个人设置</dt>
+    <!--当前链接则添加class:active-->
+    <dd><a href="<?php echo U('Home/Usersj/userInfo');?>">个人资料</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/changePassWord');?>">密码修改</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/safeLog');?>">安全日志</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>列表信息</dt>
+    <dd><a href="<?php echo U('Home/Usersj/yuluList')?>">经典语录列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/jokeList')?>">幽默笑话列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/articleList');?>">优美文章列表</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>相册管理</dt>
+    <dd><a href="<?php echo U('Home/Usersj/photo');?>">相册列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoAdd');?>">增加相册</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoCoverAdd')?>">封面图像修改</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>账号绑定</dt>
+    <dd><a href="<?php echo U('Home/Usersj/bindList')?>"  class="active">账号绑定信息</a></dd>
+   </dl>
+  </li>
+ </ul>
+</aside>
+<!-- end aside nav -->
+
+<style>
+.box-son{
+	width:100%;
+	padding:6% 3% 6% 6%;
+	float:left;
+}
+
+.bind{
+	 font-size:18px;
+	 color:red;
+}
+
+.box_but{
+	border:1px solid #48DGCG ; 
+	background-color:#48D1CC; 
+	text-align:center;
+	font-size:18px;
+	height:40px;
+	ling-height:40px;
+}
+
+.box_un_but{
+	border:1px solid #CGCGCG ; 
+	background-color:#7EC0EE; 
+	text-align:center;
+	font-size:18px;
+	height:40px;
+	ling-height:40px;
+}
+</style>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+    <div class="page_title">
+     <h2 class="fl">账号绑定信息</h2>
+    </div>
+    <div class="box-son">
+       <?php if($res == 1){ ?>
+      		<span class="bind">注册了本网站账号，同时也进行了QQ号绑定哟！</span>
+      	<?php }else if($res == 2){ ?>
+      		<span class="bind">注册了本网站账号，但未进行QQ号绑定</span>
+      		<input type="button" class="box_un_but" onclick="bindQQ()" value="现在进行QQ号绑定"/>
+      	<?php }else if($res == 3){ ?>
+      		<span class="bind">你使用QQ登录的网站，但未绑定本网站账号</span>
+      		<input type="button" class="box_but" onclick="bindAccount()" value="现在去绑定本网站账号"/>
+      	<?php } ?>
+    </div>
+
+ </div>
+ 
+  <include file="Usersj/footer"/>
+ 
+</section>
+
+</body>
+</html>
+
+<script>
+function bindQQ(){
+	window.location.href = "<?php echo $qqurl;?>";
+}
+
+function bindAccount(){
+	window.location.href = "<?php echo U('Home/Usersj/userInfo')?>"
+}
+</script>

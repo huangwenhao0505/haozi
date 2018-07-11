@@ -1,0 +1,104 @@
+<include file="Usersj/header"/>
+
+<!--aside nav-->
+<aside class="lt_aside_nav content mCustomScrollbar" id="boxboxbox">
+ <h2><a href="index.html">起始页</a></h2>
+ <ul>
+  <li>
+   <dl>
+    <dt>个人设置</dt>
+    <!--当前链接则添加class:active-->
+    <dd><a href="<?php echo U('Home/Usersj/userInfo');?>">个人资料</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/changePassWord');?>">密码修改</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/safeLog');?>">安全日志</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>列表信息</dt>
+    <dd><a href="<?php echo U('Home/Usersj/yuluList')?>">经典语录列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/jokeList')?>">幽默笑话列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/articleList');?>"  class="active">优美文章列表</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>相册管理</dt>
+    <dd><a href="<?php echo U('Home/Usersj/photo');?>">相册列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoAdd');?>">增加相册</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoCoverAdd')?>">封面图像修改</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>账号绑定</dt>
+    <dd><a href="<?php echo U('Home/Usersj/bindList')?>">账号绑定信息</a></dd>
+   </dl>
+  </li>
+ </ul>
+</aside>
+<!-- end aside nav -->
+
+<style>
+.box{
+	width:100%;
+	padding:2% 3% 6% 2%;
+}
+
+.box-top{
+	color:#FF8C00;
+	font-size:24px;
+	text-align:center;
+}
+
+.box-top .son{
+	color:#FF8C00;
+	font-size:18px;
+	padding:20px 0 20px 20px;
+}
+
+.box-bottom{
+	font-size:16px;
+}
+
+.box_un_but{
+	border:1px solid #CGCGCG ; 
+	background-color:#CFCFCF; 
+	text-align:center;
+	height:36px;
+	ling-height:36px;
+	width:100%;
+}
+</style>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+    <div class="page_title">
+     <h2 class="fl">文章详情</h2>
+    </div>
+    <div class="box">
+       <div class="box-top">
+       	<?php echo $info['title'];?>
+       	<div class="son">
+       		<?php echo $info['jianjie'];?>
+       	</div>
+       </div>
+       <div class="box-bottom"><?php echo $info['content'];?></div>
+    </div>
+    
+    <button class="box_un_but" onclick="callback()">返回上一页</button>
+    
+ </div>
+ 
+  <include file="Usersj/footer"/>
+ 
+</section>
+
+</body>
+</html>
+
+<script>
+function callback(){
+	window.location.href = document.referrer;
+}
+</script>

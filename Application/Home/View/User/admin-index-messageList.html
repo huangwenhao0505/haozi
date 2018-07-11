@@ -1,0 +1,223 @@
+<include file="User/header"/>
+
+<style>
+	.popUp_c{text-align:center;}
+	.popUp_c input{
+		width:80px;
+		line-height:30px;
+		padding-bottom:3px;
+		margin-right:20px;
+		border:none;
+		text-align:center;
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: bold;
+		border-radius: 2px;
+	}
+</style>
+<!-- 留言列表 -->
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">留言列表</strong> / <small>Message List</small>  <input type="button" onclick="myMessage()" style="height:32px;background:#20b2aa;margin-left:30px;margin-right:10px;" value="点击查看我给别人的留言"/></div>
+      </div>
+
+      <div class="am-g">
+        <div class="am-u-md-12">
+			<div class="am-panel am-panel-default">
+			<div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-3'}">别人给我的留言列表<span class="am-icon-chevron-down am-fr" ></span></div>
+			<div class="am-panel-bd am-collapse am-in am-cf" id="collapse-panel-3">
+			  <input type="hidden" id="curr_page" value="1"/>
+			  <input type="hidden" id="total_page" value="1"/>
+			  <ul class="am-comments-list admin-content-comment" id="messageContent">
+				<!-- ajax动态获取内容 -->
+			  </ul>
+			  <ul class="pages"></ul>
+			  </div>
+			</div>         
+        </div>
+
+      </div>
+    </div>
+
+<script>
+$(function(){
+	init();
+	do_sub();
+});
+
+function init(){
+	
+	//点击上一页
+	$("#pre_page").unbind("click").click(function(){
+		var currPage = $("#curr_page").val();
+		if( Number(currPage) > 1 ){
+			$("#curr_page").val( Number(currPage)-1 );
+			do_sub();
+		}
+	});
+	
+	//点击下一页
+	$("#nex_page").unbind("click").click(function(){
+		var currPage = $("#curr_page").val();
+		var totalPage= $("#total_page").val();
+		if( Number(currPage)< Number(totalPage) ){
+			$("#curr_page").val( Number(currPage)+1 );
+			do_sub();
+		}
+	});
+}
+
+function do_sub(){
+	var currPage = $('#curr_page').val();
+	var tiaoPage = $('#tiao_page').val();
+	$.post('<?php echo U("Home/Message/messageAllListAjax");?>',{'currPage':currPage,'tiaoPage':tiaoPage},
+		function(data){
+			var html = '';
+			var d = eval("("+data+")");	//解析json数据
+			if(d.list != false && d.list != null){	//不为空时
+				for(var o in d.list){	//遍历
+					
+					html += '<li class="am-comment">';
+					html += '<a href="javascript:void(0);"><img src="'+d.list[o].u_img+'" alt="" class="am-comment-avatar" width="48" height="48"></a>';
+					html += '<div class="am-comment-main">';
+				    html += '<header class="am-comment-hd">';
+				    html += '<div class="am-comment-meta">';  
+				    html += '<a href="javascript:void(0);" class="am-comment-author">'+d.list[o].username+'</a> 于 <time>'+d.list[o].createdate+'</time> 给我的留言';
+				    html += '</div>';
+				    html += '</header>';  
+				    html += '<div class="am-comment-bd">'+d.list[o].content+'</div>';
+				    
+					    /**  留言下面的回复内容 start  **/
+					    if(d.list[o].twoList != false && d.list[o].twoList != null){
+					    	for(var i in d.list[o].twoList){
+					    		html += '<div class="am-comment-meta" style="margin-top:-1%;">';
+					    		html += '<img src="'+d.list[o].twoList[i].u_img+'" alt="" class="am-comment-avatar" style="width:30px;height:30px;"><a href="javascript:void(0);" class="am-comment-author">'+d.list[o].twoList[i].username+'</a>  回复于 <time>'+d.list[o].twoList[i].createdate+'</time>';
+					    			if(d.list[o].twoList[i].isReplyMessage == 1){
+					    				html += '<a href="javascript:void(0);" style="color:#3BB4F2;" onclick="replyMessage('+d.list[o].twoList[i].uid+','+d.list[o].twoList[i].id+')">    回复</a>';
+					    			}else{
+					    				html += '';
+					    			}
+					    		html += '</div>';
+					    		html += '<div class="am-comment-bd" style="margin-top:-2%;margin-left:3%;margin-bottom:1%;">'+d.list[o].twoList[i].content;
+					    		html += '</div>';	
+					    	}
+					    }else{
+							html += '';
+						}
+					    /**  留言下面的回复内容 end**/
+				    html += '</div>';
+				    html += '</li>';        
+				}
+
+			
+				if(d.total_page == 1){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><li>跳转到<input type="text" id="tiao_page" value=""/>页<input type="button" value="跳转" onclick="do_sub()"/></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==1){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><li>跳转到<input type="text" id="tiao_page" value=""/>页<input type="button" value="跳转" onclick="do_sub()"/></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==d.total_page){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><li>跳转到<input type="text" id="tiao_page" value=""/>页<input type="button" value="跳转" onclick="do_sub()"/></li></ul></nav></td></tr>');
+				}else if(d.total_page>=3 && d.currPage>1 && d.currPage<d.total_page){
+					$(".pages").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><li>跳转到<input type="text" id="tiao_page" value=""/>页<input type="button" value="跳转" onclick="do_sub()"/></li></ul></nav></td></tr>');
+				}
+				
+				$("#total_page").val(d.total_page);	//获取总页数（把总页数赋值给total_page）
+			}
+			
+			$("#messageContent").html(html);
+			init();
+		}		
+	);
+}
+</script>
+
+<!-- 回复留言start -->
+<!-- 回复留言弹窗   -->
+<div id="liuyan" style="position:fixed;width:50%;height:50%;left:40%;top:30%;margin:-80px 0 0 -175px;border:1px solid #000;background:#fff;display:none;z-index: 1000;">
+	<script type="text/plain" id="message_content" style="width:100%;height:300px;"></script>
+	<span id="message_error" style="text-align:center;"></span>
+	<div class= 'popUp_c'>
+		<input type="hidden" id="uid_message" value=""/>
+		<input type="hidden" id="protect_id_message" value=""/>
+		<input type="button" class="btn btn-primary" id="quxiao_message" onclick="message_quxiao()" value="取消"/>
+		<input type="button" class="btn btn-success" id="queding_message" onclick="message_queding()" value="确定"/>
+	</div>
+</div>
+
+<script type="text/javascript" src="/Public/ajaxfileupload.js"></script>
+<!-- 加载编辑器的容器 -->
+ <!-- 配置文件 -->
+ <script type="text/javascript" src="/third-party/ueditor/ueditor.config.js"></script>
+ <!-- 编辑器源码文件 -->
+ <script type="text/javascript" src="/third-party/ueditor/ueditor.all.js"></script>
+ <!-- 实例化编辑器 -->
+ <script type="text/javascript">
+     var ue = UE.getEditor('message_content');
+ </script>
+<script>
+function replyMessage(uid,protect_id){
+	$('#uid_message').val(uid);	//把被留言人的ID赋值给uid_message
+	$('#protect_id_message').val(protect_id);//把回复留言Id赋值给protect_id_message
+	$("#liuyan").show();
+}
+
+function message_queding(){
+	var uid = $('#uid_message').val();
+	var protectId = $('#protect_id_message').val();
+	var ue = UE.getEditor('message_content');
+	var content = ue.getContent();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/Message/replyMessage");?>',
+		data:{'id':uid,'protect_id':protectId,'content':content},
+		dataType:'json',
+		success:function(respon){
+			if(respon.errno == 10001){
+				$('#message_error').html('<img src="/Public/Home/login/images/tip-error.png">'+respon.errmsg);
+			}else{
+				$('#message_error').html('<img src="/Public/Home/login/images/tip-right.png">'+respon.errmsg);
+				$('#quxiao').hide();
+				$('#queding').hide();
+				setTimeout( "message_quxiao()",1500);	//停留一秒，执行message_quxiao()函数
+			}
+		}
+	});
+}
+
+function message_quxiao(){
+	$('#liuyan').hide();
+	var protect_id = $('#protect_id_message').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/Message/changeMessage");?>',
+		data:{'protect_id':protect_id},
+		dataType:'json',
+		success:function(respon){
+			location.replace(location.href);
+		}
+	});
+}
+
+function changeMessage(protect_id){
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/Message/changeMessage");?>',
+		data:{'protect_id':protect_id},
+		dataType:'json',
+		success:function(respon){
+			location.replace(location.href);
+		}
+	});
+}
+</script>
+<!-- 回复留言end -->
+
+<!-- 我给别人的留言 -->
+<script>
+function myMessage(){
+	window.location.href="<?php echo U('Home/User/myMessageList');?>";
+}
+</script>
+
+<include file="User/footer"/>

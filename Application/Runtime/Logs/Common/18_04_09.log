@@ -1,0 +1,138 @@
+[ 2018-04-09T09:22:45+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-09T09:23:14+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/Service1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:23:14+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/erweim.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:23:14+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:23:14+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:23:14+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:40:38+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/Service1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:40:38+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/erweim.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:40:38+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:40:38+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T09:40:38+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T14:18:39+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-09T14:18:42+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-09T16:58:32+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/Service1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:58:32+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/erweim.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:58:32+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:58:32+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:58:32+08:00 ] 127.0.0.1 /Shopping/Public/Home/AD/ad-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:58:35+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/lmrz.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:58:39+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/lmrz.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:58:49+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/liselected.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T16:59:20+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/liselected.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+
+[ 2018-04-09T17:00:19+08:00 ] 127.0.0.1 /Shopping/Public/Home/images/liselected.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Shopping
+

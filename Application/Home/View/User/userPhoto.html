@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+
+        <title>用户中心_YONGDA商城 - Powered by YongDa</title>
+
+        <link href="/Public/Home/user/css/style.css" rel="stylesheet" type="text/css" />
+        <script src="/Public/jquery-1.8.3.min.js"></script>
+<style type="">
+.form .item{display:inline-block;display:block;margin-bottom:20px;line-height:30px}
+.form .item:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+* html .form .item{height:1%}
+*+html .form .item{min-height:1%}
+.form .item span.label{float:left;height:18px;line-height:18px;padding:6px 0;width:100px;text-align:right}
+.form em{color:#e4393c}
+.form .area,.form .itxt,.form .sele,.form .selt{line-height:18px;border:1px solid #ccc;padding:5px;float:none}
+.form .text{line-height:18px;border:1px solid #ccc}
+.form .sele,.form .selt{width:100px}
+.form .selt1{width:70px}
+.form .itxt,.form .text{height:18px;width:127px;padding:5px 23px 5px 5px}
+.form .itxt1{width:287px}
+.form .itxt-focus{border-color:#71b247}
+.form .itxt-error{border-color:#e4393c;color:#e4393c;background:url(//misc.360buyimg.com/user/myjd-2015/css/i/error-ico.png) right center no-repeat}
+.form .itxt-succ{background:url(//misc.360buyimg.com/user/myjd-2015/css/i/succ-ico.png) right center no-repeat}
+.form .prompt-error{clear:both;margin-top:5px;color:#e4393c;line-height:18px}
+.form .prompt-03{clear:both;margin-top:5px;color:#999;line-height:18px}
+.form label{float:none}
+.form .jdcheckbox,.form .jdradio{float:none;vertical-align:-2px;_vertical-align:-1px;margin:0 3px 0 0;padding:0}
+
+.jiesuan{
+	background:#274486;
+	border-radius: 2px;
+	padding: 5px 30px;
+	height: 36px;
+	border:none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #fff!important;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+</style>
+    </head>
+    <body>
+        <div class="block clearfix" style="position: relative; height: 98px;">
+            <a href="#" name="top"><img class="logo" alt="" src="/Public/Home/user/images/logo.gif" /></a>
+
+            <div id="topNav" class="clearfix">
+                <div style="float: left;"> 
+                    <font id="ECS_MEMBERZONE">
+                        <div id="append_parent"></div>
+
+                        <font class="f4_b">finisher</font>, 欢迎您回来！
+                        <a href="#">用户中心</a>
+                        <a href="#">退出</a>
+
+                    </font>
+                </div>
+                <div style="float: right;">
+                    <a href="#">查看购物车</a>
+                    |
+                    <a href="#">选购中心</a>
+                    |
+                    <a href="#">标签云</a>
+                    |
+                    <a href="#">报价单</a>
+
+
+                </div>
+            </div>
+
+            <div id="mainNav" class="clearfix">
+                <a href="#" class="cur">首页<span></span></a>
+                <a href="#">GSM手机<span></span></a>
+                <a href="#">双模手机<span></span></a>
+                <a href="#">手机配件<span></span></a>
+                <a href="#">优惠活动<span></span></a>
+                <a href="#">留言板<span></span></a>
+
+            </div>
+        </div>
+
+        <div class="blank5"></div>
+
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 用户中心 
+            </div>
+        </div>
+        <div class="blank"></div>
+        <div class="block clearfix">
+            <div class="AreaL">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox">
+                            <div class="userMenu">
+                                <a href="<?php echo U('Home/User/userCenter');?>"><img src="/Public/Home/user/images/u1.gif" /> 欢迎页</a>
+                                <a href="<?php echo U('Home/User/userInfo')?>"  class="curs"><img src="/Public/Home/user/images/u2.gif" /> 基本信息</a>
+                                <a href="#"><img src="/Public/Home/user/images/u3.gif" /> 个人头像</a>
+                                <a href="#"><img src="/Public/Home/user/images/u4.gif" /> 更多个人信息</a>
+                                <a href="#"><img src="/Public/Home/user/images/u5.gif" /> 安全中心</a>
+                                <a href="#" style="background: none repeat scroll 0% 0% transparent; text-align: right; margin-right: 10px;"><img src="/Public/Home/user/images/bnt_sign.gif" /></a>
+                            </div>      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="AreaR">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox boxCenterList clearfix" style="">
+                            <h5><span>收货人信息</span></h5>
+                            <div class="blank"></div>
+<form action="__URL__/userPhoto" enctype="multipart/form-data" method="post">
+                            <div class="form">            
+                                
+                                <div class="item" style="position:relative">
+                                    <span class="label"><em>*</em>上传头像：</span>
+                                    <div class="fl">
+                                        <input type="file" name="img[]" value="">
+                                        <div class="clr"></div><div class="prompt-06"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item" style="position:relative">
+                                    <span class="label"><em>*</em>上传头像：</span>
+                                    <div class="fl">
+                                        <input type="file" name="img[]" value="">
+                                        <div class="clr"></div><div class="prompt-06"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="item" style="position:relative">
+                                    <span class="label"><em>*</em>上传头像：</span>
+                                    <div class="fl">
+                                        <input type="file" name="img[]" value="">
+                                        <div class="clr"></div><div class="prompt-06"></div>
+                                    </div>
+                                </div>
+                                
+                               <div class="item">
+                                    <span class="label">&nbsp;</span>
+                                    <div class="fl">
+                                        <!-- <a clstag="homepage|keycount|home2013|infobtn" href="javascript:void(0);" class="jiesuan" id="but" border: 1px solid rgb(204, 204, 204);padding: 5px 10px;">提交</a> -->
+                                    	<input type="submit" value="提交" class="jiesuan"/>
+                                    </div>
+                                </div>
+                                
+                            </div>
+</form>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+        <div class="blank"></div>
+
+        <div class="blank"></div>
+<script>
+/* $('#but').click(function(){
+	var img = $('#img').val();
+
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/User/userPhoto");?>',
+		data:{'img':img},
+		enctype: 'multipart/form-data',
+		fileElementID:'img',
+		success:function(data){
+			if(data.errno == 10001){
+				alert(data.errmsg);
+			}else{
+				alert(data.errmsg);
+			}
+		}
+	});
+}); */
+
+</script>
+
+        <div id="footer">
+            <div class="text">
+                © 2005-2012 YONGDA 版权所有，并保留所有权利。<br />
+            </div>
+        </div>
+    </body>
+</html>

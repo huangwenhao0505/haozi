@@ -1,0 +1,93 @@
+[ 2017-10-12T15:01:30+08:00 ] 127.0.0.1 /wxindex.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include_once(/thirdParty/weixin.php): failed to open stream: No such file or directory D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [2] include_once(): Failed opening '/thirdParty/weixin.php' for inclusion (include_path='.;C:\php\pear') D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 16 行.
+ERR: Class 'Weixin' not found
+
+[ 2017-10-12T15:03:06+08:00 ] 127.0.0.1 /wxindex.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Wx\thirdParty\weixin.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-12T15:03:19+08:00 ] 127.0.0.1 /wxindex.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Wx\thirdParty\weixin.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T15:03:21+08:00 ] 127.0.0.1 /wxindex.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Wx\thirdParty\weixin.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-12T15:03:21+08:00 ] 127.0.0.1 /wxindex.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Wx\thirdParty\weixin.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T15:03:21+08:00 ] 127.0.0.1 /wxindex.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant WXAPPID - assumed 'WXAPPID' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Use of undefined constant WXAPPKEY - assumed 'WXAPPKEY' D:\phpStudy\WWW\haozi\Wx\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\haozi\Wx\thirdParty\weixin.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

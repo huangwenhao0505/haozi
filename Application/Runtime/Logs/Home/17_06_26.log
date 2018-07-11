@@ -1,0 +1,30 @@
+[ 2017-06-26T09:06:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 ) ORDER BY create_date desc LIMIT 8   [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `hwh_user_photo` [ RunTime:0.0540s ]
+SQL: SELECT `uid` FROM `hwh_user_photo` WHERE ( is_ok=1 )  [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `hwh_user` WHERE `id` IN ('1') ORDER BY regist_time desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+

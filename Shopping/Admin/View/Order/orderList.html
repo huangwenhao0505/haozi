@@ -1,0 +1,94 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">订单列表示例</h2>
+       <a class="fr top_rt_btn add_icon">添加商品</a>
+      </div>
+      <section class="mtb">
+       <select class="select">
+        <option>订单状态</option>
+        <option>待付款</option>
+        <option>待发货</option>
+        <option>待评价</option>
+       </select>
+       <input type="text" class="textbox textbox_225" placeholder="输入订单编号或收件人姓名/电话..."/>
+       <input type="button" value="查询" class="group_btn"/>
+      </section>
+      <table class="table" id="orderListTable">
+       <thead>
+       <tr>
+        <th>订单编号</th>
+        <th>收件人</th>
+        <th>联系电话</th>
+        <th>收件人地址</th>
+        <th>订单金额</th>
+        <th>配送方式</th>
+        <th>操作</th>
+       </tr>
+       </thead>
+       <tbody>
+       
+       </tbody>
+      </table>
+      <aside class="paging">
+       <a>第一页</a>
+       <a>1</a>
+       <a>2</a>
+       <a>3</a>
+       <a>…</a>
+       <a>1004</a>
+       <a>最后一页</a>
+      </aside>
+ </div>
+</section>
+</body>
+</html>
+
+<script>
+$(function(){
+	do_sub();
+});
+
+function do_sub(){
+	$.post('<?php echo U("Order/orderList");?>',function(data){
+		var d = eval("("+data+")");
+		var html = '';
+		if(d.list != false && d.list != null){
+			for(var i in d.list){
+		       html += '<tr>';
+		       html += '<td class="center">'+d.list[i].orderno+'</td>';
+		       html += '<td class="center">'+d.list[i].name+'</td>';
+		       html += '<td class="center">'+d.list[i].phone+'</td>';
+		       html += '<td><address>'+d.list[i].areaname+''+d.list[i].address+'</address></td>';
+		       html += '<td class="center"><strong class="rmb_icon">'+d.list[i].payamount+'</strong></td>';
+		       html += '<td class="center">'+d.list[i].expresscompany+'</td>';
+		       html += '<td class="center">';
+		       html += '<a href="/mall.php/Admin/Order/orderDetail?orderId='+d.list[i].id+'" title="查看订单" class="link_icon" target="_blank">&#118;</a>';
+		       html += '<a href="javascript:void(0);" onclick="deleteOrder('+d.list[i].id+')" title="删除" class="link_icon">&#100;</a>';
+		       html += '</td>';
+		       html += '</tr>';
+			}
+			$('#orderListTable > tbody').html(html);
+		}else{
+			$('#orderListTable > tbody').html('<tr><td colspan="7" class="center">暂无订单</td></tr>');
+		}
+		
+	});
+}
+
+//删除订单
+function deleteOrder(id){
+	var con = confirm('确定要删除吗，删除之后不可恢复！！！');
+	if(con == true){
+		$.post('<?php echo U("Order/orderDelete")?>',{'orderId':id},function(respon){
+			if(respon.errno == 10001){
+				alert(respon.errmsg);
+			}else{
+				do_sub();
+			}
+		});
+	}
+}
+</script>

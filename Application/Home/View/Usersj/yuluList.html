@@ -1,0 +1,183 @@
+<include file="Usersj/header"/>
+
+<!--aside nav-->
+<aside class="lt_aside_nav content mCustomScrollbar" id="boxboxbox">
+ <h2><a href="index.html">起始页</a></h2>
+ <ul>
+  <li>
+   <dl>
+    <dt>个人设置</dt>
+    <!--当前链接则添加class:active-->
+    <dd><a href="<?php echo U('Home/Usersj/userInfo');?>">个人资料</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/changePassWord');?>">密码修改</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/safeLog');?>">安全日志</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>列表信息</dt>
+    <dd><a href="<?php echo U('Home/Usersj/yuluList')?>" class="active">经典语录列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/jokeList')?>">幽默笑话列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/articleList');?>">优美文章列表</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>相册管理</dt>
+    <dd><a href="<?php echo U('Home/Usersj/photo');?>">相册列表</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoAdd');?>">增加相册</a></dd>
+    <dd><a href="<?php echo U('Home/Usersj/photoCoverAdd')?>">封面图像修改</a></dd>
+   </dl>
+  </li>
+  <li>
+   <dl>
+    <dt>账号绑定</dt>
+    <dd><a href="<?php echo U('Home/Usersj/bindList')?>">账号绑定信息</a></dd>
+   </dl>
+  </li>
+ </ul>
+</aside>
+<!-- end aside nav -->
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">精典语录列表</h2>
+       <span style="color:red;padding-left:5px;">手机端暂不支持编辑和删除操作，如需操作请前往PC端操作！</span>
+       <!-- <a href="user_detail.html" class="fr top_rt_btn add_icon">添加新会员</a> -->
+      </div>
+      <section class="mtb">
+       <!-- <select class="boxbutton" style="width:50%;" id="user_type">
+        <option value="0">选择操作类型查询</option>
+        <option value="1">登录系统</option>
+        <option value="2">修改密码</option>
+       </select> -->       
+      </section>
+      <table class="table" id="user_log">
+       <thead>
+       <tr>
+        <th colspan=3>内容</th>
+        <th>作者</th>
+        <th>发布日期</th>
+        <th>审核状态</th>
+       </tr>
+       </thead>
+       <tbody>
+       </tbody>
+      </table>
+      <input type="hidden" id="curr_page" value="1"/>
+      <input type="hidden" id="total_page" value="1"/>
+      <aside class="paging">
+       
+      </aside>
+ </div>
+ 
+  <include file="Usersj/footer"/>
+ 
+</section>
+</body>
+</html>
+
+<script type="text/javascript">
+$(function (){
+	
+	$("#datetimepicker3").on("click",function(e){
+		e.stopPropagation();
+		$(this).lqdatetimepicker({
+			css : 'datetime-day',
+			dateType : 'D',
+			selectback : function(){
+
+			}
+		});
+
+	});
+	
+	$("#datetimepicker4").on("click",function(e){
+		e.stopPropagation();
+		$(this).lqdatetimepicker({
+			css : 'datetime-day',
+			dateType : 'D',
+			selectback : function(){
+
+			}
+		});
+
+	});
+});
+</script>
+
+<script>
+$(function(){
+	init();
+	do_sub();
+});
+
+function init(){	
+	
+	//点击上一页
+	$('#pre_page').unbind('click').click(function(){
+		var cur = $('#curr_page').val();	//当前页
+		if( Number(cur) > 1 ){
+			$('#curr_page').val( Number(cur)-1 );	//上一页	
+			do_sub();
+		}
+		
+	});
+	//点击下一页
+	$('#nex_page').unbind('click').click(function(){
+		var cur = $('#curr_page').val();	//当前页
+		var total = $('#total_page').val();	//总页数
+		if( Number(cur) < Number(total) ){
+			var a = $('#curr_page').val( Number(cur) + 1 ); //下一页
+			do_sub();
+		}
+		
+	});
+
+}
+
+function do_sub(){
+	var currPage = $('#curr_page').val();
+	$.post('<?php echo U("Home/Usersj/yuluListAjax")?>',{'currPage':currPage},
+		function(data){
+			var html = '';
+			var d = eval("("+data+")");	//解析json格式
+			if(d.list != false && d.list != null){	//内容不为空
+				for(var o in d.list){	//遍历			
+					
+					html += '<tr>';
+					html += '<td colspan=3>'+d.list[o].content+'</td>';
+					html += '<td class="center">'+d.list[o].author+'</td>';
+					html += '<td class="center">'+d.list[o].maketime+'</td>';
+					html += '<td class="center">'+d.list[o].is_ok+'</td>';
+					html += '</tr>';
+				}
+				
+				if(d.total_page == 1){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==1){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous disabled"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=2 && d.currPage==d.total_page){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next disabled"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}else if(d.total_page>=3 && d.currPage>1 && d.currPage<d.total_page){
+					$(".paging").html('<tr><td colspan="9" style="padding:0; text-align:center;"><nav><ul class="pager"><li class="previous"><a href="javascript:void(0);" id="pre_page"><span aria-hidden="true">&larr;</span> 上一页</a></li><li class="disabled"><a>共 '+d.count+'条, 当前 '+d.currPage+'/'+d.total_page+' 页</a></li><li class="next"><a href="javascript:void(0);" id="nex_page">下一页 <span aria-hidden="true">&rarr;</span></a></li></ul></nav></td></tr>');
+				}
+				$("#total_page").val(d.total_page);	//获取总页数
+				
+			}else{
+				html += '<tr>';
+				html += '<td colspan="6" class="center">暂无数据</td>';
+				html += '</tr>';
+			}
+			
+			$("#user_log > tbody").html(html);
+			init();
+		}
+	);
+}
+
+$('#user_type').change(function(){
+	do_sub();
+});
+</script>

@@ -1,0 +1,24 @@
+[ 2017-09-21T13:44:50+08:00 ] 127.0.0.1 /mall.php/index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2017-09-21T13:46:04+08:00 ] 127.0.0.1 /mall.php/index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2017-09-21T13:50:21+08:00 ] 127.0.0.1 /mall.php/index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index.php
+
+[ 2017-09-21T13:50:46+08:00 ] 127.0.0.1 /mall.php/haozi.com.cn/index.php/home/login/ajaxlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Haozi.com.cn
+

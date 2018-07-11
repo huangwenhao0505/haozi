@@ -1,0 +1,258 @@
+<include file="Usercenter/header"/>
+
+ <!--右侧样式-->
+  <div class="right_style">
+  <div class="title_style"><em></em>订单管理</div> 
+   <div class="Order_form_style">
+      <div class="Order_form_filter">
+       <span id="style_0"><a href="javascript:void(0);" class="on" onclick="subOrder(0)">全部订单<span id="countAll">（<?php echo $count['all']?>）</span></a></span>
+       <span id="style_1"><a href="javascript:void(0);" class="" onclick="subOrder(1)">待付款<span id="countDaifukuan">（<?php echo $count['daifukuan']?>）</span></a></span>
+       <span id="style_2"><a href="javascript:void(0);" class="" onclick="subOrder(2)">待发货<span id="countDaifahuo">（<?php echo $count['daifahuo']?>）</span></a></span>
+       <span id="style_3"><a href="javascript:void(0);" class="" onclick="subOrder(3)">待收货<span id="countDaishouhuo">（<?php echo $count['daishouhuo']?>）</span></a></span>
+       <span id="style_4"><a href="javascript:void(0);" class="" onclick="subOrder(4)">退货/退款<span id="countTuihuokuan">（<?php echo $count['tuihuokuan']?>）</span></a></span>
+       <span id="style_5"><a href="javascript:void(0);" class="" onclick="subOrder(5)">交易成功<span id="countSuccess">（<?php echo $count['success']?>）</span></a></span>
+       <span id="style_6"><a href="javascript:void(0);" class="" onclick="subOrder(6)">交易关闭<span id="countClose">（<?php echo $count['close']?>）</span></a></span>
+      </div>
+      <div class="Order_Operation">
+     <div class="left"> <label><input name="allCheckNameOrder" type="checkbox" value=""  class="checkbox"/>全选</label> <input name="" type="submit" value="批量确认收货" onclick="allPayOrder()"  class="confirm_Order"/></div>
+     <div class="right_search"><input name="" type="text"  class="add_Ordertext" placeholder="请输入产品标题或订单号进行搜索"/><input name="" id="orderSubmit" type="submit" value="搜索订单" class="search_order"/></div>
+      </div>
+      <div class="Order_form_list">
+         <table class="userOrderList">
+         <thead>
+          <tr><td class="list_name_title0">商品</td>
+          <td class="list_name_title1">单价(元)</td>
+          <td class="list_name_title2">数量</td>
+          <td class="list_name_title4">实付款(元)</td>
+          <td class="list_name_title5">订单状态</td>
+          <td class="list_name_title6">操作</td>
+         </tr>
+         </thead> 
+         
+         <tbody><!-- ajax动态赋予内容 --></tbody>
+         
+         <!-- 结算样式 -->
+         <thead>         
+		    <tr class="Order_Details" id="subGoodsOrder" style="height:200px;display:none;">
+			    <td colspan="4"></td>
+		    	<td colspan="2" class="operating">
+		    	已选订单：<span style="color:red;font-size:20px;padding-right:10px;"><span id="goodsOrderCount">0</span></span>
+		    	合计：<span style="color:red;font-size:20px;">￥<span id="goodsOrderPrice">0</span></span>
+		    	<input type="button" id="confirmOrder" onclick="allPayOrder()" value="批量付款" class="confirm_Order"/>
+		    	<span style="color:red;font-size:20px;" id="errorConfirmOrder"></span>
+		    	</td>
+		   	</tr>
+        </thead>
+        <!-- end结算样式 -->
+                      
+       </table>
+         
+    </div>
+     </div>
+   </div>
+<script>
+/*$(document).ready(function(){
+  $('.Order_form_style input').iCheck({
+    checkboxClass: 'icheckbox_flat-green',
+    radioClass: 'iradio_flat-green'
+  });
+});*/
+</script>
+
+<script>
+$(function(){
+	subOrder(1);//页面进来自动加载，定位到显示待付款订单
+});
+
+
+//点击显示相应的订单
+function subOrder(type){
+	
+	$('.Order_form_filter a').removeClass('on');//去除class="Order_form_filter"下面的所有on的样式
+	$('.Order_form_filter #style_'+type+' a').addClass('on');//给点击的这个id下的a标签添加on样式
+	
+	$.post('<?php echo U("Usercenter/orderList");?>',{'type':type},function(data){
+		var html = "";
+		var d = eval("("+data+")");
+		if(d.list != false && d.list != null){
+			for(var i in d.list){
+		    	html += '<tr class="list">';
+		    	html += '<tr class="Order_info"><td colspan="6" class="Order_form_time"><input name="checkNameOrder" type="checkbox" value="'+d.list[i].id+'" onclick="changeCheckNameOrderValue()"  class="checkbox"/>下单时间：'+d.list[i].createdate+' | 订单号：'+d.list[i].orderno+' <em></em></td></tr>';
+		    	html += '<tr class="Order_Details">';
+		    	
+		    	html += '<td colspan="3">';
+		    	for(var o in d.list[i].goodsitem){
+			    	html += '<table class="Order_product_style">';
+			    	html += '<tbody><tr><td>';
+			    	html += '<div class="product_name clearfix">';
+			    	html += '<a href="#" class="product_img"><img src="'+d.list[i].goodsitem[o].img+'" width="80px" height="80px"></a>';
+			    	html += '<a href="3" class="p_name">'+d.list[i].goodsitem[o].name+'</a>';
+			    	html += '<p class="specification">'+d.list[i].goodsitem[o].attrvalue+'</p>';
+			    	html += '</div></td>';
+			    	html += '<td>'+d.list[i].goodsitem[o].price+'</td>';
+			    	html += '<td>'+d.list[i].goodsitem[o].goodsnum+'</td>';
+			    	html += '</tr></tbody></table>';
+		    	}
+		    	html += '</td>';
+		    	
+		    	html += '<td class="split_line">'+d.list[i].totalamount+'</td>';
+		    	
+		    	if(d.list[i].orderType == 1 || d.list[i].orderType == 6){
+		    		//待付款,交易关闭
+		    		html += '<td class="split_line"><p style="color:#F30"><a href="javascript:void(0);" style="font-weight:bold;" onclick="payOrder('+d.list[i].id+')">'+d.list[i].orderName+'</a></p></td>';
+		    		html += '<td class="operating">';
+			    	html += '<a href="/mall.php/Home/Usercenter/orderDetail?id='+d.list[i].id+'">查看订单</a>';
+			    	html += '<a href="javascript:void(0);" onclick="cancelOrder('+d.list[i].id+','+type+')">取消订单</a>';
+			    	html += '<a href="javascript:void(0);" onclick="deleteOrder('+d.list[i].id+','+type+')">删除订单</a>';
+			    	html += '<span id="errorOrder_'+d.list[i].id+'"></span>';
+			    	html += '</td></tr>';
+			    	html += '</tr>';
+		    	}else if(d.list[i].orderType == 2 || d.list[i].orderType == 3 || d.list[i].orderType == 4){
+		    		//待发货，待收货，退货、退款
+		    		html += '<td class="split_line"><p style="color:#F30"><a href="javascript:void(0);" style="font-weight:bold;" onclick="confirmPayOrder('+d.list[i].id+')">'+d.list[i].orderName+'</a></p></td>';
+		    		html += '<td class="operating">';
+			    	html += '<a href="/mall.php/Home/Usercenter/orderDetail?id='+d.list[i].id+'">查看订单</a>';
+			    	html += '<a href="javascript:void(0);" onclick="refundPay('+d.list[i].id+')">申请退款</a>';
+			    	html += '<span id="errorOrder_'+d.list[i].id+'"></span>';
+			    	html += '</td></tr>';
+			    	html += '</tr>';
+		    	}else{
+		    		//交易成功
+		    		html += '<td class="split_line"><p style="color:#F30">'+d.list[i].orderName+'</p></td>';
+		    		html += '<td class="operating">';
+			    	html += '<a href="/mall.php/Home/Usercenter/orderDetail?id='+d.list[i].id+'">查看订单</a>';
+			    	html += '<a href="javascript:void(0);" onclick="deleteOrder('+d.list[i].id+','+type+')">删除订单</a>';
+			    	if(d.list[i].iscomment == 1){
+			    		html += '<a href="/mall.php/Home/Usercenter/goodsComment?id='+d.list[i].id+'">发表评论</a>';
+			    	}else{
+			    		html += '<a href="javascript:void(0);">已评论</a>';
+			    	}
+			    	html += '<span id="errorOrder_'+d.list[i].id+'"></span>';
+			    	html += '</td></tr>';
+			    	html += '</tr>';
+		    	}
+		    	
+			}
+			
+			$('.userOrderList>tbody').html(html);
+		}else{
+			$('.userOrderList>tbody').html('<tr><td colspan="6" style="text-align:center;font-size:20px;">暂无相关的订单！</td></tr>');
+		}
+		
+		//数量赋值显示
+		$('#countAll').html(d.count.all);
+		$('#countDaifukuan').html(d.count.daifukuan);
+		$('#countDaifahuo').html(d.count.daifahuo);
+		$('#countDaishouhuo').html(d.count.daishouhuo);
+		$('#countTuihuokuan').html(d.count.tuihuokuan);
+		$('#countSuccess').html(d.count.success);
+		$('#countClose').html(d.count.close);
+	});
+}
+
+//取消单个订单
+function cancelOrder(id,type){
+	var con = confirm("确定要取消该订单吗？");
+	if(con == true){
+		$.post('<?php echo U("Usercenter/cancelOrder");?>',{'id':id},function(respon){
+			if(respon.errno == 10001){
+				$('#errorOrder_'+id).html(respon.errmsg);
+			}else{
+				subOrder(type);
+			}
+		});
+	}
+}
+
+//删除单个订单
+function deleteOrder(id,type){
+	var con = confirm("确定要删除订单吗,删除之后不可恢复！");
+	if(con == true){
+		$.post('<?php echo U("Usercenter/deleteOrder");?>',{'id':id},function(respon){
+			if(respon.errno == 10001){
+				$('#errorOrder_'+id).html(respon.errmsg);
+			}else{
+				subOrder(type);
+			}
+		});
+	}
+}
+
+//付款
+function payOrder(id){
+	window.location.href = "/mall.php/Home/Pay/doalipay?orderIdStr="+id;
+}
+
+//退款
+function refundPay(id){
+	window.location.href = "/mall.php/Home/Pay/refundPay?orderId="+id; 
+}
+
+//批量选择
+$("input[name='allCheckNameOrder']").click(function(){
+	$("input[name='checkNameOrder']").prop("checked",this.checked);
+
+	showGoodsOrder();
+	
+	//批量选择选中时显示结算样式，否则隐藏
+	if($("input[name='allCheckNameOrder']").is(':checked')){
+		$('#subGoodsOrder').show();
+	}else{
+		$('#subGoodsOrder').hide();
+	}
+	
+});
+
+//批量付款
+function allPayOrder(){
+	var checkArray = new Array();
+	$("input[name='checkNameOrder']:checked").each(function(){
+		checkArray.push($(this).val());
+	});
+
+	var orderIdStr = checkArray.toString();
+
+	window.location.href="/mall.php/Home/Pay/doalipay?orderIdStr="+orderIdStr;
+}
+
+//当批量选择之后，又去除了某个复选框的选择之后，改变其结算下面的订单个数和总金额
+function changeCheckNameOrderValue(){
+
+	//判断是否有选中
+	if($("input[name='checkNameOrder']").is(':checked')) {
+		showGoodsOrder();
+	}
+	
+	//当把所有复选框都去除之后，要改变其订单个数和总金额都为0，更好的方法隐藏掉结算样式
+	var arr = new Array();
+	$("input[name='checkNameOrder']:checked").each(function(){
+		arr.push($(this).val());
+	});
+	if(arr.length < 1){
+		//$('#goodsOrderCount').html(0);
+		//$('#goodsOrderPrice').html(0);
+		$('#subGoodsOrder').hide();
+	}
+	
+} 
+
+//给结算样式的总个数和总价格赋值
+function showGoodsOrder(){
+	var checkArray = new Array();
+	$("input[name='checkNameOrder']:checked").each(function(){
+		checkArray.push($(this).val());
+	});
+	var orderIdStr = checkArray.toString();
+	
+	$.post('<?php echo U("Usercenter/showGoodsOrder")?>',{'orderIdList':orderIdStr},function(data){
+		var d = eval("("+data+")");
+		$('#goodsOrderCount').html(d.count);
+		$('#goodsOrderPrice').html(d.allPrcie);
+	});
+}
+</script>
+  </div>
+ </div>
+</div>
+
+<include file="Public/footer"/>

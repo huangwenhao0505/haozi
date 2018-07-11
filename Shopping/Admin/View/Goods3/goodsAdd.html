@@ -1,0 +1,184 @@
+<include file="Public/header"/>
+
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">新增商品</h2>
+       <a class="fr top_rt_btn" href="<?php echo U('Goods/goodsList');?>">返回商品列表</a>
+      </div>
+     <section>
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">商品分类：</span>
+        <select class="select" name="categoryId" id="categoryId">
+         <option value="0">选择商品分类</option>
+         <?php foreach($categoryList as $k => $v){ ?>
+         	<option value="<?php echo $v['id'];?>"><?php echo $v['name'];?></option>
+         	<?php foreach($v['son'] as $key => $val){ ?>
+         		<option value="<?php echo $val['id'];?>">----<?php echo $val['name'];?></option>
+         	<?php } ?>
+         <?php } ?>
+        </select>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品属性：</span>
+        <select class="select" name="attrName" id="attrName">
+         <option value="0">选择商品属性：</option>
+         <?php foreach($goodsAttrList as $k => $v){ ?>
+         	<option value="<?php echo $v['id'];?>" onclick="subAttr(<?php echo $v['id']?>)"><?php echo $v['attrname'];?></option>
+         <?php } ?>
+        </select>
+       </li>
+       <li id="attrValues" style="display:none;">
+       
+       </li>
+	   <li>
+        <span class="item_name" style="width:120px;">商品名称：</span>
+        <input type="text" name="name" id="name" class="textbox textbox_295" placeholder="商品名称..."/>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品原价：</span>
+        <input type="text" name="oldPrice" id="oldPrice" class="textbox" placeholder="商品销售价格"/>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品销售价格：</span>
+        <input type="text" name="price" id="price" class="textbox" placeholder="商品销售价格"/>
+       </li>
+       <li id="showHideToggle">
+        <span class="item_name" style="width:120px;">统一库存填写：</span>
+        <input type="text" name="stock" id="stock" class="textbox" placeholder="库存"/>
+        <input type="text" name="unitName" id="unitName" value="件" class="textbox" placeholder="计量单位（件、张）"/>
+       	<span id="errorStock"></span>
+       </li>
+       <li id="abc"></li>
+       <li>
+        <span class="item_name" style="width:120px;">是否上架：</span>
+        <input type="radio" name="isShow" value="1" checked="checked"/>是
+        <input type="radio" name="isShow" value="0"/>否
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">上传图片：</span>
+        <label class="uploadImg">
+         <input type="file"/>
+         <span>上传图片</span>
+        </label>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">商品详情：</span>
+        <script id="editor" type="text/plain" style="width:1024px;height:500px;margin-left:120px;margin-top:0;"></script>
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;"></span>
+        <input type="submit" class="link_btn"/>
+        <span class="errorTips"></span>
+       </li>
+      </ul>
+     </section>
+ </div>
+</section>
+
+<script>
+//点击属性时，显示对应的属性值
+function subAttr(id){
+	$.post('<?php echo U("Goods/attrValueList");?>',{'id':id},function(data){
+		var html = "";
+		var d = eval("("+data+")");
+		if(d.list != false && d.list != null){
+			$('#attrValues').empty();
+			for(var i in d.list){
+				html += '<li>';
+				html += '<span class="item_name" style="width:120px;"></span>';
+				html += '<span style="margin-right:10px;">';
+				html += '<input type="checkbox" onclick="checkAttr('+d.list[i].id+')" name="value" value="'+d.list[i].id+'" class="textbox"/>'+d.list[i].value;
+				
+				/** 添加其商品规格start  **/
+				html += '<div id="expandAttr_'+d.list[i].id+'" style="display:none;">';
+				if(d.list[i].expandattrname != ''){
+					var expandAttrArray = d.list[i].expandattrname.split(",");//分割为数组
+					html += '<span class="item_name" style="width:120px;"></span>';
+					for(var o in expandAttrArray){
+						html += '<span style="margin-right:20px;">';
+						html += '<input type="checkbox" name="expandAttr_'+d.list[i].id+'" value="'+expandAttrArray[o]+'" class="textbox"/>'+expandAttrArray[o];
+						html += '</span>';
+					}
+					$('#expandAttr_'+d.list[i].id).append(html);
+				}
+				html += '<input type="text" name="stock_'+d.list[i].id+'" id="stock_'+d.list[i].id+'" class="textbox" style="margin-right:20px;" placeholder="库存"/>';
+		        html += '<input type="text" name="unitName_'+d.list[i].id+'" id="unitName_'+d.list[i].id+'" value="件" class="textbox" placeholder="计量单位（件、张）"/>';
+				html += '</div>';
+				/** 添加其商品规格end **/	
+
+				html += '</span><br/>';
+				html += '</li>';
+			}
+			$('#attrValues').append(html);
+		}
+	    $('#attrValues').show();
+	});
+}
+
+//勾选某个属性值时，显示其扩展属性值选项
+function checkAttr(id){
+	$('#expandAttr_'+id).toggle();
+}
+
+//点击新增按钮
+$('.link_btn').unbind('click').click(function(){
+	var attrValueArray = new Array();
+	$("input[name='value']:checked").each(function(){
+		attrValueArray.push($(this).val());//把选中的数据添加到数组中
+	});
+	var newAttrValueArray = new Array();
+	for(var i in attrValueArray){
+		var arr = new Array();//用于存取所选择的扩展属性的所有值（包括属性值id，扩展属性值，库存，计量单位）
+		var expandAttrArr = new Array();//用于存取扩展属性的值
+		$("input[name='expandAttr_"+attrValueArray[i]+"']:checked").each(function(){
+			expandAttrArr.push($(this).val());
+		});
+		var expandAttrStr = expandAttrArr.toString();//把扩展属性值以字符串形式拼接
+		var stock = $("#stock_"+attrValueArray[i]).val();//库存
+		var unit = $("#unitName_"+attrValueArray[i]).val();//计量单位
+		arr.push({
+			'id':attrValueArray[i],
+			'expandAttrStr':expandAttrStr,
+			'stock':stock,
+			'unit':unit
+		});
+		newAttrValueArray.push(arr);//数组
+	}
+
+	var attrIdList = attrValueArray.toString();//把数组转换成字符串形式  属性值
+	var categoryId = $('#categoryId').val();
+	var attrId = $('#attrName').val();
+	var goodsName = $('#name').val();
+	var oldPrice = $('#oldPrice').val();
+	var unitName = $('#unitName').val();
+	var price = $('#price').val();
+	var stock = $('#stock').val();
+	var isShow = $("input[type='radio']:checked").val();
+	
+	$.post('<?php echo U("Goods/goodsAdd");?>',
+		{
+			'categoryId':categoryId,
+			'attrId':attrId,
+			'name':goodsName,
+			'oldPrice':oldPrice,
+			'unitName':unitName,
+			'price':price,
+			'stock':stock,
+			'isShow':isShow,
+			'newAttrValueArray':newAttrValueArray,
+		},function(respon){
+		if(respon.errno == 10001){
+			$('.errorTips').html(respon.errmsg);
+		}else if(respon.errno == 10002){
+			$('#errorStock').html(respon.errmsg);
+		}else{
+			$('.errorTips').html(respon.errsmg);
+			window.location.href = "<?php echo U('Goods/GoodsList');?>";
+		}
+	});
+});
+</script>
+</body>
+</html>

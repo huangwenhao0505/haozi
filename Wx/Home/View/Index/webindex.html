@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<!-- 微信网页js接口 -->
+<script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+
+<title>Insert title here</title>
+
+<script>
+wx.config({
+
+    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+
+    appId: '<?php echo $signPackage["appId"];?>', // 必填，公众号的唯一标识
+
+    timestamp: '<?php echo $signPackage["timestamp"];?>', // 必填，生成签名的时间戳
+
+    nonceStr: '<?php echo $signPackage["nonceStr"];?>', // 必填，生成签名的随机串
+
+    signature: '<?php echo $signPackage["signature"];?>',// 必填，签名，见附录1
+
+    jsApiList: [
+		'checkJsApi',
+		'onMenuShareTimeline',//分享到朋友圈
+		'onMenuShareAppMessage',//分享给朋友
+		'onMenuShareQQ',
+		'onMenuShareWeibo',
+		'chooseImage'
+    ] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+
+});
+
+wx.ready(function () {
+	//分享给朋友圈
+    wx.onMenuShareTimeline({
+        title: "<?php echo $data['name'];?>", // 分享标题 
+        link: "<?php echo $data['link'];?>", // 分享链接
+   		imgUrl: "<?php echo $data['cover_image'];?>", // 分享图标 
+   		success: function () { 
+            // 用户确认分享后执行的回调函数 
+            alert('分享成功');
+        },
+        cancel: function () { 
+            // 用户取消分享后执行的回调函数             
+        }
+    });
+	//分享给朋友
+    wx.onMenuShareAppMessage({
+    	title: "<?php echo $data['name'];?>", // 分享标题 
+        link: "<?php echo $data['link'];?>", // 分享链接
+   		imgUrl: "<?php echo $data['cover_image'];?>", // 分享图标 
+        success: function () { 
+            // 用户确认分享后执行的回调函数 
+            alert('分享成功');
+        },
+        cancel: function () { 
+            // 用户取消分享后执行的回调函数             
+        }
+    });
+	//拍照或从手机相册中选图
+    /*wx.chooseImage({
+
+        count: 1, // 默认9
+
+        sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+
+        sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+
+        success: function (res) {
+
+            var localIds = res.localIds; // 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片
+            document.getElementById("img").src = localIds;
+            //$('#img').attr("src",localIds);
+        }
+
+    });*/
+    wx.error(function(res){
+        // config信息验证失败会执行error函数，如签名过期导致验证失败，具体错误信息可以打开config的debug模式查看，也可以在返回的res参数中查看，对于SPA可以在这里更新签名。 
+        alert("errorMSG:"+res);
+    });
+});
+</script>
+</head>
+<body>
+<div>
+	<input type="hidden" id="title" value="<?php echo $data['name'];?>"/>
+	<input type="hidden" id="imgUrl" value="<?php echo $data['cover_image'];?>"/>
+
+	<a href="<?php echo $data['link'];?>"><span font-size="100px"><?php echo $data["name"];?></span></a>
+	<a href="<?php echo $data['link'];?>"><img src="<?php echo $data['cover_image'];?>"/></a>
+	
+	<span font-size="200px">可以分享给朋友和分享到朋友圈，暂时只做了这两个！！！</span>
+</div>
+
+<div>
+	<input type="file" name="上传图像"/>
+	<img src="" id="img"/>
+</div>
+</body>
+</html>

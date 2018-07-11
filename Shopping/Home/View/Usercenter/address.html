@@ -1,0 +1,200 @@
+<include file="Usercenter/header"/>
+
+ <!--右侧样式属性-->
+ <div class="right_style">
+ <!--地址管理-->
+  <div class="user_address_style">
+    <div class="title_style"><em></em>地址管理</div> 
+   <div class="add_address">
+    <span class="name">添加送货地址</span>
+    <table cellpadding="0" cellspacing="0" width="100%" id="addressTable">
+     <tr><td class="label_name">收&nbsp;货&nbsp;&nbsp;人：</td><td><input name="name" id="username" type="text"  class="add_text" style=" width:100px"/><i>*</i></td></tr>
+     <tr><td class="label_name">所在地区：</td><td>
+            <select size="1" id="province" onchange="provinceChange()">
+              <option value="0">请选择省</option>
+            </select>
+            <select size="1" id="city" onchange="cityChange()">
+              <option value="2">请选择市</option>
+            </select>
+            <select size="1" id="zone">
+              <option value="3">请选择县/区</option>
+            </select><i>*</i></td></tr>
+     <tr><td class="label_name">街道地址：</td><td><textarea name="content" id="content" cols="" rows="" style=" width:500px; height:100px; margin:5px 0px"></textarea><i>*</i></td></tr>
+     <tr><td class="label_name">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：</td><td><input name="code" id="code" type="text" class="add_text" style=" width:100px"/><i>*</i></td></tr>
+     <tr><td class="label_name">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</td><td><input name="phone" id="phone" type="text" class="add_text" style=" width:200px"/>&nbsp;&nbsp;</td></tr>
+     <!-- <tr><td class="label_name">固定电话：</td>
+     <td><input name="textPhone" id="textPhone" type="text" class="add_text" style="width:60px" placeholder="区号"/>-<input name="" type="text" class="add_text" style="width:100px" placeholder="电话号码"/>-<input name="" type="text" class="add_text" style="width:60px" placeholder="分机号"/>&nbsp;&nbsp;(选填)</td></tr>
+      -->
+     <tr class="moren_dz" style="color: #999"><td class="label_name"></td><td><label><input name="isDefault" type="checkbox" value="1" />设置为默认地址</label></td></tr>
+     <tr><td colspan="2" class="center"><input name="submit" onclick="addAddress()" type="submit" value="保存"  class="add_dzbtn"/><input name="button" type="reset" value="清空"  class="reset_btn"/></td></tr>
+    </table>
+   </div>
+   
+<script>
+$(function(){
+	//给省列表赋值
+	$.post('<?php echo U("Usercenter/areaList");?>',function(data){
+		var d = eval("("+data+")");
+		for(var i in d.province){
+			$('#province').append('<option value="'+d.province[i].id+'">'+d.province[i].name+'</option>');
+		}
+	});
+	
+	//我的收货地址
+	myAddressList();
+});
+
+//点击省时给其市赋值
+function provinceChange(){
+	//每次改变省时，市的内容清空，下面会给其赋值，如果不清空就会一直叠加。区也对应的清空，加上一个请选择区
+	$('#city').empty();
+	$('#zone').empty();
+	$('#zone').append('<option value="0">请选择区</option>');
+	
+	//给市赋值
+	var provinceId = $('#province').find("option:selected").val();
+	var cityId = $('#city').find("option:selected").val();
+	$.post('<?php echo U("Usercenter/areaList");?>',{'provinceId':provinceId,'cityId':cityId},function(data){
+		var d = eval("("+data+")");
+		for(var i in d.city){
+			$('#city').append('<option value="'+d.city[i].id+'">'+d.city[i].name+'</option>');
+		}
+	});
+}
+
+//点击市时给其区赋值
+function cityChange(){
+	//每次市改变时，区的清空，下面会给其赋值，如果不清空就会一直叠加。
+	$('#zone').empty();
+
+	//给区赋值
+	var provinceId = $('#province').find("option:selected").val();
+	var cityId = $('#city').find("option:selected").val();
+	$.post('<?php echo U("Usercenter/areaList");?>',{'provinceId':provinceId,'cityId':cityId},function(data){
+		var d = eval("("+data+")");
+		if(d.zone != false && d.zone != null){
+			for(var i in d.zone){
+				$('#zone').append('<option value="'+d.zone[i].id+'">'+d.zone[i].name+'</option>');
+			}
+		}else{
+			$('#zone').append('<option value="0">-------</option>');
+		}
+		
+	});
+}
+
+//添加收货地址
+function addAddress(){
+	var name = $('#username').val();
+	var phone = $('#phone').val();
+	var areaId = $('#province').find("option:selected").val();
+	var cityId = $('#city').find("option:selected").val();
+	var zoneId = $('#zone').find("option:selected").val();
+	var address = $('#content').val();
+	var zipCode = $('#code').val();
+	var isDefault = $("input[name='isDefault']:checked").val();
+	$.post('<?php echo U("Usercenter/addAddressAjax");?>',{'name':name,'phone':phone,'areaId':areaId,'cityId':cityId,'zoneId':zoneId,'address':address,'zipCode':zipCode,'isDefault':isDefault},function(respon){
+		if(respon.errno == 10001){
+			alert(respon.errmsg);
+		}else{
+			myAddressList();
+		}
+	});
+}
+
+</script>
+   
+   
+   <!--用户地址-->
+   <div class="address_content">
+    <div class="address_prompt">以添加了<span id="AddressCount" style="color:red;font-size:16px;"></span>条地址，最多保存添加<span style="color:red;font-size:16px;">5</span>条地址</div>
+    <table cellpadding="0" id="myAddress" cellspacing="0" class="user_address" width="100%">
+    <thead>
+     <tr class="label">
+     	<td width="80px;">收货人</td>
+     	<td width="180px;">所在地</td>
+     	<td width="220px;">详细地址</td>
+     	<td width="80px;">邮编</td>
+     	<td width="120px;">电话手机</td>
+     	<td width="80px;">默认收货地址</td>
+     	<td width="120px;">操作</td>
+     	<td></td>
+     </tr>
+    </thead>
+    <tbody>
+       
+    </tbody>
+    </table>
+   </div>  
+  </div>
+ </div>
+ </div>
+ </div>
+<script>
+$(document).ready(function(){
+  $('.moren_dz input').iCheck({
+    checkboxClass: 'icheckbox_flat-green',
+    radioClass: 'iradio_flat-green'
+  });
+});
+</script>
+
+<script>
+//我的收货地址
+function myAddressList(){
+	$.post('<?php echo U("Usercenter/myAddressListAjax");?>',function(data){
+		var d = eval("("+data+")");
+		var html = '';
+		for(var i in d.list){
+			html += '<tr>';
+			html += '<td>'+d.list[i].name+'</td>';
+			html += '<td>'+d.list[i].areaname+'</td>';
+			html += '<td>'+d.list[i].address+'</td>';
+			html += '<td>'+d.list[i].zipcode+'</td>';
+			html += '<td>'+d.list[i].phone+'</td>';
+			if(d.list[i].isdefault == 0){
+				html += '<td>否</td>';
+			}else{
+				html += '<td style="color:red;">是</td>';
+			}
+			
+			html += '<td>';
+			html += '<a href="__URL__/editAddress?id='+d.list[i].id+'">编辑</a> | ';
+			html += '<a href="javascript:void(0);" onclick="deleteAddress('+d.list[i].id+')">删除</a>';
+			html += '</td>';
+			html += '<td>';
+			if(d.list[i].isdefault == 0){
+				html += '<a href="javascript:void(0);" onclick="changeDefault('+d.list[i].id+')">设为默认</a>';
+			}
+			html += '</td>';
+			html += '</tr>';
+		}
+		$('#myAddress>tbody').html(html);
+		
+		$('#AddressCount').html(d.count);
+		
+	});
+}
+
+//删除收货地址
+function deleteAddress(id){
+	$.post('<?php echo U("Usercenter/deleteAddress");?>',{'id':id},function(respon){
+		if(respon.errno == 10001){
+			alert(respon.errmsg);
+		}else{
+			myAddressList()
+		}
+	});
+}
+
+//设为默认地址
+function changeDefault(id){
+	$.post('<?php echo U("Usercenter/changeDefault");?>',{'id':id},function(){
+		myAddressList();
+	});
+}
+</script>
+
+<include file="Public/footer"/>
+
+

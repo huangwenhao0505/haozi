@@ -1,0 +1,184 @@
+<include file="Usercenter/header"/>
+
+ <!--右侧样式-->
+  <div class="right_style">
+  <div class="title_style"><em></em>购物车列表</div> 
+   <div class="Order_form_style">
+     <div class="Order_Operation">
+	     <div class="left"> <label><input name="allCheckBox" id="allCheckBox" type="checkbox" class="checkbox"/>全选</label></div>
+	     <div class="right_search"><input name="" type="text"  class="add_Ordertext" placeholder="请输入产品标题或订单号进行搜索"/><input name="" type="submit" value="搜索订单" id="subCart"  class="search_order"/></div>
+     </div>
+     <div class="Order_form_list">
+        <table id="goodsCateList">
+	        <thead>
+	         <tr>
+	         <td style="width:25%;">商品</td>
+	         <td class="list_name_title4">属性</td>
+	         <td class="list_name_title1">单价(元)</td>
+	         <td class="list_name_title2">数量</td>
+	         <td class="list_name_title4">实付款(元)</td>
+	         <td class="list_name_title6">操作</td>
+	        </tr>
+	        </thead> 
+	        <tbody></tbody> 
+	        <thead>
+	        <!-- 结算样式 -->
+		    <tr class="Order_Details" id="subGoodsCart" style="height:200px;display:none;">
+			    <td colspan="4"></td>
+		    	<td colspan="2" class="operating">
+		    	已选商品：<span style="color:red;font-size:20px;padding-right:10px;"><span id="goodsCartCount">0</span></span>
+		    	合计：<span style="color:red;font-size:20px;">￥<span id="goodsCartPrice">0</span></span>
+		    	<input type="button" id="confirmOrder" value="结算" class="confirm_Order"/>
+		    	<span style="color:red;font-size:20px;" id="errorConfirmOrder"></span>
+		    	</td>
+		   	</tr>
+	        </thead>        
+        </table>
+    </div>
+
+    
+   </div>
+  </div>
+   
+<script>
+$(function(){
+	init();
+	do_sub();
+});
+
+function init(){
+	$('#subCart').click(function(){
+		do_sub();
+	});
+}
+
+function do_sub(){
+	$.post('<?php echo U("Usercenter/myCartList")?>',function(data){
+		var html = "";
+		var d = eval("("+data+")");
+		if(d.list != false && d.list != null){
+			for(var i in d.list){
+				if(d.list[i].isok == 0){
+					//失效的购物车商品
+					html += '<tr class="Order_info">';
+			    	html += '<td colspan="6" class="Order_form_time">';
+			    	html += '创建时间：'+d.list[i].createdate+' <em></em>';
+			    	html += '</td>';
+			    	html += '</tr>';
+			    	html += '<tr class="Order_Details" style="background:#D3D3D3;">';//失效的购物车商品加灰色背景
+				    html += '<td colspan="4">';
+					html += '<table class="Order_product_style">';
+			    	html += '<tbody>';
+			    	html += '<tr>';
+		    		html += '<td>';
+			    	html += '<div class="product_name clearfix">';
+			    	html += '<a href="#" class="product_img"><img src="'+d.list[i].goodsInfo.img+'" width="80px" height="80px"></a>';
+			    	html += '<a href="3" class="p_name">'+d.list[i].goodsInfo.name+'</a>';
+			    	html += '<p class="specification">'+d.list[i].goodsInfo.unitname+'</p>';
+			    	html += '</div>';
+			    	html += '</td>';
+			    	html += '<td>'+d.list[i].attrvalue1+' '+d.list[i].attrvalue2+'</td>';
+			    	html += '<td>￥'+d.list[i].goodsInfo.price+'</td>';
+			    	html += '<td>'+d.list[i].goodsnum+'</td>';
+			    	html += '</tr>';
+			    	html += '</tbody>';
+			    	html += '</table>';
+			    	html += '</td>';
+			    	html += '<td class="split_line">￥'+d.list[i].amount+'</td>';
+			    	html += '<td class="operating">';
+			    	html += '<span style="color:red;">已失效</span>';
+			    	html += '<a href="javascript:void(0);" onclick="delCartGoods('+d.list[i].cartid+')">删除</a>';
+			    	html += '</td>';
+			    	html += '</tr>';
+				}else{
+					//正常的购物车商品
+			    	html += '<tr class="Order_info">';
+			    	html += '<td colspan="6" class="Order_form_time">';
+			    	html += '<input name="check" id="abc" type="checkbox" value="'+d.list[i].cartid+'"  class="checkbox"/>创建时间：'+d.list[i].createdate+' <em></em>';
+			    	html += '</td>';
+			    	html += '</tr>';
+			    	html += '<tr class="Order_Details">';
+				    html += '<td colspan="4">';
+					html += '<table class="Order_product_style">';
+			    	html += '<tbody>';
+			    	html += '<tr>';
+		    		html += '<td>';
+			    	html += '<div class="product_name clearfix">';
+			    	html += '<a href="#" class="product_img"><img src="'+d.list[i].goodsInfo.img+'" width="80px" height="80px"></a>';
+			    	html += '<a href="3" class="p_name">'+d.list[i].goodsInfo.name+'</a>';
+			    	html += '<p class="specification">'+d.list[i].goodsInfo.unitname+'</p>';
+			    	html += '</div>';
+			    	html += '</td>';
+			    	html += '<td>'+d.list[i].attrvalue1+' '+d.list[i].attrvalue2+'</td>';
+			    	html += '<td>￥'+d.list[i].goodsInfo.price+'</td>';
+			    	html += '<td>'+d.list[i].goodsnum+'</td>';
+			    	html += '</tr>';
+			    	html += '</tbody>';
+			    	html += '</table>';
+			    	html += '</td>';
+			    	html += '<td class="split_line">￥'+d.list[i].amount+'</td>';
+			    	html += '<td class="operating">';
+			    	html += '<a href="#">编辑</a>';
+			    	html += '<a href="javascript:void(0);" onclick="delCartGoods('+d.list[i].cartid+')">删除</a>';
+			    	html += '</td>';
+			    	html += '</tr>';
+				}
+			}
+			$('#goodsCateList > tbody').html(html);
+		}else{
+			html += '<tr><td colspan="6" class="Order_form_time" style="text-align:center;">购物车中还没有商品，赶紧选购吧！</td></tr>';
+			$('#goodsCateList > tbody').html(html);
+		}
+	});
+}
+
+//批量选择
+$('#allCheckBox').unbind('click').click(function(){
+	$("input[name='check']").prop("checked",this.checked);
+	
+	var arr = new Array();
+	$("input[name='check']:checked").each(function(){
+		arr.push($(this).val());
+	});
+	var str = arr.toString();
+	$.post('<?php echo U("Cart/subCart");?>',{'cartIdList':str},function(data){
+		var d = eval("("+data+")");
+		$('#subGoodsCart').show();
+		$('#goodsCartCount').html(d.count)
+		$('#goodsCartPrice').html(d.amount);
+	});
+});
+
+//删除单个购物车商品
+function delCartGoods(id){
+	$.post('<?php echo U("Cart/delCart");?>',{'id':id},function(respon){
+		do_sub();
+	});
+}
+
+//点击结算按钮，跳转到确认订单
+$('#confirmOrder').unbind('click').click(function(){
+	var arr = new Array();
+	$("input[name='check']:checked").each(function(){
+		arr.push($(this).val());
+	});
+	var cartIdList = arr.toString();
+	var amount = $('#goodsCartPrice').html();//总金额
+	if(arr.length <= 0){
+		$('#errorConfirmOrder').html('请选择商品！');
+		return false;
+	}else{
+		window.location.href="/mall.php/home/Order/confirmOrder?cartIdList="+cartIdList+"&totalAmount="+amount;
+		/*$.post('<?php echo U("Order/confirmOrder");?>',{'cartIdList':cartIdList,'totalAmount':amount},function(data){
+			window.location.href="<?php echo U('Order/confirmOrder');?>";
+		});*/
+	}
+})
+	
+
+</script>
+  </div>
+ </div>
+</div>
+
+<include file="Public/footer"/>

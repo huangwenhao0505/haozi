@@ -1,0 +1,114 @@
+[ 2018-07-03T11:22:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 and is_fine=0 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-03T11:23:09+08:00 ] 127.0.0.1 /index.php/home/article/detailarti/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT a.*,c.name categoryname FROM hwh_article a LEFT JOIN hwh_article_category c on c.id = a.categoryId  WHERE ( a.id=1 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: update hwh_article set view_count=(CASE WHEN view_count IS NULL THEN 1 ELSE view_count+1 END) where id = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` < '1' AND `is_ok` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `hwh_article` WHERE `id` > '1' AND `is_ok` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\c4ce03ad7043a02bf936bc8a836c8629.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-03T11:23:09+08:00 ] 127.0.0.1 /index.php/home/article/ajaxcommentarti.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_article_comment` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_article_comment` WHERE `article_id` = 1 AND `parent_id` = 0 AND `state` = 1 LIMIT 1   [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 307 行.
+NOTIC: [8] Undefined index: tiaoPage D:\phpStudy\WWW\haozi\Application\Home\Controller\ArticleController.class.php 第 307 行.
+SQL: SELECT hwh_article_comment.id,hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.article_id = '1' AND hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = 0 ORDER BY hwh_article_comment.create_date desc LIMIT 0,5   [ RunTime:0.0100s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '28'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '31'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '32'  [ RunTime:0.0000s ]
+SQL: SELECT hwh_article_comment.content,hwh_article_comment.create_date,hwh_user.nickname,hwh_user.u_img FROM `hwh_article_comment` LEFT JOIN hwh_user ON hwh_user.id = hwh_article_comment.uid  WHERE hwh_article_comment.state = 1 AND hwh_article_comment.parent_id = '33'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-03T14:03:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2018-07-03T14:04:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from hwh_yulu where is_ok = 1 order by id desc limit 5 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_joke` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_joke` WHERE ( is_ok=1 ) ORDER BY maketime desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_article` WHERE ( is_ok=1 and is_fine=0 ) ORDER BY create_date desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_article` WHERE `is_recommend` = 1 AND `is_ok` = 1 ORDER BY create_date desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: code_url D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+NOTIC: [8] Undefined variable: userList D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\haozi\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 328 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

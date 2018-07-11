@@ -1,0 +1,1745 @@
+[ 2018-04-09T09:23:13+08:00 ] 127.0.0.1 /mall.php/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 1 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '1' LIMIT 3   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `isMarketable` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `hwh_goods_category` WHERE ( parentId=0 and isShow=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_category` WHERE `parentId` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-09T09:23:27+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0000s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 1 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '1' LIMIT 3   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:23:33+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0000s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 1 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '1' LIMIT 3   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0260s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-09T09:23:36+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 1 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '1' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:23:52+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 1 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '1' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0000s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-04-09T09:24:13+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0156s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 2 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '2' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0000s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2018-04-09T09:24:32+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-09T09:26:37+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0000s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0176s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0050s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909263731523237197','100','100','2018-04-09 09:26:37','商品抢购测试') [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='3' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 361 行.
+NOTIC: [2] Redis::lrem() expects parameter 3 to be integer, string given D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:27:24+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909272431523237244','100','100','2018-04-09 09:27:24','商品抢购测试') [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='2' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 361 行.
+NOTIC: [2] Redis::lrem() expects parameter 3 to be integer, string given D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:30:45+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0000s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:30:46+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0070s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0070s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:30:47+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909304731523237447','100','100','2018-04-09 09:30:47','商品抢购测试') [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='1' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 361 行.
+NOTIC: [2] Redis::lrem() expects parameter 3 to be integer, string given D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:34:17+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:34:18+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0000s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0000s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909341831523237658','100','100','2018-04-09 09:34:18','商品抢购测试') [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='0' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 362 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:35:52+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909355231523237752','100','100','2018-04-09 09:35:52','商品抢购测试') [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='-1' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 362 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:35:53+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:35:54+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0000s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:35:54+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0020s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:35:55+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:35:59+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0156s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:36:01+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0000s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0000s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0156s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0000s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909360131523237761','100','100','2018-04-09 09:36:01','商品抢购测试') [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='-2' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 362 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:36:26+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909362631523237786','100','100','2018-04-09 09:36:26','商品抢购测试') [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='-3' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 362 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:40:30+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-09T09:40:32+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:40:33+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:40:33+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:40:33+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:40:33+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:40:34+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0070s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:40:38+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `isMarketable` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods_category` WHERE ( parentId=0 and isShow=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_category` WHERE `parentId` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 24 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:40:41+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:40:43+08:00 ] 127.0.0.1 /mall.php/home/order/doOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909404331523238043','100','100','2018-04-09 09:40:43','商品抢购测试') [ RunTime:0.0000s ]
+SQL: UPDATE `hwh_goods_store` SET `stock`='-4' WHERE ( id=17 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 362 行.
+NOTIC: [2] Redis::lrem() expects parameter 3 to be integer, string given D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 362 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:54:36+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0080s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:54:41+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant userId - assumed 'userId' D:\phpStudy\WWW\haozi\Shopping\Home\Controller\OrderController.class.php 第 331 行.
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909544131523238881','100','100','2018-04-09 09:54:41','商品抢购测试') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:56:11+08:00 ] 127.0.0.1 /mall.php/home/index/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:56:12+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('3','H18040909561231523238972','100','100','2018-04-09 09:56:12','商品抢购测试') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:56:23+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 3 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '3' LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2018-04-09T09:56:48+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 1 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '1' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('1','H18040909564811523239008','100','100','2018-04-09 09:56:48','商品抢购测试') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T09:57:05+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 2 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '2' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`createDate`,`remake`) VALUES ('2','H18040909570521523239025','100','100','2018-04-09 09:57:05','商品抢购测试') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T09:57:26+08:00 ] 127.0.0.1 /mall.php/home/order/rushSale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2018-04-09T16:58:32+08:00 ] 127.0.0.1 /mall.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0510s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0110s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `isMarketable` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `hwh_goods_category` WHERE ( parentId=0 and isShow=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_category` WHERE `parentId` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 24 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\52e8ed71ecc076a29e9c6c3fe4b5ea9e.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T16:58:35+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 5 group by attrValue1 [ RunTime:0.0260s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 5 group by attrValue2 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0040s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T16:58:35+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0100s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0160s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '5' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:58:39+08:00 ] 127.0.0.1 /mall.php/home/Goods/getGoodsDetail?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: select attrValue1 as attrvalue from hwh_goods_store where goodsId = 6 group by attrValue1 [ RunTime:0.0030s ]
+SQL: select attrValue2 as attrvalue from hwh_goods_store where goodsId = 6 group by attrValue2 [ RunTime:0.0030s ]
+SQL: select attrValue3 as attrvalue from hwh_goods_store where goodsId = 6 group by attrValue3 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=6 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cartNum D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 192 行.
+NOTIC: [8] Undefined index: totalstock D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 276 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 281 行.
+NOTIC: [8] Undefined variable: goodsInfo D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\f9dbfb5ad94d55bff5702423295fdbc9.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:58:39+08:00 ] 127.0.0.1 /mall.php/home/goods/commentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_qq` [ RunTime:0.0030s ]
+SQL: SELECT `qq_nickname` FROM `hwh_user_qq` WHERE `qq_openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_comment` [ RunTime:0.0030s ]
+SQL: SELECT c.*,g.name,g.img,u.nickname,u.username FROM hwh_goods_comment c left JOIN hwh_goods g on g.id = c.goodsId left JOIN hwh_user u on u.id = c.userId  WHERE c.goodsId = '6' ORDER BY createDate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Home\Controller\GoodsController.class.php 第 203 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:58:44+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 6 AND `attrValue1` = '白色' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T16:58:44+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0040s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=6 )  [ RunTime:0.0010s ]
+
+[ 2018-04-09T16:58:48+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 6 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:58:48+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=6 )  [ RunTime:0.0000s ]
+
+[ 2018-04-09T16:58:48+08:00 ] 127.0.0.1 /mall.php/home/goods/goodsstoreview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `stock`,`soldNum` FROM `hwh_goods_store` WHERE `goodsId` = 6 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:58:48+08:00 ] 127.0.0.1 /mall.php/home/goods/ajaxgetgoodsdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hwh_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0030s ]
+SQL: SELECT `attrValue1`,`attrValue2`,`attrValue3`,`price`,`stock` FROM `hwh_goods_store` WHERE ( goodsId=6 )  [ RunTime:0.0010s ]
+
+[ 2018-04-09T16:58:49+08:00 ] 127.0.0.1 /mall.php/home/order/subordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0050s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 6 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-09T16:58:49+08:00 ] 127.0.0.1 /mall.php/home/order/confirmOrderNow?goodsId=6&price=99.00&goodsNum=1&attr1=%E7%99%BD%E8%89%B2&attr2=X
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`price`,`img` FROM `hwh_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_ship_address` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `hwh_user_ship_address` WHERE `userId` = 5 AND `isDefault` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\5f25098d8b2118d8f68c9151c1eff822.php 第 61 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\5f25098d8b2118d8f68c9151c1eff822.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:58:49+08:00 ] 127.0.0.1 /mall.php/home/usercenter/arealist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_area` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name` FROM `hwh_area` WHERE `tree_path` = ','  [ RunTime:0.0310s ]
+SQL: SELECT `id`,`name`,`tree_path`,`parent_id` FROM `hwh_area` WHERE `parent_id` = ''  [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: zoneList D:\phpStudy\WWW\haozi\Shopping\Home\Controller\UsercenterController.class.php 第 259 行.
+NOTIC: [8] Undefined variable: zoneList D:\phpStudy\WWW\haozi\Shopping\Home\Controller\UsercenterController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:58:51+08:00 ] 127.0.0.1 /mall.php/home/order/confirmordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0130s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2018-04-09T16:59:05+08:00 ] 127.0.0.1 /mall.php/home/usercenter/arealist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_area` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `hwh_area` WHERE `tree_path` = ','  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`tree_path`,`parent_id` FROM `hwh_area` WHERE `parent_id` = '1'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zoneList D:\phpStudy\WWW\haozi\Shopping\Home\Controller\UsercenterController.class.php 第 259 行.
+NOTIC: [8] Undefined variable: zoneList D:\phpStudy\WWW\haozi\Shopping\Home\Controller\UsercenterController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T16:59:06+08:00 ] 127.0.0.1 /mall.php/home/usercenter/arealist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_area` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `hwh_area` WHERE `tree_path` = ','  [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`tree_path`,`parent_id` FROM `hwh_area` WHERE `parent_id` = '1'  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`tree_path`,`parent_id` FROM `hwh_area` WHERE `parent_id` = '5'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T16:59:14+08:00 ] 127.0.0.1 /mall.php/home/usercenter/addaddressajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0060s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+
+[ 2018-04-09T16:59:20+08:00 ] 127.0.0.1 /mall.php/home/usercenter/addaddressajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0050s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_area` [ RunTime:0.0050s ]
+SQL: SELECT `full_name`,`tree_path` FROM `hwh_area` WHERE `id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_ship_address` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_user_ship_address` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `hwh_user_ship_address` (`userId`,`name`,`phone`,`areaId`,`areaName`,`areaTreePath`,`address`,`zipCode`,`isDefault`,`createDate`) VALUES ('5','hahah','13417499061','1','北京市丰台区',',1,','sddsdsdsd','433016','1','2018-04-09 16:59:20') [ RunTime:0.0000s ]
+SQL: update hwh_user_ship_address set isDefault = 0 where userId = 5 and id != 5 [ RunTime:0.0010s ]
+
+[ 2018-04-09T16:59:20+08:00 ] 127.0.0.1 /mall.php/home/order/confirmOrderNow?goodsId=6&price=99.00&goodsNum=1&attr1=%E7%99%BD%E8%89%B2&attr2=X
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0040s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0050s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`price`,`img` FROM `hwh_goods` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_ship_address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user_ship_address` WHERE `userId` = 5 AND `isDefault` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\5f25098d8b2118d8f68c9151c1eff822.php 第 61 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\5f25098d8b2118d8f68c9151c1eff822.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T16:59:20+08:00 ] 127.0.0.1 /mall.php/home/usercenter/arealist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `hwh_area` WHERE `tree_path` = ','  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`tree_path`,`parent_id` FROM `hwh_area` WHERE `parent_id` = ''  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: zoneList D:\phpStudy\WWW\haozi\Shopping\Home\Controller\UsercenterController.class.php 第 259 行.
+NOTIC: [8] Undefined variable: zoneList D:\phpStudy\WWW\haozi\Shopping\Home\Controller\UsercenterController.class.php 第 259 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T16:59:22+08:00 ] 127.0.0.1 /mall.php/home/order/confirmordernow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0070s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0070s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0260s ]
+SQL: INSERT INTO `hwh_order` (`userId`,`orderNo`,`totalAmount`,`payAmount`,`shipAdressId`,`createDate`) VALUES ('5','H18040904592251523264362','99','99','5','2018-04-09 16:59:22') [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0210s ]
+SQL: INSERT INTO `hwh_order_item` (`orderId`,`goodsId`,`price`,`goodsNum`,`amount`,`attrValue1`,`attrValue2`,`createDate`) VALUES ('45','6','99','1','99','白色','X','2018-04-09 16:59:22') [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_store` [ RunTime:0.0080s ]
+SQL: SELECT `stock` FROM `hwh_goods_store` WHERE `goodsId` = 6 AND `attrValue1` = '白色' AND `attrValue2` = 'X' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `hwh_goods_store` SET `goodsId`='6',`price`='99',`attrValue1`='白色',`attrValue2`='X',`createDate`='2018-04-09 16:59:22',`stock`='2' WHERE `goodsId` = 6 AND `attrValue1` = '白色' AND `attrValue2` = 'X' [ RunTime:0.0000s ]
+
+[ 2018-04-09T16:59:22+08:00 ] 127.0.0.1 /mall.php/Home/Pay/doalipay?orderIdStr=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`payAmount`,`payState`,`orderNo` FROM `hwh_order` WHERE `id` IN ('45') AND `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0070s ]
+SQL: SELECT i.attrValue1,i.attrValue2,g.name FROM hwh_order_item i left JOIN hwh_goods g on g.id = i.goodsId  WHERE `orderId` = '45'  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T17:00:17+08:00 ] 127.0.0.1 /mall.php/home/pay/return_url?total_amount=99.00&timestamp=2018-04-09+17%3A00%3A13&sign=StSE1DmZurgY3U4rhr82db5Tii9Z3qA17PCS%2BQA5RQNgnG6999PlrE62%2FxlXv6VQNfEdEfApOVt6WK9jwgarx2R9ksa1fhpF4wKQNyLtcnWpvoP7uwoEpZOp8Cfk4b6AbWC1%2FaK3oFIh2eecML6BeqrZI0z82udVbSqetoQDE4Ifu46oCtfK%2FQcLO%2FnBbBR4jfC2Pfx8lcEVDaWAXb9sjz2rr4bYXEPmrbMAmTlDo0Zap4ELcQrtkJEE5hIs6aYHbL65Fi1Qf%2BPPM732JjwrEfowPVsM40umRiVSVdNahv1RUSrlHvCh%2F5QMkTVVh1vbUqvWHCOeIUwD9aU1USAaGw%3D%3D&trade_no=2018040921001004840200571791&sign_type=RSA2&auth_app_id=2016082000294938&charset=UTF-8&seller_id=2088102172223879&method=alipay.trade.page.pay.return&app_id=2016082000294938&out_trade_no=H18040904592251523264362&version=1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\PayController::__construct(), called in D:\phpStudy\WWW\haozi\ThinkPHP\Common\functions.php on line 681 and defined D:\phpStudy\WWW\haozi\Shopping\Home\Controller\PayController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-09T17:00:19+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0080s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0090s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: qq_nickname D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 28 行.
+NOTIC: [8] Undefined index: u_img D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 35 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 213 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 214 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 215 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 216 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 217 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 218 行.
+NOTIC: [8] Undefined variable: count D:\phpStudy\WWW\haozi\Shopping\Runtime\Cache\Home\eb0fab4f99ae221789a46839c09ef638.php 第 219 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-09T17:00:19+08:00 ] 127.0.0.1 /mall.php/home/usercenter/orderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`orderNo`,`totalAmount`,`payState`,`shipState`,`isComment`,`createDate` FROM `hwh_order` WHERE `userId` = 5 AND `payState` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_order_item` [ RunTime:0.0040s ]
+SQL: SELECT i.goodsId,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE `orderId` = '10'  [ RunTime:0.0000s ]
+SQL: SELECT i.goodsId,i.goodsNum,i.price,i.amount,i.attrValue1,i.attrValue2,g.name,g.img FROM hwh_order_item i INNER JOIN hwh_goods g on g.id = i.goodsId  WHERE `orderId` = '45'  [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 5 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 5 and payState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 5 and payState = 2 and shipState = 1 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 5 and payState = 2 and shipState = 2 [ RunTime:0.0010s ]
+SQL: select count(id) as count from hwh_order where userId = 5 and payState = 2 and shipState = 4 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 5 and payState = 2 and shipState = 3 [ RunTime:0.0000s ]
+SQL: select count(id) as count from hwh_order where userId = 5 and payState in (3,4) [ RunTime:0.0110s ]
+
+[ 2018-04-09T17:00:19+08:00 ] 127.0.0.1 /mall.php/home/usercenter/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hwh_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hwh_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_user_log` [ RunTime:0.0030s ]
+SQL: SELECT `user_time` FROM `hwh_user_log` WHERE `uid` = 5 AND `user_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hwh_goods_cart` WHERE `userId` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hwh_goods_cart` WHERE `userId` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hwh_goods_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.id,c.goodsNum,c.amount,c.attrValue1,c.attrValue2,c.isok,c.createDate,g.price,g.name,g.img FROM hwh_goods_cart c INNER JOIN hwh_goods g on g.id = c.goodsId  WHERE c.userId = '5' LIMIT 3   [ RunTime:0.0000s ]
+ERR: 非法操作:null
+

@@ -1,0 +1,112 @@
+<include file="User/header"/>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">新增相册</strong> / <small>Add Photos</small></div>
+      </div>
+
+      <hr/>
+      
+    <!-- 封面图上传  -->
+    <div style="width:90%;float:left;margin-left:5%;margin-right:5%;">
+	<div class="am-panel am-panel-default">
+	  <div class="am-panel-bd">
+	    <div class="am-g">
+	      <div class="am-u-md-4">
+	        <img class="am-img-circle am-img-thumbnail" id="user-img" src="<?php echo $info['img'];?>" alt=""/><br/>
+	        <span id="error_img" style="font-size:20px;color:red;text-align:center;"></span>
+	      </div>
+	      <div class="am-u-md-8">
+	        <p style="padding-top:28px;color:#333;"><span style="color:#F37B1D;font-size:30px;">封面图上传</span></p>
+	        <form class="am-form" method="post" enctype="multipart/form-data" >
+	          <div class="am-form-group">
+	            <input type="file" name="fileImg" id="user-pic" onchange="uploadChangeImg('user-img','user-pic')" accept="image/jpeg,image/jpg,image/png,image/gif">
+	            <p class="am-form-help">请选择要上传的文件...</p>
+	            <button type="button" onclick="location.replace(location.href)" class="am-btn am-btn-primary am-btn-xs">取消</button>
+	            <button type="button" onclick="uploadimg('user-img','user-pic')" class="am-btn am-btn-primary am-btn-xs">保存</button>
+	          </div>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	</div>    
+ 
+    </div>
+    
+<include file="User/footer"/> 
+
+<script>
+//选择图片时，图片位置的图片改变，  但不保存到数据库
+function uploadChangeImg(imgid,fileid){
+//imgid指<img />标签id,fileid表示<input type='file' />文件上传标签的id,hiddenid指隐藏域标签id
+   $("#"+imgid).attr("src","");//加载loading图片
+   $.ajaxFileUpload({            
+    	url: '<?php echo U("Home/Photo/uploadUserPhotoIndex");?>',
+       secureuri: false,
+       fileElementId: fileid,  
+       dataType: 'json',              
+       success: function (data, status){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+           if(typeof (data.error) != 'undefined'){
+           	var error_msg = "";
+           	switch(data.error){
+            	case "101": error_msg="文件类型错误";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "102": error_msg="文件过大";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "400": error_msg="非法上传";
+            		$('#error_img').html(error_msg);
+                	break;
+            	case "404": error_msg="文件为空";
+            		$('#error_img').html(error_msg);
+                	break;
+            	default :error_msg="服务器不稳定";
+            		$('#error_img').html(error_msg);
+           	}
+           	//alert(error_msg);
+           }else{
+        	$('#error_img').empty();
+           	$("#"+imgid).attr("src",data.path).addClass("load1");//加载返回的图片路径并附加上样式
+               //$("#"+hiddenid).val(data.path);//给对应的隐藏域赋值，以便提交时给后台
+           }              
+       }
+   });	
+}
+
+//点击保存，图片位置的图片改变，图片保存到数据库
+function uploadimg(imgid,fileid) {
+ //imgid指<img />标签id,fileid表示<input type='file' />文件上传标签的id,hiddenid指隐藏域标签id
+    $("#"+imgid).attr("src","");//加载loading图片
+    $.ajaxFileUpload({ 
+    	type:'post',
+     	url:'<?php echo U("Home/Photo/uploadUserPhotoIndex");?>',
+        secureuri:false,
+        fileElementId:fileid,  
+        dataType:'json',              
+        success:function (data){   //data的内容都是在后台php代码中自定义的,json格式返回后在这里以对象的方式的访问
+            var u_img = data.path;
+        	$.ajax({
+        		type:'post',
+        		url:'<?php echo U("Home/Photo/addUserPhotoIndex");?>',
+        		data:{'img':u_img},
+        		success:function(respon){
+        			if(respon.errno == 10001){
+        				$('#error_img').html(respon.errmsg);
+        			}else{
+        				$("#"+imgid).attr("src",data.path);
+        				//setTimeout( "close()",3000);	//停留三秒，执行close()函数
+        			}
+        		}
+        	});
+        }
+    });
+}
+
+function close(){
+	window.location.href="<?php echo U('Home/User/photo');?>";
+}
+</script>

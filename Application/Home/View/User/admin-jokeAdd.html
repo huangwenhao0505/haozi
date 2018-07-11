@@ -1,0 +1,60 @@
+<include file="User/header"/>
+
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">新增笑话</strong> / <small>Add Joke</small></div>
+      </div>
+
+      <hr/>
+
+      <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+        
+        </div>
+
+        <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+          <form class="am-form am-form-horizontal">
+
+            <div class="am-form-group">
+              <label for="user-intro" class="am-u-sm-3 am-form-label">内容/Content</label>
+              <div class="am-u-sm-9">
+                <textarea class="" rows="5" id="content" placeholder="幽默笑话"></textarea>
+                <small></small>
+                <span class="error_content" style="color:red;"></span>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <div class="am-u-sm-9 am-u-sm-push-3">
+              	<button type="button" onclick="history.go(-1)" style="margin-left:80%;" class="am-btn am-btn-default">取消</button>
+                <button type="button" id="sub-button" class="am-btn am-btn-primary">提交</button>
+                <span class="error_but" style="color:red;"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+<include file="User/footer"/>
+
+<script>
+$('#sub-button').click(function(){
+	var content = $('#content').val();
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Home/User/jokeAdd");?>',
+		data:{'content':content},
+		success:function(respon){
+			if(respon.errno == 10001){
+				$('.error_content').html(respon.errmsg);
+			}else if(respon.errno == 10000){	//成功
+				window.location.href="<?php echo U('Home/User/jokeList')?>";
+			}
+		}
+	});
+});
+
+</script>

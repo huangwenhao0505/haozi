@@ -1,0 +1,137 @@
+<!-- 引用公共头文件 -->
+<include file="Public/header"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="<?php echo U('Admin/Index/index');?>">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="<?php echo U('Admin/Exam/createExam');?>">答题系统</a><span class="crumb-step">&gt;</span><span>添加试题</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <input type="button" onclick="addQuestion()" value="添加试题"/>
+                <input type="hidden" id="clickNum" value="0"/>
+                <input type="hidden" id="examId" value="<?php echo $examId;?>"/>
+            </div>
+            <div id="boxQuestion"></div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+
+</body>
+</html>
+
+<script>
+//添加试题
+function addQuestion(){
+	//每点击一次加1
+	var num = $('#clickNum').val();
+	num = parseInt(num)+1;
+	$('#clickNum').val(num);//再重新给clickNum赋值
+	var numId = $('#clickNum').val();//获取新的值
+
+	var html = '';
+	html += '<div id="box_'+numId+'">';
+	html += '<table class="result-tab" width="100%">';
+	html += '<thead><tr>';
+	html += '<th class="tc" width="5%"><input class="allChoose" id="allChoose" name="" type="checkbox"></th>';	   
+	html += '<th>标题</th><th>类型</th><th>选项A</th><th>选项B</th><th>选项C</th><th>选项D</th><th>正确答案</th><th>操作</th>';   
+	html += '</tr></thead>';      
+	html += '<tbody><tr>';      
+	html += '<td></td>';
+	html += '<td><input type="text" name="title" id="title_'+numId+'"/></td>';       
+	html += '<td>';
+	html += '<input type="radio" name="type_'+numId+'" value="1" checked="checked" onclick="radioOrCheckbox(1)"/>单选<\t>';
+	html += '<input type="radio" name="type_'+numId+'" value="2" onclick="radioOrCheckbox(2)"/>多选';
+	html += '</td>';
+	
+	html += '<td><input type="text" name="optionA" id="optionA_'+numId+'"/></td>';   
+	html += '<td><input type="text" name="optionB" id="optionB_'+numId+'"/></td>';   
+	html += '<td><input type="text" name="optionC" id="optionC_'+numId+'"/></td>';   
+	html += '<td><input type="text" name="optionD" id="optionD_'+numId+'"/></td>';
+	
+	/** 点击单选时此项显示 **/
+	html += '<td class="raidoRightOption">';
+	html += '<input type="radio" name="rightOption_'+numId+'" value="A"/>A<br/>';
+	html += '<input type="radio" name="rightOption_'+numId+'" value="B"/>B<br/>';
+	html += '<input type="radio" name="rightOption_'+numId+'" value="C"/>C<br/>';
+	html += '<input type="radio" name="rightOption_'+numId+'" value="D"/>D';
+	html += '</td>';
+	
+	/** 点击多选时此项显示 **/
+	html += '<td class="checkboxRightOption" style="display:none;">';
+	html += '<input type="checkbox" name="rightOption_'+numId+'" value="A"/>A<br/>';
+	html += '<input type="checkbox" name="rightOption_'+numId+'" value="B"/>B<br/>';
+	html += '<input type="checkbox" name="rightOption_'+numId+'" value="C"/>C<br/>';
+	html += '<input type="checkbox" name="rightOption_'+numId+'" value="D"/>D';
+	html += '</td>';
+	
+	html += '<td><input type="button" onclick="subQuestion('+numId+')" value="确定"/> |';   
+	html += '<input type="button" onclick="" value="取消"/> ';
+	html += '<span id="error_'+numId+'"></span></td>';
+	html += '</tr></tbody>';   
+	html += '</table>'; 
+	html += '</div>';
+	html += '<br/>';
+	       
+	$('#boxQuestion').append(html);
+}
+
+//点击试题答案类型显示不同的正确答案选项
+function radioOrCheckbox(type){
+	if(type == 1)
+	{
+		$('.raidoRightOption').css('display','block');
+		$('.checkboxRightOption').css('display','none');
+	}
+	else if(type == 2)
+	{
+		$('.raidoRightOption').css('display','none');
+		$('.checkboxRightOption').css('display','block');
+	}
+}
+
+//提交试题
+function subQuestion(numId){
+	var examId = $('#examId').val();
+	var title = $('#title_'+numId).val();
+	var type = $('input[name="type_'+numId+'"]:checked ').val();//获取试题类型
+	var optionA = $('#optionA_'+numId).val();
+	var optionB = $('#optionB_'+numId).val();
+	var optionC = $('#optionC_'+numId).val();
+	var optionD = $('#optionD_'+numId).val();
+
+	//获取正确答案
+	if(type == 1)
+	{
+		var rightOption = $('input[name="rightOption_'+numId+'"]:checked').val();
+	}
+	else if(type == 2)
+	{
+		var rightOptionArray = new Array();
+		$('input[name="rightOption_'+numId+'"]:checked').each(function(){
+			rightOptionArray.push($(this).val());
+		});
+		//var rightOption = rightOptionArray.toString();
+		var rightOption = rightOptionArray.join("|");
+	}
+	
+	$.ajax({
+		type:'post',
+		url:'<?php echo U("Admin/Exam/addQuestion");?>',
+	    data:{'examId':examId,'title':title,'type':type,'optionA':optionA,'optionB':optionB,'optionC':optionC,'optionD':optionD,'rightOption':rightOption},
+	    success:function(respon)
+	    {
+	    	if(respon.errno == 10001)
+	    	{
+	    		$('#error_'+numId).html(respon.errmsg);
+	    	}
+	    	else
+	    	{
+	    		alert(respon.errmsg);	
+	    	}
+	    },dataType:'json'
+	});
+}
+</script>
